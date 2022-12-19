@@ -1,7 +1,20 @@
-# Notas de Star Citizaen Button Box V2
+# Notas de Star Citizen Button Box V2
+
+La idea es hacer una botonera que sea más funcional que la anterior
+[StarCitizen_6_ButtonBox](https://github.com/aztlek/StarCitizen_6_ButtonBox) que
+sólo era una prueba de concepto. Mas funcional en el sentido que si la use para
+jugar a Star Citizen.
+
+## Entradas
+
+Tendrá varios tipos de dispositivos de entradas.
+
+Teclas de teclado mecánico
+: Se usaran estas teclas para.
 
 ## Referencias
 
+### Imagenes
 
 * [xkeys: Printable Legend Templates](https://xkeys.com/usbcustomkeyboards/customprintedlegends.html#LegendTemplates)
   Una plantilla para imprimir las etiquetas de la teclas de xkeys.
