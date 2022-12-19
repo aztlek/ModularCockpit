@@ -5,7 +5,7 @@
 
 * [xkeys: Printable Legend Templates](https://xkeys.com/usbcustomkeyboards/customprintedlegends.html#LegendTemplates)
   Una plantilla para imprimir las etiquetas de la teclas de xkeys.
-  Archivo local: [Single Key Legend Template.pdf](images/Single Key Legend Template.pdf)
+  Archivo local: [SingleKeyLegendTemplate.pdf](images/SingleKeyLegendTemplate.pdf)
 
 ### Iconos
 
