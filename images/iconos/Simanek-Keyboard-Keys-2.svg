@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" id="svg2" viewBox="0 0 700 450" version="1.1" inkscape:version="0.91 r13725">
+  <title id="title2885">Keyboard Keys</title>
+  <defs id="defs4">
+    <linearGradient id="linearGradient3165">
+      <stop id="stop3171" style="stop-color:#d7d7d7" offset="0"/>
+      <stop id="stop3173" style="stop-color:#e7e7e7" offset=".5"/>
+      <stop id="stop3169" style="stop-color:#d7d7d7" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3141">
+      <stop id="stop3143" style="stop-color:#d8d8d8" offset="0"/>
+      <stop id="stop3145" style="stop-color:#a3a3a3" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2905" y2="384.29" xlink:href="#linearGradient3141" gradientUnits="userSpaceOnUse" x2="168.57" y1="200.43" x1="168.57"/>
+    <linearGradient id="linearGradient2907" y2="292.36" xlink:href="#linearGradient3165" gradientUnits="userSpaceOnUse" x2="250.18" gradientTransform="matrix(.83174 0 0 .83684 27.65 44.986)" y1="292.36" x1="90.59"/>
+    <linearGradient id="linearGradient2905-3-7" y2="384.29" gradientUnits="userSpaceOnUse" x2="168.57" y1="200.43" x1="168.57">
+      <stop id="stop3143-2-3" style="stop-color:#d8d8d8" offset="0"/>
+      <stop id="stop3145-9-5" style="stop-color:#a3a3a3" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2907-6-1" y2="292.36" gradientUnits="userSpaceOnUse" x2="250.18" gradientTransform="matrix(.83174 0 0 .83684 27.65 44.986)" y1="292.36" x1="90.59">
+      <stop id="stop3171-9-8" style="stop-color:#d7d7d7" offset="0"/>
+      <stop id="stop3173-3-9" style="stop-color:#e7e7e7" offset=".5"/>
+      <stop id="stop3169-5-4" style="stop-color:#d7d7d7" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-33.553 -520.18)">
+    <g id="g3175" transform="translate(-5.0508 352.54)">
+      <rect id="rect2168" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect3157" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <g id="g4174" transform="translate(212.64 351.9)">
+      <rect id="rect4176" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect4178" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <g id="flowRoot2909" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 -62.054 104.68)">
+      <path id="path4026" style="fill:#515151" d="m275.45 388.3h18.438l-0.64453 3.3203h-14.512l-1.6797 8.6328h13.926l-0.64454 3.3203h-13.926l-2.0312 10.566h14.844l-0.64453 3.3203h-18.809l5.6836-29.16"/>
+    </g>
+    <g id="g3175-6" transform="translate(-5.0508 557.6)">
+      <rect id="rect2168-4" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect3157-3" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <path id="flowRoot3179-1" style="fill:#515151" d="m118.74 895.25 4.2422 0.44531c-1.0625 3.1094-2.5782 5.4219-4.5469 6.9375-1.9531 1.5-4.1797 2.25-6.6797 2.25-2.7031 0-4.8984-0.875-6.5859-2.625-1.6719-1.75-2.5078-4.1953-2.5078-7.3359 0-2.7187 0.53906-5.3906 1.6172-8.0156s2.6172-4.6172 4.6172-5.9766c2.0156-1.375 4.3125-2.0625 6.8906-2.0625 2.6719 0.00003 4.789 0.75784 6.3516 2.2734 1.5625 1.5 2.3437 3.4922 2.3438 5.9766l-4.1719 0.28125c-0.0156-1.5781-0.47658-2.8125-1.3828-3.7031-0.89065-0.8906-2.0703-1.3359-3.5391-1.3359-1.7031 0.00002-3.1797 0.53909-4.4297 1.6172s-2.2344 2.7188-2.9531 4.9219c-0.70313 2.1875-1.0547 4.2969-1.0547 6.3281 0 2.125 0.46875 3.7188 1.4063 4.7812 0.93749 1.0625 2.0937 1.5938 3.4687 1.5938s2.6875-0.52344 3.9375-1.5703c1.2656-1.0469 2.2578-2.6406 2.9766-4.7812m16.734 5.625-0.70312 3.4688c-1.0156 0.26562-2 0.39843-2.9531 0.39843-1.6875 0-3.0312-0.41406-4.0312-1.2422-0.75-0.625-1.125-1.4766-1.125-2.5547 0-0.54687 0.20312-1.8047 0.60938-3.7734l3.0234-14.461h-3.3516l0.67969-3.2812h3.3516l1.2891-6.1172 4.8516-2.9297-1.8984 9.0469h4.1719l-0.70312 3.2812h-4.1484l-2.8828 13.758c-0.35938 1.75-0.53907 2.7969-0.53906 3.1406-0.00001 0.50001 0.14062 0.88282 0.42187 1.1484 0.29687 0.26563 0.77343 0.39844 1.4297 0.39844 0.93749 0 1.7734-0.0937 2.5078-0.28125m3.3984 3.4453 5.2031-24.891h3.75l-1.0547 5.0859c1.2812-1.9218 2.5312-3.3437 3.75-4.2656 1.2344-0.92185 2.4922-1.3828 3.7734-1.3828 0.84373 0.00003 1.8828 0.30472 3.1172 0.91407l-1.7344 3.9375c-0.7344-0.53123-1.5391-0.79686-2.4141-0.79688-1.4844 0.00002-3.0078 0.82815-4.5703 2.4844-1.5625 1.6563-2.7891 4.6328-3.6797 8.9297l-2.1094 9.9844h-4.0312m15.703 0 7.1719-34.359h4.2422l-7.1719 34.359h-4.2422"/>
+    <g id="g4174-9" transform="translate(212.64 556.96)">
+      <rect id="rect4176-1" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect4178-0" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <g id="flowRoot2909-9" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 -62.054 309.74)">
+      <path id="path4011" style="fill:#515151" d="m292.81 389.26-0.76172 3.8477c-1.3151-0.7031-2.6237-1.2304-3.9258-1.582-1.2891-0.36456-2.5391-0.54685-3.75-0.54688-2.3568 0.00003-4.2318 0.51435-5.625 1.543-1.3932 1.0287-2.0898 2.3959-2.0898 4.1016-0.00001 0.93752 0.2539 1.6602 0.76172 2.168 0.52082 0.49481 1.849 1.0287 3.9844 1.6016l2.3633 0.58594c2.6693 0.69012 4.5247 1.569 5.5664 2.6367 1.0416 1.0547 1.5625 2.5391 1.5625 4.4531-0.00002 2.9427-1.1589 5.3385-3.4766 7.1875-2.3047 1.849-5.3451 2.7734-9.1211 2.7734-1.5495 0-3.1055-0.15625-4.668-0.46875-1.5625-0.29948-3.1315-0.76172-4.707-1.3867l0.80079-4.0625c1.4453 0.89845 2.8906 1.5755 4.3359 2.0312 1.4583 0.45574 2.9102 0.6836 4.3555 0.6836 2.4609 0 4.4336-0.54687 5.918-1.6406s2.2266-2.5195 2.2266-4.2773c-0.00001-1.1719-0.29949-2.0573-0.89843-2.6562-0.58596-0.61197-1.8555-1.1654-3.8086-1.6602l-2.3633-0.60547c-2.6953-0.70311-4.5378-1.5104-5.5273-2.4219-0.97657-0.92446-1.4648-2.2135-1.4648-3.8672 0-2.9036 1.1133-5.2799 3.3398-7.1289 2.2396-1.862 5.1497-2.7929 8.7305-2.793 1.3932 0.00003 2.7734 0.12372 4.1406 0.37109 1.3672 0.24743 2.7344 0.61852 4.1016 1.1133"/>
+    </g>
+    <g id="flowRoot2909-7" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 -283.32 104.68)">
+      <path id="path4023" style="fill:#515151" d="m275.45 388.3h3.9648l-2.4024 12.285 15.312-12.285h5.2539l-17.324 13.926 12.676 15.234h-4.8047l-11.641-14.199-2.7539 14.199h-3.9648l5.6836-29.16"/>
+    </g>
+    <g id="g4174-3" transform="translate(428.81 351.9)">
+      <rect id="rect4176-5" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905-3-7)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect4178-01" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907-6-1)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <g id="flowRoot2909-4" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 154.12 104.68)">
+      <path id="path4020" style="fill:#515151" d="m271.21 388.3h4.2383l5.4492 11.992 10.391-11.992h4.4336l-13.223 15.273-2.6953 13.887h-3.9453l2.6758-13.887-7.3242-15.273"/>
+    </g>
+    <g id="g4174-9-7" transform="translate(428.81 556.96)">
+      <rect id="rect4176-1-8" style="fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1px;fill:url(#linearGradient2905-3-7)" ry="21.429" height="182.86" width="194.29" y="200.93" x="71.429"/>
+      <rect id="rect4178-0-9" style="fill-rule:evenodd;stroke:#f8f8f8;stroke-width:.83429px;fill:url(#linearGradient2907-6-1)" ry="17.932" height="153.02" width="161.59" y="213.14" x="87.06"/>
+    </g>
+    <g id="flowRoot2909-9-9" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 154.12 309.74)">
+      <path id="path4014" style="fill:#515151" d="m271.29 414.14h6.4453l4.3555-22.441-7.2852 1.4062 0.68359-3.3984 7.2461-1.4062h3.9648l-5.0391 25.84h6.4258l-0.625 3.3203h-16.816l0.64454-3.3203"/>
+    </g>
+    <g id="flowRoot2909-9-9-9" style="fill:#515151" transform="matrix(1.4244 0 0 1.4244 160.18 239.03)">
+      <path id="path4017" style="fill:#515151" d="m277.54 388.3h3.9453l-2.4805 12.793-1.7578 6.9727h-3.1641l0.97657-6.9727 2.4805-12.793m-4.6875 24.199h3.9648l-0.95703 4.9609h-4.0039l0.9961-4.9609"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Keyboard Keys</dc:title>
+        <dc:date>2009-09-25T00:06:12</dc:date>
+        <dc:description>I drew these keys to mimic real keyboard keys. They closely resemble the Apple keyboard key style.</dc:description>
+        <dc:source>https://openclipart.org/detail/27549/keyboard-keys-by-simanek</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Simanek</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>keyboard</rdf:li>
+            <rdf:li>realistic</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
