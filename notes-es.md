@@ -3,30 +3,21 @@
 La idea es hacer una botonera que sea más funcional que la anterior
 [StarCitizen_6_ButtonBox](https://github.com/aztlek/StarCitizen_6_ButtonBox) que
 sólo era una prueba de concepto. Más funcional en el sentido que si se use para
-jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/) el
-simulador de vida espacial.
+jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
 
 ## Requerimientos del teclado
 
-1. Debe ser nodular.
+1. Debe ser modular.
 1. La estética debe ser una combinación de:
    * [The Warthog Project](https://www.youtube.com/@thewarthogproject)
    * La estética de las naves de SC. Por ejemplo de la Terrapin y la Freelancer.
 1. Los dispositivos de entrada deben ser identificables.
    * Teclas que se puedan marcar.
-   * Los otros dispositivos en el panel.
-1. Algunas de los controles pueden ser potenciometros o *rotary encoders*. Esto
-   para algunos *keybindings* que sean *axis* (ejes) o *sliders* (controles
-   deslizantes).
+   * Los otros dispositivos se idedentifican marcandolos en el panel.
 1. Al ancho máximo de la botonera debe ser de unos 82 cms que corresponde con el
-   ancho de un monitor de 34'' QHD. por uqe ese va a ser su lugar.
-1. El numero de entradas es de 502, segúín [Número de teclas en Star Citizen](NumberOfKeys_StarCitizen.ods),
-   Por lo que debe facilitar este gran número de entradas.
-
-### Debe tener un bue numero de teclas o ¿Cuántas teclas debe tener la botonera?
-
-Para ello se hizo una hoja de cálculo [Número de teclas en Star Citizen](NumberOfKeys_StarCitizen.ods).
-Los keybindings con alrededor de 502 por lo que son muchas entradas.
+   ancho de un monitor de 34'' QHD.
+1. El numero total de keybindings en SC es de 502, según [Número de teclas en Star Citizen](docs/NumberOfKeys_StarCitizen.ods),
+   Por lo que la botonera debe facilitar el uso de este gran número de entradas.
 
 ## Módulos
 
