@@ -48,7 +48,7 @@
 ### Categorización
 
 La siguiente tabla organiza en dos categorias ortogonales los dispositivos de
-entreda. Es una primera aproximación a como deben que dar organizados en el
+entrada. Es una primera aproximación a como deben que dar organizados en el
 panel del módulo los dispositivos de entrada.
 
 
@@ -62,4 +62,36 @@ panel del módulo los dispositivos de entrada.
 
 ## Diseno
 
-## Dispositivos de entrada
+### Consideraciones
+
+1. Las columnas `Thrusters` y `Throttle` se pueden fusionar en una, pero
+   marcando la diferencia entre un grupo y otro.
+1. La tecla de `reset` se puede integrar a la matriz principal de teclas debajo
+   del toggle_switch del power, pero necesita una icono que resalte su semántica,
+
+
+## Componentes y procesos
+
+Inventario de componentes y procesos para armar el módulo.
+
+| Componente o proceso                         | Cantidad |
+| -------------------------------------------- | -------: |
+| Keys                                         |        9 |
+| Toggle switchs                               |        4 |
+| Encoders                                     |        4 |
+| Microcontrolador                             |        1 |
+| Cable US                                     |        1 |
+| Acrilico negro                               |        1 |
+| Acrilico blanco                              |        1 |
+| Acrilico translucido                         |        1 |
+| Tornillos allen M3 cabeza del botón negros   |       ?? |
+| Tornillos allen M3 cabeza de enchufe negros  |        4 |
+| Standoff M3                                  |       ?? |
+| Tuercas Makerbeam                            |        4 |
+| Cables de colores para soldar                |       ?? |
+| Termiencogible de colores                    |       ?? |
+| Terminales para prensar los toggle switch    |       ?? |
+| Lata de pintura negra de acrilico            |        1 |
+| Pegante para acrilico                        |        1 |
+| Corte laser para los acrilicos               |        3 |
+| Grabado laser                                |        1 |
