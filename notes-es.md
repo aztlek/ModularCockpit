@@ -10,10 +10,10 @@ jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
 1. Debe ser modular.
 1. La estética debe ser una combinación de:
    * [The Warthog Project](https://www.youtube.com/@thewarthogproject)
-   * La estética de las naves de SC. Por ejemplo de la Terrapin y la Freelancer.
+   * Y de las naves SC. Por ejemplo de la Terrapin y la Freelancer.
 1. Los dispositivos de entrada deben ser identificables.
    * Teclas que se puedan marcar.
-   * Los otros dispositivos se idedentifican marcandolos en el panel.
+   * Los otros dispositivos se identifican marcándolos en el panel.
 1. Al ancho máximo de la botonera debe ser de unos 82 cms que corresponde con el
    ancho de un monitor de 34'' QHD.
 1. El numero total de keybindings en SC es de 502, según [Número de teclas en Star Citizen](docs/NumberOfKeys_StarCitizen.ods),
@@ -30,7 +30,7 @@ funcionalidades relacionadas, keybindings.
 
 ## Dispositivos de entrada
 
-Tendrá varios tipos de dispositivos de entradas.
+Tendrá varios tipos de dispositivos de entrada.
 
 **Teclas de teclado mecánico**
 : Las teclas de teclado mecánico se usan para la mayoría de los keybindings de
@@ -38,7 +38,7 @@ SC, esto es por que SC esta diseñado usando teclas.
 
 **Encoders**
 : Para los casos que se tienen dos teclas en la que una es de incrementar y otra
-de decrementar que cambian una misma cantidad, por ejemplo incrementar o
+de decrementar cambiando una misma cantidad, por ejemplo incrementar o
 decrementar la energía de los escudos.
 
 **Toggle Switch (ON/OFF)**
@@ -64,17 +64,15 @@ decrementar una cantidad.
 **Joystick**
 : Aparte de los casos obvios en el cual se usan los joystick hay keybinding que
 por su naturaleza deberían controlarse con joystick, por ejemplo las
-rotaciones de algo. Pero un joystick en realidad son (por menos) dos
+rotaciones de algo. Pero un joystick en realidad son (por lo menos) dos
 potenciómetros ortogonales, por lo que tiene el mismo problema de estos con los
 keybindings que no sean ejes y que por su naturaleza deberían serlo (como el
-desplazamiento angular de la cámara), por que los potenciómetros dan mediadas
-absolutas y no incrementos.
+desplazamiento angular de la cámara).
 
 **[GlidePoint® Circle Trackpads](https://www.cirque.com/glidepoint-circle-trackpads) (el del Steam Controler)**
 : Este trackpad funciona muy parecido a un joystick análogo por lo que puede
 usarse en lo mismo, pero también tiene el mismo problema de dar valores absolutos
-y no incrementos que lo que necesita SC que maneja este pulsando repetidamente
-una tecla.
+y no incrementos que es lo que necesita SC.
 
 ## Microcontroladores
 
@@ -160,26 +158,26 @@ El usar el uno o el otro depende de:
 
 #### KiCAD
 
-1. KRSTEC-keyboard: Teclado diseñado de cero
-  1. [KRSTEC-keyboard](https://github.com/criscol64/KRSTEC-keyboard) Github del
-    teclado donde están los foodprint del teclado, entre esos los del switch de
-    reset.
-  1. [Diseño de Teclado KrsTec - creando el PCB](https://www.youtube.com/watch?v=98n5OJNPwCo)
-  1. [Teclado KrsTec - Montaje de las partes](https://www.youtube.com/watch?v=wbh_nis3UaA)
-  1. [KrsTec Programado y Prueba de Sonido](https://www.youtube.com/watch?v=8fZAfUpEjqw)
-    1. Montaje de plates
-    1. [Keyboard layout editor](http://www.keyboard-layout-editor.com/)
-       Editor del mapa de teclado.
-    1. [Keyboard Firmware Builder](https://kbfirmware.com/)
-       Produce el código fuente para QMK del teclado.
-  1. [Modificando el PCB Krstec añadiendo un Encoder + Crear archivos Gerber](https://www.youtube.com/watch?v=qYooFJVYEfo)
-     Generando los archivos gerber.
-    1. Modificando el equemático.
-    1. Modificando el PCB
-    1. Generando y comprimiendo los archivos Gerber para JLCPCB
-    1. Mandar a fabricar en JLCPCB.
-  1. [Teclado Krstec - Generando Archivos QMK](https://www.youtube.com/watch?v=irB1jytr30w)
-  1. [Como generar los archivos para mandar a cortar los acrilicos]()
+1. KRSTEC-keyboard: Teclado diseñado de cero:
+   1. [KRSTEC-keyboard](https://github.com/criscol64/KRSTEC-keyboard) Github del
+      teclado donde están los foodprint del teclado, entre esos los del switch de
+      reset.
+   1. [Diseño de Teclado KrsTec - creando el PCB](https://www.youtube.com/watch?v=98n5OJNPwCo)
+   1. [Teclado KrsTec - Montaje de las partes](https://www.youtube.com/watch?v=wbh_nis3UaA)
+   1. [KrsTec Programado y Prueba de Sonido](https://www.youtube.com/watch?v=8fZAfUpEjqw)
+      1. Montaje de plates
+      1. [Keyboard layout editor](http://www.keyboard-layout-editor.com/)
+         Editor del mapa de teclado.
+      1. [Keyboard Firmware Builder](https://kbfirmware.com/)
+         Produce el código fuente para QMK del teclado.
+   1. [Modificando el PCB Krstec añadiendo un Encoder + Crear archivos Gerber](https://www.youtube.com/watch?v=qYooFJVYEfo)
+      Generando los archivos gerber.
+      1. Modificando el equemático.
+      1. Modificando el PCB
+      1. Generando y comprimiendo los archivos Gerber para JLCPCB
+      1. Mandar a fabricar en JLCPCB.
+   1. [Teclado Krstec - Generando Archivos QMK](https://www.youtube.com/watch?v=irB1jytr30w)
+   1. [Como generar los archivos para mandar a cortar los acrilicos]()
 
 ### Componentes
 
@@ -219,7 +217,7 @@ Si se usa el Teensy QMK en el archivo ```rules.mk``` hay que poner el microcontr
   Complementario al anterior explica como quemar desde Linux (Ubuntu).
 1. [Keycodes Overview](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
-#### Encoders
+##### Encoders
 
 1. [Rotary Encoder](https://www.sparkfun.com/products/9117) En encoder sensillo
    de 12 pasos de Sparkfun.
@@ -242,11 +240,11 @@ Si se usa el Teensy QMK en el archivo ```rules.mk``` hay que poner el microcontr
    1. [100PPR 6 Terminal Electronic Hand Wheel Manual Pulse Encoder for CNC System (Black)](https://www.amazon.com/100PPR-Terminal-Electronic-Manual-Encoder/dp/B07G9FVHM8)
       Otro encoder de 100 pasos mejor documentado.    
 
-##### Los encoders con Arduino
+###### Los encoders con Arduino
 
 1. [Arduino - Rotary encoder Simple Example KY-040](https://create.arduino.cc/projecthub/vandenbrande/arduino-rotary-encoder-simple-example-ky-040-b78752)
 
-##### Los encoders con QMK
+###### Los encoders con QMK
 
 1. [Encoders: Documentación de QMK](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_encoders.md)
   Parece estar muy bien exlicado, supone que se sabe que son las líneas A y B.
@@ -255,10 +253,6 @@ Si se usa el Teensy QMK en el archivo ```rules.mk``` hay que poner el microcontr
 1. [QMK Encoder Setup](https://www.youtube.com/watch?v=GLqSPa_Zc2Q) Explica como configurar un escoder de cien pasos (de los que se consiguen en Aliexpress)
 1. [Hub16 Encoder Configuration](https://www.youtube.com/watch?v=TTCaQ-STD-E) Como configurar dos encoder con QMK y los codigos de teclado de QMK.
 1. [Using multiple encoders in QMK by wiring them up to your matrix rows](https://www.youtube.com/watch?v=DyHxccSvsPs) Explica como conectar varios encoders.
-
-
-
-
 
 ### Imagenes
 
