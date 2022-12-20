@@ -9,12 +9,12 @@ jugar a Star Citizen.
 
 Tendrá varios tipos de dispositivos de entradas.
 
-Teclas de teclado mecánico
+**Teclas de teclado mecánico**
 : Se usaran estas teclas telclas de teclado mecánico para los keybindings de SC.
 Esto es por que casi todos en SC esta diseñado usando teclas.
 
-Encoders
-: EStos se utilizazaran en el caso en qeu se tienen.
+**Encoders**
+: EStos se utilizazaran en el caso en que se tienen.
 
 ## Referencias
 
