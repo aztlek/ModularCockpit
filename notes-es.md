@@ -2,7 +2,7 @@
 
 La idea es hacer una botonera que sea más funcional que la anterior
 [StarCitizen_6_ButtonBox](https://github.com/aztlek/StarCitizen_6_ButtonBox) que
-sólo era una prueba de concepto. Mas funcional en el sentido que si la use para
+sólo era una prueba de concepto. Más funcional en el sentido que si se use para
 jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/) el
 simulador de vida espacial.
 
@@ -27,7 +27,7 @@ de ON en el momento que se cambia a esta posición, al igual que con el OFF.
 
 ### Dispositivos de entrada que posiblemente se puedan usar
 
-Estos son dispositivos de entrada hay que hacer pruebas lógicas y de
+Estos son dispositivos de entrada en los hay que hacer pruebas lógicas y de
 usabilidad conectándose a SC, y teniendo en cuenta sus limitaciones de este para
 saber si sirven.
 
@@ -41,7 +41,7 @@ decrementar una cantidad.
 
 **Joystick**
 : Aparte de los casos obvios en el cual se usan los joystick hay keybinding que
-por su naturaleza deberían ser controlarse con joystick, por ejemplo las
+por su naturaleza deberían controlarse con joystick, por ejemplo las
 rotaciones de algo. Pero un joystick en realidad son (por menos) dos
 potenciómetros ortogonales, por lo que tiene el mismo problema de estos con los
 keybindings que no sean ejes y que por su naturaleza deberían serlo (como el
