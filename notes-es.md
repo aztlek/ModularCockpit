@@ -88,6 +88,16 @@ El usar el uno o el otro depende de:
 1. Facilidad de programación.
 1. Que se pueda usar joystick y keyboard al mismo tiempo. Esto para sobrepasar la limitación de las 32 teclas del joystick tanto en Arduino como en QMK.
 
+
+## Módulos
+
+El Button Box tiene un diseño modular. Cado módulo corresponde a un conjunto de
+funcionalidades relacionadas, keybindings.
+
+* [Módulo de Potencia](modules/PowerModule/notes-es.md)
+* [Módulo de Cámara](modules/CameraModule/notes-es.md)
+* [Módulo Social](modules/SocialModule/notes-es.md)
+
 ## Componentes
 
 ### Para el prototipo
