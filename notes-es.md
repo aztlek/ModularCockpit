@@ -88,6 +88,45 @@ El usar el uno o el otro depende de:
 1. Facilidad de programación.
 1. Que se pueda usar joystick y keyboard al mismo tiempo. Esto para sobrepasar la limitación de las 32 teclas del joystick tanto en Arduino como en QMK.
 
+## Componentes
+
+### Para el prototipo
+
+#### Switches
+
+* [Sparkfun: Tactile Button Assortment](https://www.sparkfun.com/products/10302)
+  * [Drawing](https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg)
+* [Sparkfun: Mini Power Switch - SPDT](https://www.sparkfun.com/products/102)
+  * [Dimensional Drawing](https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf)
+
+#### Encoders
+
+* [Sparkfun: Rotary Encoder](https://www.sparkfun.com/products/9117)
+  * [Datasheet](https://www.sparkfun.com/datasheets/Components/TW-700198.pdf)
+
+#### Potenciómetros
+
+* [Sparkfun: Rotary Potentiometer - Linear (10k ohm)](https://www.sparkfun.com/products/9288)
+  * [Datasheet R0902N-DD1-B10K-GP](https://cdn.sparkfun.com/assets/b/3/2/7/f/01_ECC-_R0901N_R0902N-Rotary_Potentiometers-2022-S.pdf)
+* [Sparkfun: Slide Pot - Small (10k Linear Taper)](https://www.sparkfun.com/products/11620)
+  * [Datasheet (C2031N-1A2-B10K-GP)](https://cdn.sparkfun.com/datasheets/Components/Switches/C-31-.pdf)
+* [Sparkfun: Slide Pot - X-Large (10k Linear Taper)](https://www.sparkfun.com/products/9119)
+  * [Datesheet](https://cdn.sparkfun.com/datasheets/Components/Switches/SC608N-b10k.pdf)
+
+#### Joysticks
+
+* [Sparkfun: Thumb Joystick - Deluxe](https://www.sparkfun.com/products/16273)
+  * [Planos](https://cdn.sparkfun.com/assets/d/7/c/0/6/Schematic-Thumb_Joystick_-_Deluxe-16273.pdf)
+  * [Especificación](https://cdn.sparkfun.com/assets/c/4/9/7/f/Specs-16273-Thumb_Joystick_-_Deluxe.pdf)
+* [Sparkfun: Thumb Joystick](https://www.sparkfun.com/products/9032)
+  * [Thumb Joystick Hookup Guide](https://learn.sparkfun.com/tutorials/thumb-joystick-hookup-guide)
+  * [SparkFun Thumb Joystick Breakout](https://www.sparkfun.com/products/9110)
+
+#### Otros
+* [Circle Trackpad Development Kit](https://www.cirque.com/circle-trackpad-dev-kit)
+  * [Trackpad Development Kit User Guide](https://static1.squarespace.com/static/53233e4be4b044fa7626c453/t/592449fc725e25ab6118ee63/1495550462985/Trackpad_DevKit_UserGuide-V1_0.pdf)
+  * [Esquematic](https://static1.squarespace.com/static/53233e4be4b044fa7626c453/t/592449ea725e25ab6118ed65/1495550442448/02-000620-00RevA00_Adapter_SCHnew.pdf)
+
 ## Referencias
 
 ### Imagenes
