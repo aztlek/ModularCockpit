@@ -1,6 +1,6 @@
-# Modulo de energía (PowerModule)
+# Modulo de potencia (PowerModule)
 
-El módulo de energía tiene los controles para el manejo de energía tanto de vuelo
+El módulo de potencia tiene los controles para el manejo de potencia tanto de vuelo
 con en general de vehículos.
 
 ## Keybindings
