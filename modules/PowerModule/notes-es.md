@@ -20,6 +20,30 @@
 | Shields – Set to Min (tab)                                       | key[5]         |
 | Reset Assignements                                               | key[6]         |
 
+### Flight – Power
+
+| Keybinding                                                       | Tipo de dispositivo de entrada                    |
+| ---------------------------------------------------------------- | ------------------------------------------------- |
+| Set Power On                                                     | toggle_switch[0]: on   |
+| Set Power Off                                                    | toggle_switch[0]: off        |
+| Set Thrusters Power On                                           | toggle_switch[1]: on   |
+| Set Thrusters Power Off                                          | toggle_switch[1]: off |
+| Set Shields Power On                                             | toggle_switch[2]: on   |
+| Set Shields Power Off                                            | toggle_switch[2]: off |
+| Set Weapons Power On                                             | toggle_switch[3]: on |
+| Set Weapons Power Off                                            | toggle_switch[3]: off |
+| Increase Throttle                                                | encoder[5]: increase |
+| Decrease Throttle                                                | encoder[5]: decrease |
+| Increase Throttle to Max (double tab)                            | key[7] |
+| Decrease Throttle to Min (double tab)                            | key[8] |
+
+### Total keybindings
+
+| Dispositivo          | Numero |
+| -------------------- | -----: |
+| Keys                 |      9 |
+| Toggle switchs       |      4 |
+| Encoders             |      6 |
 
 ## Diseno
 
