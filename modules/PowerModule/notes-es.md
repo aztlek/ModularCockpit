@@ -1,11 +1,11 @@
 # Modulo de energía (PowerModule)
 
-El módulo de energía tiene los controles pare el menejo de energía tanto de vuelo
+El módulo de energía tiene los controles pare el manejo de energía tanto de vuelo
 con en general de vehículos.
 
 ## Keybindings
 
-Los kaybindingd a considerar para est módulo pertenecen a dos categorias en SC
+Los keybindingd a considerar para este módulo pertenecen a dos categorias en SC
 `Vehicles – Power Triangle  Assignement` y `Flight – Power`.
 
 ### Vehicles – Power Triangle  Assignement
@@ -54,7 +54,7 @@ Los kaybindingd a considerar para est módulo pertenecen a dos categorias en SC
 ### Categorización
 
 La siguiente tabla organiza en dos categorias ortogonales los dispositivos de
-entrada. Es una primera aproximación a como deben que dar organizados en el
+entrada. Es una primera aproximación a como deben quedar organizados en el
 panel del módulo los dispositivos de entrada.
 
 
@@ -73,7 +73,7 @@ panel del módulo los dispositivos de entrada.
 1. Las columnas `Thrusters` y `Throttle` se pueden fusionar en una, pero
    marcando la diferencia entre un grupo y otro.
 1. La tecla de `reset` se puede integrar a la matriz principal de teclas debajo
-   del toggle_switch del power, pero necesita una icono que resalte su semántica,
+   del toggle_switch del power, pero necesita un icono que resalte su semántica,
 
 
 ## Componentes y procesos
