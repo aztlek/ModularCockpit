@@ -65,9 +65,28 @@ funcionar como si fuera un teclado o un joystick.
 **[Teensy®](https://www.pjrc.com/teensy/)**
 : Este es como el [Sparkfun Pro Micro](https://www.sparkfun.com/products/12587)
 o un [Arduino](https://www.arduino.cc/) también puede funcionar como un Teclado
-un joystick con la diferencia que tiene un procesador mas potente, mas memoria y
-muchos más pines de entrada/salida por lo que se le pueden conectar más
+y un joystick con la diferencia que tiene un procesador mas potente, más memoria
+y muchos más pines de entrada/salida por lo que se le pueden conectar más
 dispositivos de entrada y tener un firmware mas grande.
+
+## Firmware
+
+Hay dos posibilidades:
+
+**[Arduino](https://www.arduino.cc/) con keypad.h, joystick.h y keyboard,h**
+: Hay que programar casi todo desde cero, lo cual es una ventaja y una
+desventaja al mismo tiempo. Una ventaja por que se tiene un control sobre todo,
+pero es una desventaja por que hay que hacer mucho.
+
+**[QMK Firmware](https://qmk.fm/)**
+: Muchas de las cosas que se necesitan están presentes en QMK y no abría que
+programar desde cero.
+
+El usar el uno o el otro depende de:
+
+1. Se puedan programas todos los dispositivos de la forma en que se quieren usar.
+1. Facilidad de programación.
+1. Que se pueda usar joystick y keyboard al mismo tiempo. Esto para sobrepasar la limitación de las 32 teclas del joystick tanto en Arduino como en QMK.
 
 ## Referencias
 
