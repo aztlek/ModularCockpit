@@ -20,11 +20,22 @@ simulador de vida espacial.
    deslizantes).
 1. Al ancho máximo de la botonera debe ser de unos 82 cms que corresponde con el
    ancho de un monitor de 34'' QHD. por uqe ese va a ser su lugar.
+1. El numero de entradas es de 502, segúín [Número de teclas en Star Citizen](NumberOfKeys_StarCitizen.ods),
+   Por lo que debe facilitar este gran número de entradas.
 
 ### Debe tener un bue numero de teclas o ¿Cuántas teclas debe tener la botonera?
 
 Para ello se hizo una hoja de cálculo [Número de teclas en Star Citizen](NumberOfKeys_StarCitizen.ods).
-Y son muchas las teclas 
+Los keybindings con alrededor de 502 por lo que son muchas entradas.
+
+## Módulos
+
+El Button Box tiene un diseño modular. Cado módulo corresponde a un conjunto de
+funcionalidades relacionadas, keybindings.
+
+* [Módulo de Potencia](modules/PowerModule/notes-es.md)
+* [Módulo de Cámara](modules/CameraModule/notes-es.md)
+* [Módulo Social](modules/SocialModule/notes-es.md)
 
 ## Dispositivos de entrada
 
@@ -109,15 +120,6 @@ El usar el uno o el otro depende de:
 1. Que se pueda usar joystick y keyboard al mismo tiempo. Esto para sobrepasar la limitación de las 32 teclas del joystick tanto en Arduino como en QMK.
 
 
-## Módulos
-
-El Button Box tiene un diseño modular. Cado módulo corresponde a un conjunto de
-funcionalidades relacionadas, keybindings.
-
-* [Módulo de Potencia](modules/PowerModule/notes-es.md)
-* [Módulo de Cámara](modules/CameraModule/notes-es.md)
-* [Módulo Social](modules/SocialModule/notes-es.md)
-
 ## Componentes
 
 ### Para el prototipo
@@ -158,6 +160,114 @@ funcionalidades relacionadas, keybindings.
   * [Esquematic](https://static1.squarespace.com/static/53233e4be4b044fa7626c453/t/592449ea725e25ab6118ed65/1495550442448/02-000620-00RevA00_Adapter_SCHnew.pdf)
 
 ## Referencias
+
+### Diseño de la PCB
+
+1. [Teensy symbol library for KiCAD](https://github.com/XenGi/teensy_library) La librería de simbolos de Teensy para KiCAD
+1. [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
+1. [Designing a keyboard from scratch - Part 1](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/)
+
+#### KiCAD
+
+1. KRSTEC-keyboard: Teclado diseñado de cero
+  1. [KRSTEC-keyboard](https://github.com/criscol64/KRSTEC-keyboard) Github del
+    teclado donde están los foodprint del teclado, entre esos los del switch de
+    reset.
+  1. [Diseño de Teclado KrsTec - creando el PCB](https://www.youtube.com/watch?v=98n5OJNPwCo)
+  1. [Teclado KrsTec - Montaje de las partes](https://www.youtube.com/watch?v=wbh_nis3UaA)
+  1. [KrsTec Programado y Prueba de Sonido](https://www.youtube.com/watch?v=8fZAfUpEjqw)
+    1. Montaje de plates
+    1. [Keyboard layout editor](http://www.keyboard-layout-editor.com/)
+       Editor del mapa de teclado.
+    1. [Keyboard Firmware Builder](https://kbfirmware.com/)
+       Produce el código fuente para QMK del teclado.
+  1. [Modificando el PCB Krstec añadiendo un Encoder + Crear archivos Gerber](https://www.youtube.com/watch?v=qYooFJVYEfo)
+     Generando los archivos gerber.
+    1. Modificando el equemático.
+    1. Modificando el PCB
+    1. Generando y comprimiendo los archivos Gerber para JLCPCB
+    1. Mandar a fabricar en JLCPCB.
+  1. [Teclado Krstec - Generando Archivos QMK](https://www.youtube.com/watch?v=irB1jytr30w)
+  1. [Como generar los archivos para mandar a cortar los acrilicos]()
+
+### Componentes
+
+#### Microcontrodores
+
+##### Teensy
+
+1. [Teensy® 4.1 Development Board](https://www.pjrc.com/store/teensy41.html)
+1. [Teensy® 4.0 Development Board](https://www.pjrc.com/store/teensy40.html)
+1. [Teensy® 3.6 Development Board](https://www.pjrc.com/store/teensy36.html) No está en stock:
+  1. [Amazon: Teensy 3.5 (Without Pins)](https://www.amazon.com/PJRC-3267-Teensy-3-5/dp/B072JL5C2G)
+
+###### Teensy con  Arduino
+
+Para trabajar con el IDE de Arduino se necesitan al menos tres partes:
+
+1. [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) La extensión del
+   IDE de Arduino para Teensy.
+1. [Using USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html) Libraría
+   para simular un teclado con Teensy.
+   1. [Using USB Joystick](https://www.pjrc.com/teensy/td_joystick.html)
+       Librería para sinular un joystick con Teensy. No sirve parque sólo maneja 32 botones.
+   1. [Keypad Library](https://www.pjrc.com/teensy/td_libs_Keypad.html) Librería para leer una matriz de teclas.
+   1. [Encoder Library](https://www.pjrc.com/teensy/td_libs_Encoder.html) Libreria para leer los encoders.
+
+##### Teensy con QMK
+
+Si se usa el Teensy QMK en el archivo ```rules.mk``` hay que poner el microcontrolador, el MCU.
+
+###### Empezando con QMK
+
+1. [Building Your First Firmware](https://docs.qmk.fm/#/newbs_building_firmware)
+   Explica como crear un nuevo keymap.
+1. [QMK_Teensy_2.0_Tutorial](https://github.com/gkubed/QMK_Teensy_2.0_Tutorial)
+   Tutorial que explica como poner el firmware en un Teensy 2.0. Funciona mejor en Linux.
+1. [Using The Teensy Loader on Ubuntu Linux](https://www.pjrc.com/teensy/loader_linux.html)
+  Complementario al anterior explica como quemar desde Linux (Ubuntu).
+1. [Keycodes Overview](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
+
+#### Encoders
+
+1. [Rotary Encoder](https://www.sparkfun.com/products/9117) En encoder sensillo
+   de 12 pasos de Sparkfun.
+   1. [Rotary Encoder 318-ENC130175F-12PS](https://www.sparkfun.com/datasheets/Components/TW-700198.pdf)
+      El datasheed del encoder.
+   1. [Black Metal Knob - 14x24mm](https://www.sparkfun.com/products/10002)
+      La perilla del (knob) encoder. Negra de metal y para 6mm.
+   1. [Clear Plastic Knob](https://www.sparkfun.com/products/10597) Otra perilla
+      para el encoder, pero transparente. Esta sería mejor para el encoder que tiene RGB.
+   1. [uxcell 5pcs, Potentiometer Control Knobs For Encoder Code Switch Knobs Acrylic Volume Tone Knobs Black D type 6mm](https://www.amazon.com/uxcell-Potentiometer-Control-Encoder-Acrylic/dp/B07T615NSB)
+      Perilla para concoder plana.
+1. [Rotary Encoder - Illuminated (RGB)](https://www.sparkfun.com/products/15141)
+   Un encoder 24 pasos y RGB de Sparkfun.
+   1. [Clear Plastic Knob](https://www.sparkfun.com/products/10597) Otra perilla
+      para el encoder, pero transparente. Esta sería mejor para el encoder que tiene RGB.
+1. [AliExpress: 100 step encoder](https://www.aliexpress.com/w/wholesale-100-step-encoder.html) Encoders de 100 pasos en Aliexpress.
+1. [Amazon: 5V 60MM Ultra-Thin Hand Wheel Pulse Encode](https://www.amazon.com/Terminal-Aviation-Aluminum-Positions-Electronic/dp/B07Q75KT49/ref=sr_1_4?crid=2X4LKS9I1QZKQ)
+1. [Amazon: Busqueda cnc rotary encoder](https://www.amazon.com/s?k=cnc+rotary+encoder)
+   Un Encoder de 100 pasos como los de Aliexpress pero en Amazon.
+   1. [100PPR 6 Terminal Electronic Hand Wheel Manual Pulse Encoder for CNC System (Black)](https://www.amazon.com/100PPR-Terminal-Electronic-Manual-Encoder/dp/B07G9FVHM8)
+      Otro encoder de 100 pasos mejor documentado.    
+
+##### Los encoders con Arduino
+
+1. [Arduino - Rotary encoder Simple Example KY-040](https://create.arduino.cc/projecthub/vandenbrande/arduino-rotary-encoder-simple-example-ky-040-b78752)
+
+##### Los encoders con QMK
+
+1. [Encoders: Documentación de QMK](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_encoders.md)
+  Parece estar muy bien exlicado, supone que se sabe que son las líneas A y B.
+1. [How can I use a rotary encoder?](https://docs.splitkb.com/hc/en-us/articles/360010513760-How-can-I-use-a-rotary-encoder-)
+  Explica como usar un _rotaty encoder_ wn QMK con eejemplo específicos como control de audio, scrolling, moviemiento de ventanas, tabbing, etc.
+1. [QMK Encoder Setup](https://www.youtube.com/watch?v=GLqSPa_Zc2Q) Explica como configurar un escoder de cien pasos (de los que se consiguen en Aliexpress)
+1. [Hub16 Encoder Configuration](https://www.youtube.com/watch?v=TTCaQ-STD-E) Como configurar dos encoder con QMK y los codigos de teclado de QMK.
+1. [Using multiple encoders in QMK by wiring them up to your matrix rows](https://www.youtube.com/watch?v=DyHxccSvsPs) Explica como conectar varios encoders.
+
+
+
+
 
 ### Imagenes
 
