@@ -86,7 +86,7 @@ Inventario de componentes y procesos para armar el módulo.
 | Toggle switchs                               |        4 |
 | Encoders                                     |        4 |
 | Microcontrolador                             |        1 |
-| Cable US                                     |        1 |
+| Cable USB                                    |        1 |
 | Acrilico negro                               |        1 |
 | Acrilico blanco                              |        1 |
 | Acrilico translucido                         |        1 |
