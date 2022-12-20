@@ -54,6 +54,21 @@ usarse en lo mismo, pero también tiene el mismo problema de dar valores absolut
 y no incrementos que lo que necesita SC que maneja este pulsando repetidamente
 una tecla.
 
+## Microcontroladores
+
+Se tienen dos posibilidades:
+
+**[Sparkfun Pro Micro](https://www.sparkfun.com/products/12587)**
+: Este microcontrolador es como un [Arduino](https://www.arduino.cc/) pero puede
+funcionar como si fuera un teclado o un joystick.
+
+**[Teensy®](https://www.pjrc.com/teensy/)**
+: Este es como el [Sparkfun Pro Micro](https://www.sparkfun.com/products/12587)
+o un [Arduino](https://www.arduino.cc/) también puede funcionar como un Teclado
+un joystick con la diferencia que tiene un procesador mas potente, mas memoria y
+muchos más pines de entrada/salida por lo que se le pueden conectar más
+dispositivos de entrada y tener un firmware mas grande.
+
 ## Referencias
 
 ### Imagenes
