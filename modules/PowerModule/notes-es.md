@@ -1,6 +1,6 @@
 # Modulo de energía (PowerModule)
 
-El módulo de energía tiene los controles pare el manejo de energía tanto de vuelo
+El módulo de energía tiene los controles para el manejo de energía tanto de vuelo
 con en general de vehículos.
 
 ## Keybindings
@@ -73,7 +73,7 @@ panel del módulo los dispositivos de entrada.
 1. Las columnas `Thrusters` y `Throttle` se pueden fusionar en una, pero
    marcando la diferencia entre un grupo y otro.
 1. La tecla de `reset` se puede integrar a la matriz principal de teclas debajo
-   del toggle_switch del power, pero necesita un icono que resalte su semántica,
+   del `toggle_switch` del power, pero necesita un icono que resalte su semántica,
 
 
 ## Componentes y procesos
