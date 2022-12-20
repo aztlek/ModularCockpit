@@ -6,6 +6,26 @@ sólo era una prueba de concepto. Más funcional en el sentido que si se use par
 jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/) el
 simulador de vida espacial.
 
+## Requerimientos del teclado
+
+1. Debe ser nodular.
+1. La estética debe ser una combinación de:
+   * [The Warthog Project](https://www.youtube.com/@thewarthogproject)
+   * La estética de las naves de SC. Por ejemplo de la Terrapin y la Freelancer.
+1. Los dispositivos de entrada deben ser identificables.
+   * Teclas que se puedan marcar.
+   * Los otros dispositivos en el panel.
+1. Algunas de los controles pueden ser potenciometros o *rotary encoders*. Esto
+   para algunos *keybindings* que sean *axis* (ejes) o *sliders* (controles
+   deslizantes).
+1. Al ancho máximo de la botonera debe ser de unos 82 cms que corresponde con el
+   ancho de un monitor de 34'' QHD. por uqe ese va a ser su lugar.
+
+### Debe tener un bue numero de teclas o ¿Cuántas teclas debe tener la botonera?
+
+Para ello se hizo una hoja de cálculo [Número de teclas en Star Citizen](NumberOfKeys_StarCitizen.ods).
+Y son muchas las teclas 
+
 ## Dispositivos de entrada
 
 Tendrá varios tipos de dispositivos de entradas.
