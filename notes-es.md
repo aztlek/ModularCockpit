@@ -3,18 +3,56 @@
 La idea es hacer una botonera que sea más funcional que la anterior
 [StarCitizen_6_ButtonBox](https://github.com/aztlek/StarCitizen_6_ButtonBox) que
 sólo era una prueba de concepto. Mas funcional en el sentido que si la use para
-jugar a Star Citizen.
+jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/) el
+simulador de vida espacial.
 
-## Entradas
+## Dispositivos de entrada
 
 Tendrá varios tipos de dispositivos de entradas.
 
 **Teclas de teclado mecánico**
-: Se usaran estas teclas telclas de teclado mecánico para los keybindings de SC.
-Esto es por que casi todos en SC esta diseñado usando teclas.
+: Las teclas de teclado mecánico se usan para la mayoría de los keybindings de
+SC, esto es por que SC esta diseñado usando teclas.
 
 **Encoders**
-: EStos se utilizazaran en el caso en que se tienen.
+: Para los casos que se tienen dos teclas en la que una es de incrementar y otra
+de decrementar que cambian una misma cantidad, por ejemplo incrementar o
+decrementar la energía de los escudos.
+
+**Toggle Switch (ON/OFF)**
+: Estos se usan cuando se tienen dos teclas, una de prender y otra de apagar,
+por ejemplo prender y apagar escudos. Pero para poder usarlo en SC es necesario
+hacer una programación que aunque este permanentemente en ON mande solo una tecla
+de ON en el momento que se cambia a esta posición, al igual que con el OFF.
+
+### Dispositivos de entrada que posiblemente se puedan usar
+
+Estos son dispositivos de entrada hay que hacer pruebas lógicas y de
+usabilidad conectándose a SC, y teniendo en cuenta sus limitaciones de este para
+saber si sirven.
+
+**Potenciómetro líneal**
+: Estos sirven para aquellos casos en los que SC tiene asociados ejes (axis). El
+problema es con los keybindings que no sean ejes y que por su naturaleza
+deberían serlo (como incrementar o decrementar la potencia de los escudos), por
+que los potenciómetros dan mediadas absolutas y no incrementos y esto último es
+como funciona SC, oprimiendo varias veces una tecla para incrementar o
+decrementar una cantidad.
+
+**Joystick**
+: Aparte de los casos obvios en el cual se usan los joystick hay keybinding que
+por su naturaleza deberían ser controlarse con joystick, por ejemplo las
+rotaciones de algo. Pero un joystick en realidad son (por menos) dos
+potenciómetros ortogonales, por lo que tiene el mismo problema de estos con los
+keybindings que no sean ejes y que por su naturaleza deberían serlo (como el
+desplazamiento angular de la cámara), por que los potenciómetros dan mediadas
+absolutas y no incrementos.
+
+**[GlidePoint® Circle Trackpads](https://www.cirque.com/glidepoint-circle-trackpads) (el del Steam Controler)**
+: Este trackpad funciona muy parecido a un joystick análogo por lo que puede
+usarse en lo mismo, pero también tiene el mismo problema de dar valores absolutos
+y no incrementos que lo que necesita SC que maneja este pulsando repetidamente
+una tecla.
 
 ## Referencias
 
