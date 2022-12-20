@@ -1,6 +1,12 @@
 # Modulo de energía (PowerModule)
 
+El módulo de energía tiene los controles pare el menejo de energía tanto de vuelo
+con en general de vehículos.
+
 ## Keybindings
+
+Los kaybindingd a considerar para est módulo pertenecen a dos categorias en SC
+`Vehicles – Power Triangle  Assignement` y `Flight – Power`.
 
 ### Vehicles – Power Triangle  Assignement
 
@@ -37,7 +43,7 @@
 | Increase Throttle to Max (double tab)                            | key[7] |
 | Decrease Throttle to Min (double tab)                            | key[8] |
 
-### Total keybindings
+### Total de dispositivos usados en los keybindings
 
 | Dispositivo          | Numero |
 | -------------------- | -----: |
@@ -60,7 +66,7 @@ panel del módulo los dispositivos de entrada.
 |               | key (Min)     | key (Min)     | key (Min)     |               | key (Min)     |
 | key (reset)   |               |               |               |               |               |
 
-## Diseno
+## Diseño
 
 ### Consideraciones
 
