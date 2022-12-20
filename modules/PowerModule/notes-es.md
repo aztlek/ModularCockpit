@@ -14,8 +14,8 @@
 | Engines – Decrease (tab)                                         | encoder[1]: decrease     |
 | Engines – Set to Max (tab)                                       | key[2]                       |
 | Engines – Set to Min (tab)                                       | key[3]        |
-| Shields – Increase (tab)                                         | encoder[4]: increase   |
-| Shields – Decrease (tab)                                         | encoder[4]: decrease   |
+| Shields – Increase (tab)                                         | encoder[2]: increase   |
+| Shields – Decrease (tab)                                         | encoder[2]: decrease   |
 | Shields – Set to Max (tab)                                       | key[4]             |
 | Shields – Set to Min (tab)                                       | key[5]         |
 | Reset Assignements                                               | key[6]         |
@@ -32,8 +32,8 @@
 | Set Shields Power Off                                            | toggle_switch[2]: off |
 | Set Weapons Power On                                             | toggle_switch[3]: on |
 | Set Weapons Power Off                                            | toggle_switch[3]: off |
-| Increase Throttle                                                | encoder[5]: increase |
-| Decrease Throttle                                                | encoder[5]: decrease |
+| Increase Throttle                                                | encoder[3]: increase |
+| Decrease Throttle                                                | encoder[3]: decrease |
 | Increase Throttle to Max (double tab)                            | key[7] |
 | Decrease Throttle to Min (double tab)                            | key[8] |
 
@@ -43,7 +43,22 @@
 | -------------------- | -----: |
 | Keys                 |      9 |
 | Toggle switchs       |      4 |
-| Encoders             |      6 |
+| Encoders             |      4 |
+
+### Categorización
+
+La siguiente tabla organiza en dos categorias ortogonales los dispositivos de
+entreda. Es una primera aproximación a como deben que dar organizados en el
+panel del módulo los dispositivos de entrada.
+
+
+| Power         | Shields       | Weapons       |    Engines    | Thrusters     | Throttle
+| :------------ | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| toggle_switch | toggle_switch | toggle_switch | toggle_switch | toggle_switch |
+|               | encoder       | encoder       | encoder       |               | encoder       |
+|               | key (Max)     | key (Max)     | key (Max)     |               | key (Max)     |
+|               | key (Min)     | key (Min)     | key (Min)     |               | key (Min)     |
+| key (reset)   |               |               |               |               |               |
 
 ## Diseno
 
