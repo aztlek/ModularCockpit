@@ -6,7 +6,7 @@
 
 | Keybinding                                                       | Tipo de dispositivo de entrada                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
-| Cicle camera view                                                | key[0]  |
+| Cicle camera view[^4]                                             | key[0]  |
 | Cicle camera orbit mode                                          | key[1]    |
 | Zoom in (3rd person view)                                        | slide_pot[0][^1] |
 | Zoom out (3rd person view)                                       | slide_pot[0][^1]  |
@@ -55,8 +55,8 @@
 | Decrease DoF[^7]                                                 | encoder[4] |
 | Reset Current View                                               | key[16] |
 
-[^4]: Este es el que se activa sosteniendo el `F4`
-[^5]: Este es el que se activa sosteniendo el `F4`
+[^4]: Este es el que se activa sosteniendo la tecla `F4`
+[^5]: Este es el que se activa sosteniendo la tecla `Z`
 [^5]: Hay que ver por que utilizan la misma tecla save y load.
 [^6]: FOV (field of view) o campo de vision, está relacionado con la longitud focal.
 [^7]: DOF (depth of field) profundidad de campo.
