@@ -1,12 +1,14 @@
 # Modulo de Cámara (CameraModule)
 
+Este módulo es para el manejo de la cámara en tercera persona.
+
 ## Keybindings
 
 ### Vehicles – View
 
 | Keybinding                                                       | Tipo de dispositivo de entrada                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
-| Cicle camera view[^4]                                             | key[0]  |
+| Cicle camera view[^4]                                            | key[0]  |
 | Cicle camera orbit mode                                          | key[1]    |
 | Zoom in (3rd person view)                                        | slide_pot[0][^1] |
 | Zoom out (3rd person view)                                       | slide_pot[0][^1]  |
@@ -51,15 +53,16 @@
 | Z Offset Negative                                                | encoder[2] |
 | Increase FoV[^6]                                                 | encoder[3] |
 | Decrease FoV[^6]                                                 | encoder[3] |
-| [PH] Increase DoF[^7]                                            | encoder[4] |
+| [PH][^8] Increase DoF[^7]                                        | encoder[4] |
 | Decrease DoF[^7]                                                 | encoder[4] |
 | Reset Current View                                               | key[16] |
 
-[^4]: Este es el que se activa sosteniendo la tecla `F4`
-[^5]: Este es el que se activa sosteniendo la tecla `Z`
+[^4]: Este se activa sosteniendo la tecla `F4`
+[^5]: Este se activa sosteniendo la tecla `Z`
 [^5]: Hay que ver por que utilizan la misma tecla save y load.
 [^6]: FOV (field of view) o campo de vision, está relacionado con la longitud focal.
 [^7]: DOF (depth of field) profundidad de campo.
+[^8]: Nose que es PH.
 
 | key[8] |
 
@@ -69,4 +72,4 @@
 | -------------------- | -----: |
 | Keys                 |     17 |
 | Slide Pot            |      2 |
-| Encoders             |      4 |
+| Encoders             |      5 |
