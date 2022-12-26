@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="TwidecToggleRockerSwitch3Pins2PositionOnOffBlack-Off.svg"
+   viewBox="0 0 50.834644 115.08662"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="13.45mm"
+   height="30.450001mm">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1384">
+      <stop
+         id="stop1382"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         id="stop1380"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1368">
+      <stop
+         style="stop-color:#333333;stop-opacity:1;"
+         offset="0"
+         id="stop1364" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1"
+         offset="1"
+         id="stop1366" />
+    </linearGradient>
+    <radialGradient
+       id="radialGradient3695-6"
+       fx="-969.89136"
+       fy="-451.98981"
+       gradientUnits="userSpaceOnUse"
+       cy="-451.98981"
+       cx="-969.89136"
+       gradientTransform="matrix(-0.16240033,0,0,0.21685316,-1452.1077,2181.8928)"
+       r="262.92001"
+       inkscape:collect="always">
+      <stop
+         id="stop3691-2"
+         style="stop-color:#ffffff"
+         offset="0" />
+      <stop
+         id="stop3693-9"
+         style="stop-color:#ffffff;stop-opacity:.40698"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="linearGradient3708-9"
+       y2="-247.41"
+       gradientUnits="userSpaceOnUse"
+       x2="-1223.7"
+       y1="90.155998"
+       x1="-1223.7"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.16644382,0,0,0.16240033,-1066.6647,2170.8446)">
+      <stop
+         id="stop3704-3"
+         style="stop-color:#ffffff"
+         offset="0" />
+      <stop
+         id="stop3706-6"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3708-9"
+       id="linearGradient1172"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.16644382,0,0,-0.16240033,-1066.8565,2124.2768)"
+       x1="-1223.7"
+       y1="90.155998"
+       x2="-1223.7"
+       y2="-247.41" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1368"
+       id="linearGradient1370"
+       x1="-1296.0088"
+       y1="2197.7058"
+       x2="-1296.0088"
+       y2="2082.6191"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1384"
+       id="linearGradient1386"
+       x1="-1271.9595"
+       y1="2093.9526"
+       x2="-1271.8673"
+       y2="2109.3406"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.0538)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:guide-bbox="true"
+     pagecolor="#ffffff"
+     inkscape:window-height="1440"
+     inkscape:window-maximized="0"
+     inkscape:zoom="10.852695"
+     inkscape:window-x="0"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer2"
+     inkscape:cx="25.417322"
+     inkscape:cy="57.543309"
+     showguides="false"
+     inkscape:window-y="0"
+     inkscape:window-width="3440"
+     showborder="false"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="mm" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Switch"
+     transform="translate(1296.0088,-2082.6191)">
+    <rect
+       rx="0.75590551"
+       id="rect2816-6"
+       style="color:#000000;fill:url(#linearGradient1370);fill-opacity:1;stroke-width:0.12462975"
+       ry="0.75590551"
+       height="115.08662"
+       width="50.834644"
+       y="2082.6191"
+       x="-1296.0088" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect3684-1"
+       style="color:#000000;opacity:0.41085002;fill:url(#radialGradient3695-6);stroke-width:0.16240034"
+       d="m -1248.2948,2082.6191 c 1.077,0.054 2.0102,0.6331 2.5557,1.485 -0.5048,-0.3257 -1.1047,-0.9141 -1.7526,-0.9141 h -44.3147 c -3.8992,0 -3.4321,1.7663 -3.4321,3.8303 v 108.7739 c 0,0.6465 0.3904,1.0448 0.7147,1.5488 -0.8928,-0.5741 -1.485,-1.5727 -1.485,-2.7175 v -108.7738 c 0,-2.0119 1.1138,-3.2326 3.2326,-3.2326 h 44.3147 z"
+       sodipodi:nodetypes="ccsssscssscc" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ececec;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1033"
+       width="33.79274"
+       height="92.683014"
+       x="-1287.4878"
+       y="2093.821"
+       rx="0.75590599"
+       ry="0.75590599" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2821-7"
+       sodipodi:nodetypes="ccsscccczccc"
+       style="color:#000000;fill:#48484a;fill-opacity:1;stroke-width:0.12294368"
+       d="m -1284.9243,2109.5444 h 28.6657 c 0.7677,0 2.146,0.6418 2.496,2.1307 0.2096,0.8918 -0.081,30.7641 -0.081,44.6483 0,13.8832 -0.3323,27.1771 -0.3323,27.1771 0,1.1803 -1.315,2.2835 -2.0827,2.2835 h -28.7586 c -0.7677,0 -1.8465,-1.1032 -1.8465,-2.2835 0,0 -0.3387,-13.2015 -0.3387,-27.085 0,-13.8833 -0.3569,-44.7404 -0.3569,-44.7404 0,-1.1804 1.8668,-2.1307 2.6345,-2.1307 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect2829-0"
+       sodipodi:nodetypes="ccccccccc"
+       style="color:#000000;opacity:0.369;fill:url(#linearGradient1386);fill-opacity:1;stroke-width:0.16240034"
+       d="m -1284.963,2094.2187 h 28.8507 c 1.0573,0 1.3858,0.8008 1.3858,1.856 l 1.0177,11.2146 c 0,1.0148 -1.4822,1.8561 -2.496,1.8561 h -28.6658 c -1.0137,0 -2.6345,-0.8412 -2.6345,-1.8561 l 1.1563,-11.2146 c 0,-1.0551 0.3285,-1.856 1.3858,-1.856 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3697-0"
+       style="color:#000000;opacity:0.27907003;fill:url(#linearGradient1172);stroke-width:0.16440965"
+       d="m -1255.1556,2153.413 c -17.7661,-1.7951 -16.4835,-1.8603 -31.9096,-7.7426 -0.2634,-14.0606 -0.4399,-34.1566 -0.4399,-34.1566 0,0 0.4964,-1.7544 2.2405,-1.9694 h 29.5691 c 0,0 1.9329,1.0322 1.9329,2.1307 0,0 -0.7196,27.6822 -0.4616,41.7332 h -0.9311 z"
+       sodipodi:nodetypes="ccccccccc" />
+    <rect
+       id="rect2827-6"
+       style="color:#000000;fill:#ffffff;stroke-width:0.12935618"
+       ry="0"
+       height="16.261366"
+       width="2.5353811"
+       y="2121.2192"
+       x="-1271.9125" />
+    <ellipse
+       ry="6.7380886"
+       rx="6.5134854"
+       cy="2168.4551"
+       cx="-1270.752"
+       id="path2825-2"
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:1.57222056" />
+  </g>
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2010-05-25T12:53:40</dc:date>
+        <dc:description />
+        <dc:source>https://openclipart.org/detail/62737/switch-on/off-by-clemzo</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Clemzo</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>M/A</rdf:li>
+            <rdf:li>arret</rdf:li>
+            <rdf:li>interupteur</rdf:li>
+            <rdf:li>marche</rdf:li>
+            <rdf:li>off</rdf:li>
+            <rdf:li>on</rdf:li>
+            <rdf:li>switch</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
