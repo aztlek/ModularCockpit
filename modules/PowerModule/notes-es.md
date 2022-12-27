@@ -1,7 +1,11 @@
 # Modulo de potencia (PowerModule)
 
+![Power Module](images/PowerModulePanel.svg)
+
+
 El módulo de potencia tiene los controles para el manejo de potencia tanto de vuelo
 con en general de vehículos.
+
 
 ## Keybindings
 
@@ -58,9 +62,9 @@ entrada. Es una primera aproximación a como deben quedar organizados en el
 panel del módulo los dispositivos de entrada.
 
 
-| Power         | Shields       | Weapons       |    Engines    | Thrusters     | Throttle
+| Power         | Shields       | Weapons       |    Engines    | Thrusters     | Throttle      |
 | :------------ | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| toggle_switch | toggle_switch | toggle_switch | toggle_switch | toggle_switch |
+| toggle_switch | toggle_switch | toggle_switch | toggle_switch | toggle_switch |               |
 |               | encoder       | encoder       | encoder       |               | encoder       |
 |               | key (Max)     | key (Max)     | key (Max)     |               | key (Max)     |
 |               | key (Min)     | key (Min)     | key (Min)     |               | key (Min)     |
