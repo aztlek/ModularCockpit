@@ -2,9 +2,8 @@
 
 ![Power Module](images/PowerModulePanel.png)
 
-
-El módulo de potencia tiene los controles para el manejo de potencia tanto de vuelo
-con en general de vehículos.
+El módulo de potencia tiene los controles para la de administración de la
+potencia en vuelo como para los de vehículos.
 
 
 ## Keybindings
