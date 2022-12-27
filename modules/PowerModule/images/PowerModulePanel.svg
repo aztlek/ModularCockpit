@@ -1191,7 +1191,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1610,7 +1610,7 @@
          id="tspan14355"
          x="28.556961"
          y="201.14857"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        id="text14353"
        y="192.15932"
@@ -2500,12 +2500,12 @@
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.70071369;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none"
        id="rect15092"
-       width="19.268522"
-       height="63.356644"
-       x="77.244362"
-       y="222.90114"
-       ry="1.6472727"
-       rx="0" />
+       width="19.673592"
+       height="63.761707"
+       x="77.041832"
+       y="222.49608"
+       ry="1.647"
+       rx="1.647" />
     <g
        id="g15064"
        transform="translate(57.150033,7.4083337)">
@@ -2593,13 +2593,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="87.069481"
-       y="227.11655"
+       x="87.069489"
+       y="226.58739"
        id="text15098"><tspan
          id="tspan15096"
          sodipodi:role="line"
-         x="87.069481"
-         y="227.11655"
+         x="87.069489"
+         y="226.58739"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332">Throttle</tspan></text>
     <text
        xml:space="preserve"
