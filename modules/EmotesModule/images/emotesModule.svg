@@ -16,7 +16,10 @@
    version="1.1"
    id="svg10982"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="socialModule.svg">
+   sodipodi:docname="emotesModule.svg"
+   inkscape:export-filename="/home/aztlek/Documentos/StarCitizen_ButtonBox/StarCitizen_ButtonBox_V2/modules/EmotesModule/images/emotesModule.png"
+   inkscape:export-xdpi="161.61"
+   inkscape:export-ydpi="161.61">
   <defs
      id="defs10976">
     <linearGradient
@@ -1377,7 +1380,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6127604"
-     inkscape:cx="1.244066"
+     inkscape:cx="177.11171"
      inkscape:cy="226.77165"
      inkscape:document-units="mm"
      inkscape:current-layer="layer14"
@@ -1399,7 +1402,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
