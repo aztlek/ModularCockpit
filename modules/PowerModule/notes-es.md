@@ -1,6 +1,6 @@
 # Modulo de potencia (PowerModule)
 
-![Power Module](images/PowerModulePanel.pdf)
+![Power Module](images/PowerModulePanel.png)
 
 
 El módulo de potencia tiene los controles para el manejo de potencia tanto de vuelo
