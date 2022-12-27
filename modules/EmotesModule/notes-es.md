@@ -1,6 +1,6 @@
 # Módulo de Emotes (Emotes Module)
 
-![Emotes Module](images/cameraModule.png)
+![Emotes Module](images/emotesModule.png)
 
 ## Keybindings
 
