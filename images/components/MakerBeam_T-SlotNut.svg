@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.4996796mm"
+   height="5.5996599mm"
+   viewBox="0 0 9.4996796 5.5996599"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="MakerBeam_T-SlotNut.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient981">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop977" />
+      <stop
+         style="stop-color:#666666;stop-opacity:1"
+         offset="1"
+         id="stop979" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient973">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1;"
+         offset="0"
+         id="stop969" />
+      <stop
+         style="stop-color:#808080;stop-opacity:1"
+         offset="1"
+         id="stop971" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient973"
+       id="radialGradient975"
+       cx="57.558846"
+       cy="508.26608"
+       fx="57.558846"
+       fy="508.26608"
+       r="10.582031"
+       gradientTransform="matrix(0.88067231,-0.45752035,0.20692947,0.39831465,-142.92797,-37.158397)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient981"
+       id="radialGradient983"
+       cx="25.220306"
+       cy="136.022"
+       fx="25.220306"
+       fy="136.022"
+       r="1.4999084"
+       gradientTransform="matrix(6.004135,2.0000052,-1.0008041,3.0044495,-2.6006871,-323.62259)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="27.995562"
+     inkscape:cx="9.2070556"
+     inkscape:cy="10.582034"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3440"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="TuercaMakerBeam"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.447043,-134.18948)">
+    <path
+       style="opacity:1;fill:url(#radialGradient975);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 12.447044,136.98931 a 4.75,4.75 0 0 0 0.919842,2.79983 h 7.661031 a 4.75,4.75 0 0 0 0.918806,-2.79983 4.75,4.75 0 0 0 -0.91984,-2.79983 h -7.661032 a 4.75,4.75 0 0 0 -0.918807,2.79983 z m 3.249932,0 a 1.5,1.5 0 0 1 1.500166,-1.50017 1.5,1.5 0 0 1 1.499651,1.50017 1.5,1.5 0 0 1 -1.499651,1.50017 1.5,1.5 0 0 1 -1.500166,-1.50017 z"
+       id="rect878"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:url(#radialGradient983);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 12.447043,136.98905 a 4.75,4.75 0 0 0 0.24908,1.50017 h 4.5005 a 1.5,1.5 0 0 1 -1.49965,-1.50017 1.5,1.5 0 0 1 1.49965,-1.49965 h -4.50256 a 4.75,4.75 0 0 0 -0.24702,1.49965 z m 4.74958,-1.49965 a 1.5,1.5 0 0 1 1.50017,1.49965 1.5,1.5 0 0 1 -1.50017,1.50017 h 4.50309 a 4.75,4.75 0 0 0 0.24701,-1.50017 4.75,4.75 0 0 0 -0.24908,-1.49965 z"
+       id="rect891"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
