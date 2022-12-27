@@ -1,5 +1,7 @@
 # Modulo de Cámara (CameraModule)
 
+![Camara Module](images/cameraModule.png)
+
 Este módulo es para el manejo de la cámara en tercera persona.
 
 ## Keybindings
@@ -8,13 +10,13 @@ Este módulo es para el manejo de la cámara en tercera persona.
 
 | Keybinding                                                       | Tipo de dispositivo de entrada                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
-| Cicle camera view[^4]                                            | key[0]  |
-| Cicle camera orbit mode                                          | key[1]    |
-| Zoom in (3rd person view)                                        | slide_pot[0][^1] |
-| Zoom out (3rd person view)                                       | slide_pot[0][^1]  |
-| Freelock (Hold)                                                  | key[2]   |
-| Dinamic Zoom In and Out (rel.)[^2]                               | slide_pot[1][^1] |
-| Dinamic Zoom (toggle)                                            | key[3][^3] |
+| Cicle camera view[^4]                                            | key[0]                                            |
+| Cicle camera orbit mode                                          | key[1]                                            |
+| Zoom in (3rd person view)                                        | slide_pot[0][^1]                                  |
+| Zoom out (3rd person view)                                       | slide_pot[0][^1]                                  |
+| Freelock (Hold)                                                  | key[2]                                            |
+| Dinamic Zoom In and Out (rel.)[^2]                               | slide_pot[1][^1]                                  |
+| Dinamic Zoom (toggle)                                            | key[3][^3]                                        |
 
 [^1]: Este es un potenciómetro de los que vienen en línea.
 [^2]: Este hay que probarlo a ver que diferencia tiene con el otro zoom.
@@ -24,8 +26,8 @@ Este módulo es para el manejo de la cámara en tercera persona.
 
 | Keybinding                                                       | Tipo de dispositivo de entrada                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
-| Advanced Camera Controls Modifier (Hold)[^4]                     | key[4]  |
-| Advanced Camera Controls Modifier (Hold)[^5]                     | key[5] |
+| Advanced Camera Controls Modifier (Hold)[^4]                     | key[4]                                            |
+| Advanced Camera Controls Modifier (Hold)[^5]                     | key[5]                                            |
 | Save View 1                                                      | key[6] |
 | Save View 2                                                      | key[7] |
 | Save View 3                                                      | key[8] |
