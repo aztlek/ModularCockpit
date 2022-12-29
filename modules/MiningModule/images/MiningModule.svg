@@ -16,7 +16,10 @@
    version="1.1"
    id="svg10982"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="MiningModule.svg">
+   sodipodi:docname="MiningModule.svg"
+   inkscape:export-filename="/home/aztlek/Documentos/StarCitizen_ButtonBox/StarCitizen_ButtonBox_V2/modules/MiningModule/images/MiningModule.png"
+   inkscape:export-xdpi="161"
+   inkscape:export-ydpi="161">
   <defs
      id="defs10976">
     <linearGradient
@@ -871,7 +874,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6102828"
-     inkscape:cx="113.5323"
+     inkscape:cx="79.627925"
      inkscape:cy="226.9869"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
