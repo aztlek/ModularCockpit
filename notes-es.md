@@ -30,6 +30,7 @@ funcionalidades relacionadas, keybindings.
 * [Módulo de Emotes](modules/EmotesModule/notes-es.md)
 * [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
 * [Módulo de Radar y Scanner](modules/RadarScanningModule/notes-es.md)
+* [Módulo de Torreta](modules/TorretModule/notes-es.md)
 
 ## Dispositivos de entrada
 
