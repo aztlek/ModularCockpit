@@ -578,10 +578,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6102828"
-     inkscape:cx="113.5323"
+     inkscape:cx="-74.378374"
      inkscape:cy="226.9869"
      inkscape:document-units="mm"
-     inkscape:current-layer="svg10982"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -602,7 +602,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -865,7 +865,7 @@
      inkscape:groupmode="layer"
      id="layer20"
      inkscape:label="Microcontroller Layer"
-     style="display:inline"
+     style="display:none"
      transform="translate(0.038,0.07599432)">
     <g
        inkscape:groupmode="layer"
@@ -1078,10 +1078,12 @@
       <g
          inkscape:groupmode="layer"
          id="layer11"
-         inkscape:label="Back  Screws">
+         inkscape:label="Back  Screws"
+         style="">
         <g
            id="g12045"
-           transform="translate(-5.250134,0.58714717)">
+           transform="translate(-5.250134,0.58714717)"
+           style="">
           <ellipse
              ry="2.7483592"
              rx="2.77"
@@ -1129,7 +1131,8 @@
         </g>
         <g
            id="g12051"
-           transform="translate(-34.749849,0.58714717)">
+           transform="translate(-34.749849,0.58714717)"
+           style="">
           <ellipse
              style="opacity:1;fill:url(#radialGradient11900);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
              id="ellipse11890"
@@ -1177,7 +1180,8 @@
         </g>
         <g
            id="g12057"
-           transform="translate(-5.250134,-0.13500273)">
+           transform="translate(-5.250134,-0.13500273)"
+           style="">
           <ellipse
              style="opacity:1;fill:url(#radialGradient11940);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
              id="ellipse11918"
@@ -1225,7 +1229,8 @@
         </g>
         <g
            id="g12063"
-           transform="translate(-34.749849,-0.13500273)">
+           transform="translate(-34.749849,-0.13500273)"
+           style="">
           <ellipse
              ry="2.7483592"
              rx="2.77"
@@ -1281,7 +1286,8 @@
       <g
          inkscape:groupmode="layer"
          id="layer18"
-         inkscape:label="Middle Acrylic">
+         inkscape:label="Middle Acrylic"
+         style="">
         <path
            inkscape:connector-curvature="0"
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1319,12 +1325,14 @@
          inkscape:label="Front Screws"
          style="display:inline">
         <g
-           transform="translate(273.87583,75.267948)"
+           transform="translate(269.16762,42.539968)"
            id="layer1-6"
-           inkscape:label="Capa 1">
+           inkscape:label="Capa 1"
+           style="">
           <g
              transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)"
-             id="g1701">
+             id="g1701"
+             style="">
             <ellipse
                style="opacity:0.93800001;fill:url(#radialGradient1686);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
                id="path1668"
@@ -1367,10 +1375,12 @@
         <g
            inkscape:label="Capa 1"
            id="g12094"
-           transform="translate(316.84224,75.267948)">
+           transform="translate(321.55045,42.539968)"
+           style="">
           <g
              id="g12092"
-             transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)">
+             transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)"
+             style="">
             <ellipse
                ry="10.3875"
                rx="10.469292"
@@ -1411,12 +1421,14 @@
           </g>
         </g>
         <g
-           transform="translate(273.87583,100.98948)"
+           transform="translate(269.16762,133.71746)"
            id="g12108"
-           inkscape:label="Capa 1">
+           inkscape:label="Capa 1"
+           style="">
           <g
              transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)"
-             id="g12106">
+             id="g12106"
+             style="">
             <ellipse
                style="opacity:0.93800001;fill:url(#radialGradient12110);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
                id="ellipse12100"
@@ -1459,10 +1471,12 @@
         <g
            inkscape:label="Capa 1"
            id="g12122"
-           transform="translate(316.84224,100.98948)">
+           transform="translate(321.55045,133.71746)"
+           style="">
           <g
              id="g12120"
-             transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)">
+             transform="matrix(0.26458333,0,0,0.26458333,-371.52509,36.455197)"
+             style="">
             <ellipse
                ry="10.3875"
                rx="10.469292"
