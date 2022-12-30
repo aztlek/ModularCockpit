@@ -20,7 +20,6 @@
 | Increase Scanning Angle                                          | encoder[1]: increase                              |
 | Decrease Scanning Angle                                          | encoder[1]: decrease                              |
 
-
 ### Total de dispositivos usados en los keybindings
 
 | Dispositivo          | Numero |
