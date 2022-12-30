@@ -8,7 +8,7 @@
 
 | Keybinding                                                       | Tipo de dispositivo de entrada                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
-| ActiVe Ping                                                      | key[0]                                            |
+| Active Ping                                                      | key[0]                                            |
 | Increase Pin Angle                                               | encoder[0]: increase                              |
 | Decrease Pin Angle                                               | ancoder[0]: decrease                              |
 
