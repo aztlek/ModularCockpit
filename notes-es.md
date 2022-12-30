@@ -28,7 +28,7 @@ funcionalidades relacionadas, keybindings.
 * [Módulo de Cámara](modules/CameraModule/notes-es.md)
 * [Módulo de minería](modules/MiningModule/notes-es.md)
 * [Módulo de Emotes](modules/EmotesModule/notes-es.md)
-* [Módulo de Cockpit](modules/EmotesModule/notes-es.md)
+* [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
 
 ## Dispositivos de entrada
 
