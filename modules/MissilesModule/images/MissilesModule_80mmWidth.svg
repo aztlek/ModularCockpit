@@ -850,7 +850,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6111086"
-     inkscape:cx="6.3696238"
+     inkscape:cx="151.32721"
      inkscape:cy="226.91511"
      inkscape:document-units="mm"
      inkscape:current-layer="layer22"
@@ -880,7 +880,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1834,12 +1834,10 @@
           </g>
         </g>
         <g
-           id="g2206"
-           transform="translate(-9.9993877,-0.49126062)"
-           style="display:inline;opacity:1">
+           id="g24269">
           <g
              style="display:inline;opacity:1"
-             transform="translate(-53.361851,222.1587)"
+             transform="translate(-63.361239,221.66744)"
              id="g2084"
              inkscape:label="Capa 1">
             <rect
@@ -1867,19 +1865,19 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             x="50.150368"
-             y="276.88049"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+             x="40.150982"
+             y="276.38922"
              id="text2088"><tspan
                sodipodi:role="line"
                id="tspan2086"
-               x="50.150368"
-               y="276.88049"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332">CINEMATIC</tspan><tspan
+               x="40.150982"
+               y="276.38922"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332;">CINEMATIC</tspan><tspan
                sodipodi:role="line"
-               x="50.150368"
-               y="280.41882"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332"
+               x="40.150982"
+               y="279.92755"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332;"
                id="tspan2190">CAMERA</tspan></text>
         </g>
         <text
@@ -1894,13 +1892,11 @@
              y="184.50426"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">missiles</tspan></text>
         <g
-           style="display:inline;opacity:1"
-           id="g1875"
-           transform="translate(-9.6213228,2.6575509)">
+           id="g24252">
           <g
              inkscape:label="Capa 1"
              id="layer1-70"
-             transform="translate(-76.254348,198.91279)"
+             transform="translate(-85.875671,201.57034)"
              style="display:inline;opacity:1">
             <rect
                x="94.886375"
@@ -1927,23 +1923,21 @@
           </g>
           <text
              id="text1863"
-             y="255.30353"
-             x="21.889603"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             y="257.96109"
+             x="12.26828"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
-               y="255.30353"
-               x="21.889603"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;"
+               y="257.96109"
+               x="12.26828"
                id="tspan1861"
                sodipodi:role="line">RESET</tspan></text>
         </g>
         <g
-           id="g1995"
-           transform="translate(-9.6211798,-5.2610896)"
-           style="display:inline;opacity:1">
+           id="g24244">
           <g
              style="display:inline;opacity:1"
-             transform="translate(-49.106772,186.62351)"
+             transform="translate(-58.727952,181.36242)"
              id="g1961"
              inkscape:label="Capa 1">
             <rect
@@ -1971,33 +1965,31 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             x="54.431515"
-             y="239.394"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+             x="44.810333"
+             y="234.1329"
              id="text1965"><tspan
                sodipodi:role="line"
                id="tspan1963"
-               x="54.431515"
-               y="239.394"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332">Desired</tspan><tspan
+               x="44.810333"
+               y="234.1329"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332;">Desired</tspan><tspan
                sodipodi:role="line"
-               x="54.431515"
-               y="243.29053"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332"
+               x="44.810333"
+               y="238.02943"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332;"
                id="tspan1975">Impact</tspan><tspan
                sodipodi:role="line"
-               x="54.431515"
-               y="247.18707"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.26458332"
+               x="44.810333"
+               y="241.92598"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332;"
                id="tspan1977">Point</tspan></text>
         </g>
         <g
-           transform="translate(29.834285,2.0371321)"
-           id="g2035"
-           style="display:inline;opacity:1">
+           id="g24260">
           <g
              style="display:inline;opacity:1"
-             transform="translate(-76.254348,198.91279)"
+             transform="translate(-46.420063,200.94992)"
              id="g2029"
              inkscape:label="Capa 1">
             <rect
@@ -2025,15 +2017,15 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             x="21.889603"
-             y="255.30353"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+             x="51.723888"
+             y="257.34067"
              id="text2033"><tspan
                sodipodi:role="line"
                id="tspan2031"
-               x="21.889603"
-               y="255.30353"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">RESET</tspan></text>
+               x="51.723888"
+               y="257.34067"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;">RESET</tspan></text>
         </g>
         <rect
            style="display:inline;opacity:0.97600002;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.7275787;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
