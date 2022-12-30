@@ -1,6 +1,6 @@
 # Módulo de Cabina (Cockpit Module)
 
-![Cockpit Module](images/CockpitModule.png)
+![Cockpit Module](images/CockpitModule-60mmWidth.svg)
 
 ## Keybindings
 
