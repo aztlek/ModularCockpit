@@ -33,6 +33,7 @@ funcionalidades relacionadas, keybindings.
 1. [Módulo de Torreta](modules/TorretModule/notes-es.md)
 1. [Módulo de Escudos](modules/ShieldsModule/notes-es.md)
 1. [Módulo de Contramedidas](modules/CountermeasuresModule/notes-es.md)
+1. [Módulo de Misiles](modules/MissilesModule/notes-es.md)
 
 ## Dispositivos de entrada
 
