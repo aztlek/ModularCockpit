@@ -1,6 +1,6 @@
 # Modulo de Escudos (Shields Module)
 
-![Shields Module](images/ShieldsModule_60mmWidth.svg)
+![Shields Module](images/ShieldsModule_60mmWidth.png)
 
 ## Keybindings
 

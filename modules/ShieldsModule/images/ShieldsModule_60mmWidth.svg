@@ -16,7 +16,10 @@
    version="1.1"
    id="svg10982"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="ShieldsModule_60mmWidth.svg">
+   sodipodi:docname="ShieldsModule_60mmWidth.svg"
+   inkscape:export-filename="/home/aztlek/Documentos/StarCitizen_ButtonBox/StarCitizen_ButtonBox_V2/modules/ShieldsModule/images/ShieldsModule_60mmWidth.png"
+   inkscape:export-xdpi="161"
+   inkscape:export-ydpi="161">
   <defs
      id="defs10976">
     <linearGradient
@@ -901,10 +904,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6102828"
-     inkscape:cx="113.5323"
+     inkscape:cx="-31.471146"
      inkscape:cy="226.9869"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer22"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -925,7 +928,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1846,9 +1849,7 @@
          inkscape:label="Components"
          style="display:inline">
         <g
-           transform="translate(-2.9646417e-8,1.2082215e-6)"
-           style="display:inline;opacity:1"
-           id="g7924">
+           id="g22023">
           <g
              style="display:inline;opacity:1"
              transform="translate(-73.342146,145.50559)"
@@ -1879,7 +1880,7 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              x="24.652977"
              y="202.17366"
              id="text7855"><tspan
@@ -1887,11 +1888,10 @@
                id="tspan7853"
                x="24.652977"
                y="202.17366"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">front</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;">front</tspan></text>
         </g>
         <g
-           style="display:inline;opacity:1"
-           id="g8040">
+           id="g22031">
           <g
              style="display:inline;opacity:1"
              inkscape:label="Capa 1"
@@ -1922,7 +1922,7 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              x="26.836824"
              y="220.69383"
              id="text7847"><tspan
@@ -1930,12 +1930,10 @@
                id="tspan7845"
                x="26.836824"
                y="220.69383"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">TOP</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;">TOP</tspan></text>
         </g>
         <g
-           transform="translate(5.9936914e-8,1.1248881e-6)"
-           style="display:inline;opacity:1"
-           id="g8123">
+           id="g22039">
           <g
              style="display:inline;opacity:1"
              inkscape:label="Capa 1"
@@ -1966,7 +1964,7 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              x="43.936283"
              y="229.95508"
              id="text7867"><tspan
@@ -1974,12 +1972,10 @@
                id="tspan7865"
                x="43.936283"
                y="229.95508"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">RIGHT</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;">RIGHT</tspan></text>
         </g>
         <g
-           transform="translate(0,1.1248881e-6)"
-           style="display:inline;opacity:1"
-           id="g8244">
+           id="g22055">
           <g
              style="display:inline;opacity:1"
              transform="translate(-91.850994,173.28702)"
@@ -2012,17 +2008,16 @@
              id="text7863"
              y="229.95508"
              x="7.3898754"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;"
                y="229.95508"
                x="7.3898754"
                id="tspan7861"
                sodipodi:role="line">LEFT</tspan></text>
         </g>
         <g
-           style="display:inline;opacity:1"
-           id="g8327">
+           id="g22047">
           <g
              style="display:inline;opacity:1"
              transform="translate(-73.342146,182.54749)"
@@ -2055,17 +2050,16 @@
              id="text7851"
              y="239.21478"
              x="23.419638"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;"
                y="239.21478"
                x="23.419638"
                id="tspan7849"
                sodipodi:role="line">BOTTOM</tspan></text>
         </g>
         <g
-           style="display:inline;opacity:1"
-           id="g8410">
+           id="g22063">
           <g
              style="display:inline;opacity:1"
              inkscape:label="Capa 1"
@@ -2098,21 +2092,19 @@
              id="text7859"
              y="257.73648"
              x="25.722715"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;"
                y="257.73648"
                x="25.722715"
                id="tspan7857"
                sodipodi:role="line">BACK</tspan></text>
         </g>
         <g
-           style="display:inline;opacity:1"
-           id="g8493"
-           transform="translate(0,0.52916667)">
+           id="g22071">
           <g
              style="display:inline;opacity:1"
-             transform="translate(-73.342146,220.9339)"
+             transform="translate(-73.342146,221.46307)"
              id="g7793"
              inkscape:label="Capa 1">
             <rect
@@ -2140,12 +2132,12 @@
           </g>
           <text
              id="text14794"
-             y="277.60117"
+             y="278.13034"
              x="24.801805"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
-               y="277.60117"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.26458332;"
+               y="278.13034"
                x="24.801805"
                id="tspan14792"
                sodipodi:role="line">reset</tspan></text>
