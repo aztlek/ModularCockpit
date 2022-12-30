@@ -26,7 +26,7 @@ funcionalidades relacionadas, keybindings.
 
 * [Módulo de Potencia](modules/PowerModule/notes-es.md)
 * [Módulo de Cámara](modules/CameraModule/notes-es.md)
-* [Módulo de minería](modules/MiningModule/notes-es.md)
+* [Módulo de Minería](modules/MiningModule/notes-es.md)
 * [Módulo de Emotes](modules/EmotesModule/notes-es.md)
 * [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
 
