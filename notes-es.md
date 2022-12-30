@@ -24,15 +24,15 @@ jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
 El Button Box tiene un diseño modular. Cado módulo corresponde a un conjunto de
 funcionalidades relacionadas, keybindings.
 
-* [Módulo de Potencia](modules/PowerModule/notes-es.md)
-* [Módulo de Cámara](modules/CameraModule/notes-es.md)
-* [Módulo de Minería](modules/MiningModule/notes-es.md)
-* [Módulo de Emotes](modules/EmotesModule/notes-es.md)
-* [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
-* [Módulo de Radar y Scanner](modules/RadarScanningModule/notes-es.md)
-* [Módulo de Torreta](modules/TorretModule/notes-es.md)
-* [Módulo de Escudos](modules/ShieldsModule/notes-es.md)
-* [Módulo de Contramedidas](modules/CountermeasuresModule/notes-es.md)
+1. [Módulo de Potencia](modules/PowerModule/notes-es.md)
+1. [Módulo de Cámara](modules/CameraModule/notes-es.md)
+1. [Módulo de Minería](modules/MiningModule/notes-es.md)
+1. [Módulo de Emotes](modules/EmotesModule/notes-es.md)
+1. [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
+1. [Módulo de Radar y Scanner](modules/RadarScanningModule/notes-es.md)
+1. [Módulo de Torreta](modules/TorretModule/notes-es.md)
+1. [Módulo de Escudos](modules/ShieldsModule/notes-es.md)
+1. [Módulo de Contramedidas](modules/CountermeasuresModule/notes-es.md)
 
 ## Dispositivos de entrada
 
