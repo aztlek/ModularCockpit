@@ -5,7 +5,6 @@
 El módulo de potencia tiene los controles para la de administración de la
 potencia en vuelo como para los de vehículos.
 
-
 ## Keybindings
 
 Los keybindingd a considerar para este módulo pertenecen a dos categorias en SC
