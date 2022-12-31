@@ -1,5 +1,7 @@
 # Notas de Star Citizen Button Box V2
 
+![Star Citizen Buttom Box](StarCitizen_ButtomBox_602x12mm.png)
+
 La idea es hacer una botonera que sea más funcional que la anterior
 [StarCitizen_6_ButtonBox](https://github.com/aztlek/StarCitizen_6_ButtonBox) que
 sólo era una prueba de concepto. Más funcional en el sentido que si se use para
