@@ -1,6 +1,6 @@
 # Modulo de Cámara (CameraModule)
 
-![Camara Module](images/cameraModule.png)
+![Camara Module](images/CameraModule.png)
 
 Este módulo es para el manejo de la cámara en tercera persona.
 
