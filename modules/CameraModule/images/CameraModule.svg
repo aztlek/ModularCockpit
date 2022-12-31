@@ -16,7 +16,10 @@
    version="1.1"
    id="svg10982"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="CameraModule.svg">
+   sodipodi:docname="CameraModule.svg"
+   inkscape:export-filename="/home/aztlek/Documentos/StarCitizen_ButtonBox/StarCitizen_ButtonBox_V2/modules/CameraModule/images/CameraModule.png"
+   inkscape:export-xdpi="140"
+   inkscape:export-ydpi="140">
   <defs
      id="defs10976">
     <linearGradient
@@ -1425,7 +1428,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6111067"
-     inkscape:cx="111.61473"
+     inkscape:cx="77.721058"
      inkscape:cy="226.77165"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
