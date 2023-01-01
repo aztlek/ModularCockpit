@@ -1,6 +1,6 @@
 # Módulo de Minería (Mining Module)
 
-![Mining Module](images/MiningModule.png)
+![Mining Module](images/MiningModule-60mmWidth.png)
 
 ## Keybindings
 
