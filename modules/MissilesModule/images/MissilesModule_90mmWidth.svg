@@ -850,8 +850,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5709212"
-     inkscape:cx="155.97522"
-     inkscape:cy="226.96145"
+     inkscape:cx="156.1697"
+     inkscape:cy="227.35041"
      inkscape:document-units="mm"
      inkscape:current-layer="layer22"
      showgrid="false"
@@ -1827,15 +1827,12 @@
           </g>
         </g>
         <g
-           style="display:inline"
-           id="g1875"
-           transform="translate(-4.7310599,2.5696438)"
-           inkscape:label="Reset Missiles Key">
+           id="g89382">
           <g
              inkscape:label="Capa 1"
              id="layer1-70"
-             transform="translate(-76.254348,198.91279)"
-             style="display:inline;opacity:1">
+             transform="translate(-80.985408,201.48243)"
+             style="display:inline">
             <rect
                x="94.886375"
                y="47.259274"
@@ -1863,24 +1860,21 @@
           </g>
           <text
              id="text1863"
-             y="255.30353"
-             x="21.889603"
-             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             y="257.87317"
+             x="17.158543"
+             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
              xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583"
-               y="255.30353"
-               x="21.889603"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
+               y="257.87317"
+               x="17.158543"
                id="tspan1861"
                sodipodi:role="line">RESET</tspan></text>
         </g>
         <g
-           id="g1995"
-           transform="translate(1.1853107,-5.3489956)"
-           style="display:inline"
-           inkscape:label="Desired Impact Point Key">
+           id="g89392">
           <g
-             style="display:inline;opacity:1"
-             transform="translate(-49.106772,186.62351)"
+             style="display:inline"
+             transform="translate(-47.921461,181.27451)"
              id="g1961"
              inkscape:label="Capa 1">
             <rect
@@ -1910,34 +1904,31 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="54.431515"
-             y="239.394"
+             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="55.616825"
+             y="234.045"
              id="text1965"><tspan
                sodipodi:role="line"
                id="tspan1963"
-               x="54.431515"
-               y="239.394"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583">Desired</tspan><tspan
+               x="55.616825"
+               y="234.045"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">Desired</tspan><tspan
                sodipodi:role="line"
-               x="54.431515"
-               y="243.29053"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583"
+               x="55.616825"
+               y="237.94153"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
                id="tspan1975">Impact</tspan><tspan
                sodipodi:role="line"
-               x="54.431515"
-               y="247.18706"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583"
+               x="55.616825"
+               y="241.83806"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
                id="tspan1977">Point</tspan></text>
         </g>
         <g
-           transform="translate(40.640776,1.9492255)"
-           id="g2035"
-           style="display:inline"
-           inkscape:label="Reset Bombs Key">
+           id="g89400">
           <g
-             style="display:inline;opacity:1"
-             transform="translate(-76.254348,198.91279)"
+             style="display:inline"
+             transform="translate(-35.613572,200.86202)"
              id="g2029"
              inkscape:label="Capa 1">
             <rect
@@ -1967,15 +1958,15 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="21.889603"
-             y="255.30353"
+             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="62.53038"
+             y="257.25275"
              id="text2033"><tspan
                sodipodi:role="line"
                id="tspan2031"
-               x="21.889603"
-               y="255.30353"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583">RESET</tspan></text>
+               x="62.53038"
+               y="257.25275"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">RESET</tspan></text>
         </g>
         <rect
            style="display:inline;opacity:0.976;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.727579;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1988,13 +1979,10 @@
            ry="1.3326426"
            inkscape:label="Bombs Rectangle" />
         <g
-           id="g2206"
-           transform="translate(-4.9011481,-0.57916742)"
-           style="display:inline"
-           inkscape:label="Cinematic Camera Key">
+           id="g89409">
           <g
-             style="display:inline;opacity:1"
-             transform="translate(-53.361851,222.1587)"
+             style="display:inline"
+             transform="translate(-58.262999,221.57953)"
              id="g2084"
              inkscape:label="Capa 1">
             <rect
@@ -2024,19 +2012,19 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="50.150368"
-             y="276.88049"
+             style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="45.249218"
+             y="276.30133"
              id="text2088"><tspan
                sodipodi:role="line"
                id="tspan2086"
-               x="50.150368"
-               y="276.88049"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583">CINEMATIC</tspan><tspan
+               x="45.249218"
+               y="276.30133"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">CINEMATIC</tspan><tspan
                sodipodi:role="line"
-               x="50.150368"
-               y="280.41879"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#f9f9f9;stroke-width:0.264583"
+               x="45.249218"
+               y="279.83963"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
                id="tspan2190">CAMERA</tspan></text>
         </g>
         <g
