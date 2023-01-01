@@ -1,6 +1,6 @@
 # Módulo de Misiles (Missiles Module)
 
-![Missiles Module](images/MissilesModule_80mmWidth.png)
+![Missiles Module](images/MissilesModule_90mmWidth.png)
 
 ## Keybindings
 
