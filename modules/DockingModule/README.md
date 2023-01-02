@@ -11,7 +11,7 @@
 | Toggle Docking Camera | key[2]            |
 
 
-### Total devices in the keybindings
+### Total devices in keybindings
 
 | Dispositivo          | Numero |
 | -------------------- | -----: |
