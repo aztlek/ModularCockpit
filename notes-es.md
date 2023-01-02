@@ -37,6 +37,7 @@ funcionalidades relacionadas.
 1. [Countermeasures Module](modules/CountermeasuresModule/notes-es.md)
 1. [Missiles Module](modules/MissilesModule/notes-es.md)
 1. [Docking Module](modules/DockingModule/notes-es.md)
+1. [Targeting Module](modules/TargetingModule/notes-es.md)
 
 ## Dispositivos de entrada
 
