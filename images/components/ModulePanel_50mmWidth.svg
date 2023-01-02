@@ -2,21 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="50.07605mm"
    height="120.07601mm"
    viewBox="0 0 50.076049 120.07601"
    version="1.1"
    id="svg10982"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="ModulePanel_50mmWidth.svg">
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="ModulePanel_50mmWidth.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10976">
     <linearGradient
@@ -578,10 +578,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6111065"
-     inkscape:cx="94.631905"
-     inkscape:cy="226.9153"
+     inkscape:cx="90.383138"
+     inkscape:cy="227.29827"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer13"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -593,7 +593,10 @@
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="50.038048,60.201777"
        orientation="1,0"
@@ -1062,7 +1065,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0.03800024,-176.962)"
-     style="display:inline;opacity:0.554">
+     style="display:inline;opacity:1">
     <g
        inkscape:groupmode="layer"
        id="layer6"
@@ -1084,12 +1087,10 @@
       <g
          inkscape:groupmode="layer"
          id="layer11"
-         inkscape:label="Back  Screws"
-         style="">
+         inkscape:label="Back  Screws">
         <g
            id="g12045"
-           transform="translate(-5.250134,0.58714717)"
-           style="">
+           transform="translate(-5.250134,0.58714717)">
           <ellipse
              ry="2.7483592"
              rx="2.77"
@@ -1137,8 +1138,7 @@
         </g>
         <g
            id="g12051"
-           transform="translate(-44.749849,0.58714717)"
-           style="">
+           transform="translate(-44.749849,0.58714717)">
           <ellipse
              style="opacity:1;fill:url(#radialGradient11900);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
              id="ellipse11890"
@@ -1186,8 +1186,7 @@
         </g>
         <g
            id="g12057"
-           transform="translate(-5.250134,-0.13500273)"
-           style="">
+           transform="translate(-5.250134,-0.13500273)">
           <ellipse
              style="opacity:1;fill:url(#radialGradient11940);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
              id="ellipse11918"
@@ -1235,8 +1234,7 @@
         </g>
         <g
            id="g12063"
-           transform="translate(-44.749849,-0.13500273)"
-           style="">
+           transform="translate(-44.749849,-0.13500273)">
           <ellipse
              ry="2.7483592"
              rx="2.77"
@@ -1292,8 +1290,7 @@
       <g
          inkscape:groupmode="layer"
          id="layer18"
-         inkscape:label="Middle Acrylic"
-         style="">
+         inkscape:label="Middle Acrylic">
         <path
            inkscape:connector-curvature="0"
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -1526,8 +1523,7 @@
       <g
          inkscape:groupmode="layer"
          id="layer22"
-         inkscape:label="Components"
-         style="" />
+         inkscape:label="Components" />
       <g
          inkscape:groupmode="layer"
          id="layer14"
@@ -1535,7 +1531,7 @@
          style="display:inline">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="17.216125"
            y="184.46634"
            id="text12344"><tspan
@@ -1543,21 +1539,21 @@
              id="tspan12342"
              x="17.216125"
              y="184.46634"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">NAME</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583">NAME</tspan></text>
         <text
            id="text14353"
            y="192.15932"
            x="9.658432"
-           style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583"
              y="192.15932"
              x="9.658432"
              id="tspan14351"
              sodipodi:role="line">INPUT</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="6.4944472"
            y="220.93008"
            id="text14794"><tspan
@@ -1565,7 +1561,7 @@
              id="tspan14792"
              x="6.4944472"
              y="220.93008"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">OFF</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583">OFF</tspan></text>
       </g>
     </g>
   </g>
