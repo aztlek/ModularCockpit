@@ -23,19 +23,19 @@ jugar a [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
 
 ## Módulos
 
-El Button Box tiene un diseño modular. Cado módulo corresponde a un conjunto de
-funcionalidades relacionadas, keybindings.
+El Button Box tiene un diseño modular. Cada módulo corresponde a un conjunto de
+funcionalidades relacionadas.
 
-1. [Módulo de Potencia](modules/PowerModule/notes-es.md)
-1. [Módulo de Cámara](modules/CameraModule/notes-es.md)
-1. [Módulo de Minería](modules/MiningModule/notes-es.md)
-1. [Módulo de Emotes](modules/EmotesModule/notes-es.md)
-1. [Módulo de Cockpit](modules/CockpitModule/notes-es.md)
-1. [Módulo de Radar y Scanner](modules/RadarScanningModule/notes-es.md)
-1. [Módulo de Torreta](modules/TorretModule/notes-es.md)
-1. [Módulo de Escudos](modules/ShieldsModule/notes-es.md)
-1. [Módulo de Contramedidas](modules/CountermeasuresModule/notes-es.md)
-1. [Módulo de Misiles](modules/MissilesModule/notes-es.md)
+1. [Power Module](modules/PowerModule/notes-es.md)
+1. [Camera Module](modules/CameraModule/notes-es.md)
+1. [Camera Module](modules/CameraModule/notes-es.md)
+1. [Emotes Module](modules/EmotesModule/notes-es.md)
+1. [Cockpit Module](modules/CockpitModule/notes-es.md)
+1. [Radar and Scanning Module](modules/RadarScanningModule/notes-es.md)
+1. [Torret Module](modules/TorretModule/notes-es.md)
+1. [Shields Module](modules/ShieldsModule/notes-es.md)
+1. [Countermeasures Module](modules/CountermeasuresModule/notes-es.md)
+1. [Missiles Module](modules/MissilesModule/notes-es.md)
 
 ## Dispositivos de entrada
 
