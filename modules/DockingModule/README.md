@@ -4,11 +4,11 @@
 
 ## Keybindings
 
-| Keybinding            | Tipo de dispositivo de entrada |
-| ----------------------| ------------------------------ |
-| Toggle Dockin Mode    | key[0]                         |
-| Invoque Dockin        | key[1]                         |
-| Toggle Docking Camera | key[2]                         |
+| Keybinding            | Input Device Type |
+| ----------------------| ----------------- |
+| Toggle Dockin Mode    | key[0]            |
+| Invoque Dockin        | key[1]            |
+| Toggle Docking Camera | key[2]            |
 
 
 ### Total devices in the keybindings
@@ -18,3 +18,5 @@
 | Keys                 |      3 |
 | Toggle switchs       |      0 |
 | Encoders             |      0 |
+| Slide                |      0 |
+| Joystick             |      0 |
