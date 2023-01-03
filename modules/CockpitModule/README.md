@@ -1,10 +1,8 @@
 # Cockpit Module
 
-![Cockpit Module](images/CockpitModule_80mmWidth.png)
+![Cockpit Module](images/CockpitModule_60mmWidth.png)
 
 ## Keybindings
-
-### Vehicles – Cockpit
 
 | Keybinding                                                       | Input Device Type     |
 | ---------------------------------------------------------------- | ----------------------|
@@ -17,21 +15,12 @@
 | Lock All Doors                                                   | toggle_switch[1]: on  |
 | Unlock All Doors                                                 | toggle_switch[1]: off |
 
-### Flight – Movement
-
-| Keybinding            |   Input Device Type   |
-| ----------------------| --------------------- |
-| Landing System On     | toggle_switch[2]: on  |
-| Landing System Off    | toggle_switch[2]: off |
-| Request Landing       | key[2]                |
-
-
 ### Total devices in keybindings
 
 | Device               |  Count |
 | -------------------- | -----: |
-| Keys                 |      4 |
-| Toggle switchs       |      3 |
+| Keys                 |      2 |
+| Toggle switchs       |      2 |
 | Encoders             |      1 |
 | Slide                |      0 |
 | Joystick             |      0 |
