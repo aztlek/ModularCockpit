@@ -10,10 +10,9 @@
 | Invoque Dockin        | key[1]            |
 | Toggle Docking Camera | key[2]            |
 
-
 ### Total devices in keybindings
 
-| Dispositivo          | Numero |
+| Device               | Count  |
 | -------------------- | -----: |
 | Keys                 |      3 |
 | Toggle switchs       |      0 |
