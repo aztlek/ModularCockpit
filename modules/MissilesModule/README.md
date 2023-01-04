@@ -1,10 +1,10 @@
-# Módulo de Misiles (Missiles Module)
+# Missiles Module
 
 ![Missiles Module](images/MissilesModule_90mmWidth.png)
 
 ## Keybindings
 
-| Keybinding                             | Tipo de dispositivo de entrada |
+| Keybinding                             | Input Device Type              |
 | ---------------------------------------| -------------------------------|
 | Launch Missiles                        | key[0]                         |
 | Cycle Next Missile Type                | encoder[0]: increase           |
@@ -17,11 +17,12 @@
 | Bombs – Decrease HUD Range             | encoder[2]: decrease           |
 | Bombs – Reset HUD Range                | key[3]                         |
 | [PH] Enable Cinematic Camera (toggle)  | key[4]                         |
+| Missile Operator Mode                  | key[5]                         |
 
-### Total de dispositivos usados en los keybindings
+### Total devices in keybindings
 
-| Dispositivo          | Numero |
+| Device               |  Count |
 | -------------------- | -----: |
-| Keys                 |      5 |
+| Keys                 |      6 |
 | Toggle switchs       |      0 |
 | Encoders             |      3 |
