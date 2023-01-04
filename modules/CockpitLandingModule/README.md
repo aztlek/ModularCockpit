@@ -24,6 +24,7 @@
 | Landing System On     | toggle_switch[2]: on  |
 | Landing System Off    | toggle_switch[2]: off |
 | Request Landing       | key[2]                |
+| Autoland              | key[3]                |
 
 
 ### Total devices in keybindings
