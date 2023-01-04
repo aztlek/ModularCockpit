@@ -17,13 +17,14 @@
 | Landing System On     | toggle_switch[2]: on  |
 | Landing System Off    | toggle_switch[2]: off |
 | Request Landing       | key[3]                |
+| Autoland              | key[4]                |
 
 
 ### Total devices in keybindings
 
 | Device               | Count  |
 | -------------------- | -----: |
-| Keys                 |      4 |
+| Keys                 |      5 |
 | Toggle switchs       |      1 |
 | Encoders             |      0 |
 | Slide                |      0 |
