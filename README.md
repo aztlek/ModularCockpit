@@ -26,3 +26,4 @@ functionalities.
 1. [Docking Module](modules/DockingModule/README.md)
 1. [Docking Landing Module](modules/DockingLandingModule/README.md)
 1. [Targeting Module](modules/TargetingModule/notes-es.md)
+1. [Movement Module](modules/MovementModule/README.md)
