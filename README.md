@@ -18,7 +18,6 @@ functionalities.
 1. [Camera Module](modules/CameraModule/notes-es.md)
 1. [Emotes Module](modules/EmotesModule/notes-es.md)
 1. [Cockpit Module](modules/CockpitModule/README.md)
-1. [Cockpit Landing Module](modules/CockpitLandingModule/README.md)
 1. [Radar and Scanning Module](modules/RadarScanningModule/notes-es.md)
 1. [Torret Module](modules/TorretModule/notes-es.md)
 1. [Shields Module](modules/ShieldsModule/notes-es.md)
