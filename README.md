@@ -15,7 +15,7 @@ functionalities.
 
 1. [Power Module](modules/PowerModule/notes-es.md)
 1. [Camera Module](modules/CameraModule/notes-es.md)
-1. [Mining Module](modules/MiningModule/notes-es.md)
+1. [Mining Module](modules/MiningModule/README.md)
 1. [Emotes Module](modules/EmotesModule/notes-es.md)
 1. [Cockpit Module](modules/CockpitModule/README.md)
 1. [Radar and Scanning Module](modules/RadarScanningModule/notes-es.md)
