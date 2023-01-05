@@ -22,6 +22,5 @@ functionalities.
 1. [Torret Module](modules/TorretModule/notes-es.md)
 1. [Missiles Module](modules/MissilesModule/notes-es.md)
 1. [Docking and Landing Module](modules/DockingLandingModule/README.md)
-1. [Targeting Module](modules/TargetingModule/notes-es.md)
 1. [Movement Module](modules/MovementModule/README.md)
 1. [Shields and Countermeasures](modules/ShieldsCountermeasuresModule/README.md)
