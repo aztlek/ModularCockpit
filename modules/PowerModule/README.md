@@ -1,18 +1,12 @@
-# Modulo de potencia (PowerModule)
+# Power Module
 
 ![Power Module](images/PowerModule_120mmWidth.png)
 
-El módulo de potencia tiene los controles para la de administración de la
-potencia en vuelo como para los de vehículos.
-
 ## Keybindings
-
-Los keybindingd a considerar para este módulo pertenecen a dos categorias en SC
-`Vehicles – Power Triangle  Assignement` y `Flight – Power`.
 
 ### Vehicles – Power Triangle  Assignement
 
-| Keybinding                                                       | Tipo de dispositivo de entrada                    |
+| Keybinding                                                       | Input Device Type                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
 | Weapons – Increase (tab)                                         | encoder[0]: increase                           |
 | Weapons – Decrease (tab)                                         | encoder[0]: decrease                    |
@@ -30,7 +24,7 @@ Los keybindingd a considerar para este módulo pertenecen a dos categorias en SC
 
 ### Flight – Power
 
-| Keybinding                                                       | Tipo de dispositivo de entrada                    |
+| Keybinding                                                       | Input Device Type                    |
 | ---------------------------------------------------------------- | ------------------------------------------------- |
 | Set Power On                                                     | toggle_switch[0]: on   |
 | Set Power Off                                                    | toggle_switch[0]: off        |
@@ -45,19 +39,21 @@ Los keybindingd a considerar para este módulo pertenecen a dos categorias en SC
 | Increase Throttle to Max (double tab)                            | key[7] |
 | Decrease Throttle to Min (double tab)                            | key[8] |
 
-### Total de dispositivos usados en los keybindings
+### Total devices in keybindings
 
-| Dispositivo          | Numero |
+| Device               |  Count |
 | -------------------- | -----: |
 | Keys                 |      9 |
 | Toggle switchs       |      4 |
 | Encoders             |      4 |
+| Slide                |      0 |
+| Joystick             |      0 |
 
-### Categorización
+### categorization
 
-La siguiente tabla organiza en dos categorias ortogonales los dispositivos de
-entrada. Es una primera aproximación a como deben quedar organizados en el
-panel del módulo los dispositivos de entrada.
+The following table organizes input devices into two orthogonal categories.
+It is a first approximation of how the input devices should be organized on the
+module panel.
 
 
 | Power         | Shields       | Weapons       |    Engines    | Thrusters     | Throttle      |
@@ -72,34 +68,7 @@ panel del módulo los dispositivos de entrada.
 
 ### Consideraciones
 
-1. Las columnas `Thrusters` y `Throttle` se fusionaron en una, pero
-   marcando la diferencia entre un grupo y otro.
-1. La tecla de `reset` se integra a la matriz principal de teclas debajo
-   del `toggle_switch` del power.
-
-
-## Componentes y procesos
-
-Inventario de componentes y procesos para armar el módulo.
-
-| Componente o proceso                         | Cantidad |
-| -------------------------------------------- | -------: |
-| Keys                                         |        9 |
-| Toggle switchs                               |        4 |
-| Encoders                                     |        4 |
-| Microcontrolador                             |        1 |
-| Cable USB                                    |        1 |
-| Acrilico negro                               |        1 |
-| Acrilico blanco                              |        1 |
-| Acrilico translucido                         |        1 |
-| Tornillos allen M3 cabeza del botón negros   |       ?? |
-| Tornillos allen M3 cabeza de enchufe negros  |        4 |
-| Standoff M3                                  |       ?? |
-| Tuercas Makerbeam                            |        4 |
-| Cables de colores para soldar                |       ?? |
-| Termiencogible de colores                    |       ?? |
-| Terminales para prensar los toggle switch    |       ?? |
-| Lata de pintura negra de acrilico            |        1 |
-| Pegante para acrilico                        |        1 |
-| Corte laser para los acrilicos               |        3 |
-| Grabado laser                                |        1 |
+1. The `Thrusters` and `Throttle` columns were merged into one, but
+    marking the difference between one group and another.
+1. The `reset` key is integrated into the main key matrix below
+    of the `toggle_switch` of the power.

@@ -13,7 +13,7 @@ This version of the Button Box is modular and  includes many more keybindings.
 The Button Box has a modular design. Each module corresponds to a set of related
 functionalities.
 
-1. [Power Module](modules/PowerModule/notes-es.md)
+1. [Power Module](modules/PowerModule/README.md)
 1. [Camera Module](modules/CameraModule/notes-es.md)
 1. [Mining Module](modules/MiningModule/README.md)
 1. [Emotes Module](modules/EmotesModule/notes-es.md)
