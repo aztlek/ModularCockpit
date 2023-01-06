@@ -64,9 +64,7 @@ module panel.
 |               | key (Min)     | key (Min)     | key (Min)     |               | key (Min)     |
 | key (reset)   |               |               |               |               |               |
 
-## Diseño
-
-### Consideraciones
+## Design
 
 1. The `Thrusters` and `Throttle` columns were merged into one, but
     marking the difference between one group and another.
