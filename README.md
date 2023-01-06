@@ -25,3 +25,4 @@ functionalities.
 1. [Movement Module](modules/MovementModule/README.md)
 1. [Shields and Countermeasures Module](modules/ShieldsCountermeasuresModule/README.md)
 1. [HUD Module](modules/HudModule/README.md)
+1. [Weapons Module](modules/WeaponsModule/README.md)
