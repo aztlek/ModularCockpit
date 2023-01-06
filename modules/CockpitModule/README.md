@@ -31,4 +31,4 @@
 | Toggle switchs       |      2 |
 | Encoders             |      1 |
 | Slide                |      0 |
-| Joystick             |      0 |
+| Joysticks            |      0 |

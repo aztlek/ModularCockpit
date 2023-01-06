@@ -14,13 +14,13 @@ The Button Box has a modular design. Each module corresponds to a set of related
 functionalities.
 
 1. [Power Module](modules/PowerModule/README.md)
-1. [Camera Module](modules/CameraModule/notes-es.md)
+1. [Camera Module](modules/CameraModule/README.md)
 1. [Mining Module](modules/MiningModule/README.md)
-1. [Emotes Module](modules/EmotesModule/notes-es.md)
+1. [Emotes Module](modules/EmotesModule/README.md)
 1. [Cockpit Module](modules/CockpitModule/README.md)
 1. [Radar and Scanning Module](modules/RadarScanningModule/README.md)
-1. [Torret Module](modules/TorretModule/notes-es.md)
-1. [Missiles Module](modules/MissilesModule/notes-es.md)
+1. [Torret Module](modules/TorretModule/README.md)
+1. [Missiles Module](modules/MissilesModule/README.md)
 1. [Docking and Landing Module](modules/DockingLandingModule/README.md)
 1. [Movement Module](modules/MovementModule/README.md)
 1. [Shields and Countermeasures](modules/ShieldsCountermeasuresModule/README.md)
