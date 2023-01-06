@@ -49,7 +49,7 @@
 | Slide                |      0 |
 | Joystick             |      0 |
 
-### categorization
+### Categorization
 
 The following table organizes input devices into two orthogonal categories.
 It is a first approximation of how the input devices should be organized on the
