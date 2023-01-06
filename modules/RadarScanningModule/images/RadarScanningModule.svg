@@ -2,24 +2,24 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="50.07605mm"
    height="120.07601mm"
    viewBox="0 0 50.076049 120.07601"
    version="1.1"
    id="svg10982"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
    sodipodi:docname="RadarScanningModule.svg"
-   inkscape:export-filename="/home/aztlek/Documentos/StarCitizen_ButtonBox/StarCitizen_ButtonBox_V2/modules/RadarScanningModule/images/RadarScanningModule.png"
+   inkscape:export-filename="RadarScanningModule.png"
    inkscape:export-xdpi="161"
-   inkscape:export-ydpi="161">
+   inkscape:export-ydpi="161"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10976">
     <linearGradient
@@ -835,6 +835,36 @@
        fx="157.2943"
        fy="189.43718"
        r="6.4613461" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3165"
+       id="linearGradient3614"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.08725084,0,0,0.09327305,88.654175,28.517057)"
+       x1="90.589996"
+       y1="292.35999"
+       x2="250.17999"
+       y2="292.35999" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3141"
+       id="linearGradient3616"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.0921561,0,0,0.09791648,87.826779,27.160112)"
+       x1="168.57001"
+       y1="200.42999"
+       x2="168.57001"
+       y2="384.29001" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3165"
+       id="linearGradient3618"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.08341463,0,0,0.08634835,89.300828,29.858739)"
+       x1="90.589996"
+       y1="292.35999"
+       x2="250.17999"
+       y2="292.35999" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -844,10 +874,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6111065"
-     inkscape:cx="82.951033"
-     inkscape:cy="226.9153"
+     inkscape:cx="83.10653"
+     inkscape:cy="227.29827"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer14"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -859,7 +889,10 @@
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata10979">
     <rdf:RDF>
@@ -1579,12 +1612,6 @@
            id="rect3678"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccccccccccccccc" />
-        <circle
-           r="0"
-           cy="182.00005"
-           cx="5.7498398"
-           id="ellipse3686"
-           style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       </g>
       <g
          inkscape:groupmode="layer"
@@ -1790,58 +1817,56 @@
          inkscape:label="Components"
          style="">
         <g
-           id="g1558"
-           transform="translate(0,1.5875)"
-           style="">
-          <g
-             inkscape:label="Capa 1"
-             id="layer1-675"
-             transform="translate(-79.080706,141.85759)"
-             style="display:inline;opacity:1">
-            <rect
-               x="94.886375"
-               y="47.259274"
-               width="16.951048"
-               height="17.055403"
-               ry="0.76742584"
-               style="fill:url(#linearGradient10936);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.09021213px"
-               id="rect10934" />
-            <rect
-               x="94.409393"
-               y="46.834469"
-               width="17.905008"
-               height="17.905008"
-               ry="0.49580321"
-               style="fill:url(#linearGradient10925);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.09499264px"
-               id="rect10923" />
-            <path
-               style="opacity:0.778;fill:url(#linearGradient10929);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.08486921px"
-               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               id="rect10927"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ssssaasss" />
-          </g>
-          <text
-             id="text1515"
-             y="196.5777"
-             x="24.473312"
-             style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332"
-               y="196.5777"
-               x="24.473312"
-               id="tspan1513"
-               sodipodi:role="line">ACTIVE</tspan><tspan
-               id="tspan1517"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332"
-               y="200.47423"
-               x="24.473312"
-               sodipodi:role="line">PING</tspan></text>
+           inkscape:label="Activate Ping Key"
+           id="layer1-675"
+           transform="translate(-79.080706,140.79926)"
+           style="display:inline">
+          <rect
+             x="94.886375"
+             y="47.259274"
+             width="16.951048"
+             height="17.055403"
+             ry="0.76742584"
+             style="fill:url(#linearGradient10936);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+             id="rect10934"
+             rx="0.76742584" />
+          <rect
+             x="94.409393"
+             y="46.834469"
+             width="17.905008"
+             height="17.905008"
+             ry="0.49580321"
+             style="fill:url(#linearGradient10925);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+             id="rect10923"
+             rx="0.49580321" />
+          <path
+             style="opacity:0.778;fill:url(#linearGradient10929);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px"
+             d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+             id="rect10927"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ssssaasss" />
         </g>
+        <text
+           id="text1515"
+           y="195.51936"
+           x="24.473312"
+           style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Activate Ping Key Text"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="195.51936"
+             x="24.473312"
+             id="tspan1513"
+             sodipodi:role="line">ACTIVE</tspan><tspan
+             id="tspan1517"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="199.41589"
+             x="24.473312"
+             sodipodi:role="line">PING</tspan></text>
         <g
            id="g1595"
-           transform="translate(0,1.5875)"
-           style="">
+           transform="translate(10.153456,1.5875)"
+           inkscape:label="Activate Scanning Key">
           <g
              style="display:inline;opacity:1"
              transform="translate(-79.080706,195.35981)"
@@ -1849,50 +1874,58 @@
              inkscape:label="Capa 1">
             <rect
                id="rect1560"
-               style="fill:url(#linearGradient1576);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.09021213px"
+               style="fill:url(#linearGradient1576);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
                ry="0.76742584"
                height="17.055403"
                width="16.951048"
                y="47.259274"
-               x="94.886375" />
+               x="94.886375"
+               rx="0.76742584" />
             <rect
                id="rect1562"
-               style="fill:url(#linearGradient1578);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.09499264px"
+               style="fill:url(#linearGradient1578);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
                ry="0.49580321"
                height="17.905008"
                width="17.905008"
                y="46.834469"
-               x="94.409393" />
+               x="94.409393"
+               rx="0.49580321" />
             <path
                sodipodi:nodetypes="ssssaasss"
                inkscape:connector-curvature="0"
                id="path1564"
                d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               style="opacity:0.778;fill:url(#linearGradient1580);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.08486921px" />
+               style="opacity:0.778;fill:url(#linearGradient1580);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
           </g>
         </g>
         <text
            id="text1572"
-           y="253.08556"
-           x="24.473312"
-           style="font-style:normal;font-weight:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             id="tspan1570"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.26458332"
-             y="253.08556"
-             x="24.473312"
-             sodipodi:role="line">ACTIVE</tspan></text>
+           y="251.73381"
+           x="34.63147"
+           style="font-style:normal;font-weight:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Activate Scanning Key Text"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="251.73381"
+             x="34.63147"
+             sodipodi:role="line"
+             id="tspan5180">Activate</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="255.14328"
+             x="34.63147"
+             sodipodi:role="line"
+             id="tspan8376">Scanning</tspan></text>
         <g
            id="g1735"
-           transform="translate(17.49806,213.08958)"
-           style="">
+           transform="translate(17.49806,210.44373)"
+           inkscape:label="Ping Angle Encoder">
           <g
              transform="translate(-149.87063,-181.98299)"
              style="display:none"
              inkscape:label="fotos"
              id="layer24-2">
             <image
-               style="opacity:0.97600002"
+               style="opacity:0.976"
                width="15"
                height="20.892857"
                preserveAspectRatio="none"
@@ -1904,32 +1937,32 @@
           <g
              transform="translate(-149.87063,-181.98299)"
              id="layer1-70"
-             inkscape:label="knob"
-             style="">
+             inkscape:label="knob">
             <circle
                r="7.4386916"
                cy="189.42168"
                cx="157.30933"
                id="path12330"
-               style="opacity:0.97600002;vector-effect:none;fill:url(#radialGradient12360);fill-opacity:1;stroke:none;stroke-width:0.12261695;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+               style="opacity:0.976;vector-effect:none;fill:url(#radialGradient12360);fill-opacity:1;stroke:none;stroke-width:0.122617;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
             <circle
                r="6.8755569"
                cy="189.42168"
                cx="157.30933"
                id="path12334"
-               style="opacity:0.97600002;vector-effect:none;fill:url(#radialGradient12368);fill-opacity:1;stroke:none;stroke-width:0.11734628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+               style="opacity:0.976;vector-effect:none;fill:url(#radialGradient12368);fill-opacity:1;stroke:none;stroke-width:0.117346;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
             <circle
                r="6.3964195"
                cy="189.42168"
                cx="157.30933"
                id="path12336"
-               style="opacity:0.97600002;vector-effect:none;fill:url(#radialGradient12344);fill-opacity:1;stroke:none;stroke-width:0.12985335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+               style="opacity:0.976;vector-effect:none;fill:url(#radialGradient12344);fill-opacity:1;stroke:none;stroke-width:0.129853;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
           </g>
         </g>
         <g
            transform="translate(17.49806,266.61432)"
            id="g1749"
-           style="">
+           style=""
+           inkscape:label="Acanning Angle Encoder">
           <g
              id="g1739"
              inkscape:label="fotos"
@@ -1970,6 +2003,58 @@
                r="6.3964195" />
           </g>
         </g>
+        <g
+           id="g3612"
+           transform="translate(-8.8423261,1.5875)"
+           inkscape:label="Scanning Mode Key">
+          <g
+             style="display:inline;opacity:1"
+             transform="translate(-79.080706,195.35981)"
+             id="g3610"
+             inkscape:label="Capa 1">
+            <rect
+               id="rect3604"
+               style="fill:url(#linearGradient3614);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+               ry="0.76742584"
+               height="17.055403"
+               width="16.951048"
+               y="47.259274"
+               x="94.886375"
+               rx="0.76742584" />
+            <rect
+               id="rect3606"
+               style="fill:url(#linearGradient3616);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+               ry="0.49580321"
+               height="17.905008"
+               width="17.905008"
+               y="46.834469"
+               x="94.409393"
+               rx="0.49580321" />
+            <path
+               sodipodi:nodetypes="ssssaasss"
+               inkscape:connector-curvature="0"
+               id="path3608"
+               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+               style="opacity:0.778;fill:url(#linearGradient3618);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
+          </g>
+        </g>
+        <text
+           id="text3622"
+           y="251.7368"
+           x="15.635686"
+           style="font-style:normal;font-weight:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Scanning Mode Ley Text"><tspan
+             id="tspan3620"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="251.7368"
+             x="15.635686"
+             sodipodi:role="line">Scanning</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="255.14627"
+             x="15.635686"
+             sodipodi:role="line"
+             id="tspan5128">Mode</tspan></text>
       </g>
       <g
          inkscape:groupmode="layer"
@@ -1978,26 +2063,52 @@
          style="display:inline">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="15.207788"
            y="184.46634"
-           id="text12344"><tspan
+           id="text12344"
+           inkscape:label="Radar Title"><tspan
              sodipodi:role="line"
              id="tspan12342"
              x="15.207788"
              y="184.46634"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332">rADAR</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583">rADAR</tspan></text>
         <text
            id="text1296"
            y="241.05191"
            x="10.845322"
-           style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Scanning Title"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583"
              y="241.05191"
              x="10.845322"
              id="tspan1294"
              sodipodi:role="line">SCANNING</tspan></text>
+        <text
+           id="text6190"
+           y="230.27252"
+           x="15.459298"
+           style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Ping Angle Text"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583"
+             y="230.27252"
+             x="15.459298"
+             id="tspan6188"
+             sodipodi:role="line">Pin Angle</tspan></text>
+        <text
+           id="text6194"
+           y="286.43774"
+           x="9.857214"
+           style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Scanning Angle Text"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#f9f9f9;stroke-width:0.264583"
+             y="286.43774"
+             x="9.857214"
+             id="tspan6192"
+             sodipodi:role="line">Scanning Angle</tspan></text>
       </g>
     </g>
   </g>
