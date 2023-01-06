@@ -1,6 +1,6 @@
 # Cockpit Module
 
-![Cockpit Module](images/CockpitModule_60mmWidth.png)
+![Cockpit Module](images/CockpitModule-60mmWidth.png)
 
 ## Keybindings
 
