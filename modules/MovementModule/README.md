@@ -1,6 +1,6 @@
 # Movement Module
 
-!(Movement Module)(MovementModule_50mmWidth.png)
+![Movement Module](images/MovementModule_50mmWidth.png)
 
 
 ## Keybindings

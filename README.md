@@ -23,5 +23,5 @@ functionalities.
 1. [Missiles Module](modules/MissilesModule/README.md)
 1. [Docking and Landing Module](modules/DockingLandingModule/README.md)
 1. [Movement Module](modules/MovementModule/README.md)
-1. [Shields and Countermeasures](modules/ShieldsCountermeasuresModule/README.md)
-1. [HUD](modules/HudModule/README.md)
+1. [Shields and Countermeasures Module](modules/ShieldsCountermeasuresModule/README.md)
+1. [HUD Module](modules/HudModule/README.md)
