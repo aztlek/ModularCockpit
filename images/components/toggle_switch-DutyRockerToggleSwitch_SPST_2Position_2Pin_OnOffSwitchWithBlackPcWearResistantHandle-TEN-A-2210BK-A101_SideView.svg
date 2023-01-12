@@ -751,5 +751,32 @@
          y="1274.9639"
          transform="scale(-1,1)" />
     </g>
+    <g
+       id="g71285"
+       inkscape:label="Nut"
+       transform="translate(123.76764,-11.750297)">
+      <rect
+         style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient35435);fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-miterlimit:10;stroke-dasharray:none"
+         id="rect71279"
+         width="15.315282"
+         height="8.4283457"
+         x="543.22406"
+         y="1274.9639" />
+      <rect
+         style="opacity:1;fill:url(#linearGradient35437);fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-miterlimit:10;stroke-dasharray:none"
+         id="rect71281"
+         width="30.445042"
+         height="8.4283457"
+         x="558.53937"
+         y="1274.9639" />
+      <rect
+         style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient35439);fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-miterlimit:10;stroke-dasharray:none"
+         id="rect71283"
+         width="15.315282"
+         height="8.4283457"
+         x="-604.29974"
+         y="1274.9639"
+         transform="scale(-1,1)" />
+    </g>
   </g>
 </svg>
