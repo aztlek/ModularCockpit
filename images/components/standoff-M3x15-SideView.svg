@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.0002108mm"
+   height="15.000082mm"
+   viewBox="0 0 5.0002108 15.000082"
+   version="1.1"
+   id="svg47004"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="standoff-M3x15-SideView.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview47006"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="20.584471"
+     inkscape:cx="9.4731607"
+     inkscape:cy="28.346612"
+     inkscape:current-layer="layer5"
+     showguides="true">
+    <sodipodi:guide
+       position="2.356615,1.2435891e-05"
+       orientation="0,-1"
+       id="guide57301"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs47001">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient51510">
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:1;"
+         offset="0"
+         id="stop51506" />
+      <stop
+         style="stop-color:#e9d47f;stop-opacity:1;"
+         offset="0.68839365"
+         id="stop51519" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop51508" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient51510"
+       id="linearGradient51512"
+       x1="81.139702"
+       y1="112.79614"
+       x2="83.666901"
+       y2="112.81022"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="M3x5 Standoff"
+     style="opacity:0.654435;fill:#000000"
+     transform="translate(-81.15422,-110.49972)">
+    <rect
+       style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke-width:0.0499998;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="rect51367"
+       width="5"
+       height="15"
+       x="81.154404"
+       y="110.4998"
+       rx="0.1"
+       ry="0.30000001" />
+    <path
+       id="rect51365"
+       style="opacity:1;fill:url(#linearGradient51512);fill-opacity:1;stroke:none;stroke-width:0.0499999;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       d="m 81.404333,110.49972 c -0.138499,0 -0.250113,0.22322 -0.250113,0.50022 v 13.99369 c 0,0.277 0.111614,0.50023 0.250113,0.50023 h 1.999878 c 0.1385,0 0.250114,-0.22323 0.250114,-0.50023 0,0.277 0.111614,0.50023 0.250114,0.50023 h 1.999878 c 0.1385,0 0.250114,-0.22323 0.250114,-0.50023 v -13.99369 c 0,-0.277 -0.111614,-0.50022 -0.250114,-0.50022 h -1.999878 c -0.1385,0 -0.250114,0.22322 -0.250114,0.50022 0,-0.277 -0.111614,-0.50022 -0.250114,-0.50022 z"
+       sodipodi:nodetypes="ssssscsssssscss" />
+  </g>
+</svg>
