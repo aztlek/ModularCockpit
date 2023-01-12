@@ -26,3 +26,7 @@ functionalities.
 1. [Shields and Countermeasures Module](modules/ShieldsCountermeasuresModule/README.md)
 1. [HUD Module](modules/HudModule/README.md)
 1. [Weapons Module](modules/WeaponsModule/README.md)
+
+## General Side View
+
+![General Side View](images/SideView.png)
