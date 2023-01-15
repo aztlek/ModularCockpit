@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.000302mm"
+   height="12.000233mm"
+   viewBox="0 0 12.000302 12.000233"
+   version="1.1"
+   id="svg9726"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="toggle_switch-DutyRockerToggleSwitch_SPST_2Position_2Pin_OnOffSwitchWithBlackPcWearResistantHandle-TEN-A-2210BK-A101_SideView-BackDrill.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9728"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="12.865365"
+     inkscape:cx="22.696597"
+     inkscape:cy="22.735461"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9723" />
+  <g
+     inkscape:label="Toggle Switch Back Drill"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-75.177323,-94.21027)">
+    <circle
+       style="fill:#ff00ff;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="circle16237"
+       cx="81.177444"
+       cy="100.2105"
+       r="6"
+       inkscape:label="remove" />
+    <path
+       id="path11714"
+       style="display:inline;fill:#ff0000;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       d="m 81.177474,94.21027 a 6,6 0 0 0 -6.000151,6.00015 6,6 0 0 0 5.000212,5.91644 v -0.91623 h 1.999878 v 0.91623 a 6,6 0 0 0 5.000212,-5.91644 6,6 0 0 0 -6.000151,-6.00015 z"
+       inkscape:label="Toggle Switch Back Drill" />
+  </g>
+</svg>
