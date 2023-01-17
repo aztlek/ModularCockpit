@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12mm"
+   height="14mm"
+   viewBox="0 0 12 14"
+   version="1.1"
+   id="svg33526"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="encoder_drill.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33528"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="22.054911"
+     inkscape:cx="22.670688"
+     inkscape:cy="26.456693"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33523" />
+  <g
+     inkscape:label="Encoder Drill"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#800000;stroke:none;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="rect34425"
+       width="12"
+       height="14"
+       x="0"
+       y="0"
+       inkscape:label="Remove" />
+    <circle
+       style="fill:#ff0000;stroke:none;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="path34583"
+       cx="6"
+       cy="7.1999998"
+       r="3.5"
+       inkscape:label="Main Drill" />
+    <rect
+       style="fill:#ff0000;stroke:none;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="rect34585"
+       width="2"
+       height="1"
+       x="5"
+       y="13"
+       inkscape:label="Pin Drill" />
+  </g>
+</svg>
