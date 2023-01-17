@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.2mm"
+   height="3.2mm"
+   viewBox="0 0 3.2 3.2"
+   version="1.1"
+   id="svg13237"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="bolt_M3Drill.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13239"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="34.114449"
+     inkscape:cx="6.0678101"
+     inkscape:cy="6.0824667"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs13234" />
+  <g
+     inkscape:label="M3 Bolt Drill"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.884252,-46.45883)">
+    <circle
+       style="fill:#ff0000;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="path14136"
+       cx="14.484252"
+       cy="48.05883"
+       r="1.6" />
+  </g>
+</svg>
