@@ -1,6 +1,6 @@
 # Power Module
 
-![Power Module](images/PowerModule_120mmWidth.png)
+![Power Module](images/PowerModule_125mmWidth.png)
 
 ## Keybindings
 
