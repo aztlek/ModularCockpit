@@ -3,14 +3,14 @@
 ## Motivaciones
 
 1. [Star Citizen](https://robertsspaceindustries.com/star-citizen/) es un juego con una funcionalidad y iteractividad complejas y muy rica.
-1. Cada nave en [Star Citizen](https://robertsspaceindustries.com/star-citizen/) puede desempeñar uno o varios roles.
-1. Cada jugador en "Star Citizen" puede jugar uno o varios roles.
+1. Cada nave en *Star Citizen* puede desempeñar uno o varios roles.
+1. Cada jugador en *Star Citizen* puede jugar uno o varios roles.
 1. Cada rol tiene una forma particular de interactividad.
 1. Cada jugador tiene una forma distinta de jugar.
 
-Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de jugar. Se necesita un cockpit para [Star Citizen](https://robertsspaceindustries.com/star-citizen/) modular, abierto y adaptable.
+Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de jugar. Se necesita un cockpit para *Star Citizen* modular, abierto y adaptable.
 
-![Star Citizen Buttom Box](images/StarCitizen_ButtomBox_602x12mm.png)
+![Star Citizen Buttom Box](images/ModularCockpit_602x12mm.png)
 
 ## Requerimientos del teclado
 

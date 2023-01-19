@@ -1,16 +1,16 @@
 # Modular Cockpit for Star Citizen
 
-![Star Citizen Buttom Box](images/StarCitizen_ButtomBox_602x12mm.png)
+![Star Citizen Buttom Box](images/ModularCockpit_602x12mm.png)
 
 ## Motivation
 
-1. Star Citizen is a game with complex and rich functionality and interactivity.
-1. Each ship in Star Citizen can play one or several roles.
-1. Each player in "Star Citizen" can play one or multiple roles.
+1.  is a game with complex and rich functionality and interactivity.
+1. Each ship in *Star Citizen* can play one or several roles.
+1. Each player in *Star Citizen* can play one or multiple roles.
 1. Each role has a particular form of interactivity.
 1. Each player has a different way of playing.
 
-Therefore each player needs a unique cockpit adapted to their way of playing. A modular, open and adaptable Star Citizen cockpit is needed.
+Therefore each player needs a unique cockpit adapted to their way of playing. A modular, open and adaptable *Star Citizen* cockpit is needed.
 
 ## Modules
 
