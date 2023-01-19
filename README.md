@@ -2,11 +2,15 @@
 
 ![Star Citizen Buttom Box](images/StarCitizen_ButtomBox_602x12mm.png)
 
-This is a Button Box for the space simulation game [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
-The Button Box is made up of a series of input devices, which can be used to
-make certain controls of the ship "more physical", thus facilitating the
-piloting of the ship in [Star Citizen](https://robertsspaceindustries.com/star-citizen/).
-This version of the Button Box is modular and  includes many more keybindings.
+## Motivation
+
+1. Star Citizen is a game with complex and rich functionality and interactivity.
+1. Each ship in Star Citizen can play one or several roles.
+1. Each player in "Star Citizen" can play one or multiple roles.
+1. Each role has a particular form of interactivity.
+1. Each player has a different way of playing.
+
+Therefore each player needs a unique cockpit adapted to their way of playing. A modular, open and adaptable Star Citizen cockpit is needed.
 
 ## Modules
 
