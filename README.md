@@ -1,4 +1,4 @@
-# Star Citizen Button Box
+# Modular Cockpit for Star Citizen
 
 ![Star Citizen Buttom Box](images/StarCitizen_ButtomBox_602x12mm.png)
 
