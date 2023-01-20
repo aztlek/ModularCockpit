@@ -4,7 +4,7 @@
 
 ## Motivation
 
-1.  is a game with complex and rich functionality and interactivity.
+1. [Star Citizen](https://robertsspaceindustries.com/star-citizen/) is a game with complex and rich functionality and interactivity.
 1. Each ship in *Star Citizen* can play one or several roles.
 1. Each player in *Star Citizen* can play one or multiple roles.
 1. Each role has a particular form of interactivity.
