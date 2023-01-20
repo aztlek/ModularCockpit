@@ -10,7 +10,7 @@
 
 Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de jugar. Se necesita un cockpit para *Star Citizen* modular, abierto y adaptable.
 
-![Star Citizen Buttom Box](images/ModularCockpit_602x12mm.png)
+![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
 
 ## Requerimientos del teclado
 
@@ -26,10 +26,28 @@ Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de juga
 1. El numero total de keybindings en SC es de 502, según [Número de teclas en Star Citizen](docs/NumberOfKeys_StarCitizen.ods),
    Por lo que la botonera debe facilitar el uso de este gran número de entradas.
 
-## Módulos
+## Modular
 
-El Button Box tiene un diseño modular. Cada módulo corresponde a un conjunto de
-funcionalidades relacionadas.
+El "Modular Cockpit" tiene una arquitectura modular, obviamente. Y un módulo debe cumplir con lo siguiente:
+
+* Cada módulo debe funcionar independientemente, para funcionar no debe necesitar de otros módulos u otros elementos, con excepción del computador.
+* Un módulo agrupa varias funciones relacionadas.
+* Un módulo está construido con varios componentes.
+* Todos los módulos deben cumplir con los criterios de compatibilidad (estos son definidos más adelante).
+
+### Definiciones
+
+**Marco**
+: Este es una estructura creada con [Makerbeam de 10x10 mm](https://www.makerbeam.com/makerbeam/) y tiene una altura de 120 mm. Para ello se usa [*Beams* verticales de 100 mm](https://www.makerbeam.com/makerbeam-100mm-16p-black-makerbeam.html) de largo y se unen a los [*Beams* horizontales](https://www.makerbeam.com/makerbeam/makerbeam-10x10mm-profile-lengths-anodised-in-blac/) con [*MakerBeam Corner Cube*](https://www.makerbeam.com/makerbeam-corner-cubes-12p-black-for-makerbeam.html). En los *Beams* horizontales se introducen varios [*T-slot nuts*](https://www.makerbeam.com/makerbeam-t-slot-nuts-for-makerbeam-25p.html), que es donde se atornillan los *Módulos* con pernos M3. Se puede usar cualquier otro sistema compatible. Por ejemplo el siguiente es un *Marco* de 220 mm.
+
+![Frame with measurements](images/Makerbeam_Frame220x120mm_Measurements.png)
+
+### Criterios de compatibilidad
+
+1. Cada módulo solo debe tener una conexión USB.
+1. Un módulo debe poder atornillarse al *Marco*.
+
+## Módulos
 
 1. [Power Module](modules/PowerModule/notes-es.md)
 1. [Camera Module](modules/CameraModule/notes-es.md)

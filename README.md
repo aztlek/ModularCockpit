@@ -1,6 +1,6 @@
 # Modular Cockpit for Star Citizen
 
-![Star Citizen Buttom Box](images/ModularCockpit_602x12mm.png)
+![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
 
 ## Motivation
 
@@ -11,6 +11,27 @@
 1. Each player has a different way of playing.
 
 Therefore each player needs a unique cockpit adapted to their way of playing. A modular, open and adaptable *Star Citizen* cockpit is needed.
+
+## Modular
+
+The "Modular Cockpit" has a modular architecture, obviously. And a module must comply with the following:
+
+* Each module must work independently, to work it must not need other modules or other elements, with the exception of the computer.
+* A module groups several related functions.
+* A module is built with several components.
+* All modules must meet the compatibility criteria (these are defined later).
+
+### Definitions
+
+**Framework**
+: This is a structure created with [Makerbeam of 10x10 mm](https://www.makerbeam.com/makerbeam/) and has a height of 120 mm. For this, [100 mm long vertical *Beams*](https://www.makerbeam.com/makerbeam-100mm-16p-black-makerbeam.html) are used and they are joined to the [horizontal *Beams*](https://www.makerbeam.com/makerbeam/makerbeam-10x10mm-profile-lengths-anodised-in-blac/) with [*MakerBeam Corner Cube*](https://www.makerbeam.com/makerbeam-corner-cubes-12p-black-for-makerbeam.html). Several [*T-slot nuts*](https://www.makerbeam.com/makerbeam-t-slot-nuts-for-makerbeam-25p.html are inserted into the horizontal *Beams*, which is where the *Modules* are screwed with M3 bolts. Any other compatible system can be used. For example the following is a *Frame* of 220 mm.
+
+![Frame with measurements](images/Makerbeam_Frame220x120mm_Measurements.png)
+
+### Compatibility criteria
+
+1. Each module should only have one USB connection.
+1. A module must be able to be screwed to the *Frame*.
 
 ## Modules
 
