@@ -24,7 +24,7 @@ The "Modular Cockpit" has a modular architecture, obviously. And a module must c
 ### Definitions
 
 *Frame*
-: This is a structure created with [Makerbeam of 10x10 mm](https://www.makerbeam.com/makerbeam/) and has a height of 120 mm. For this, [100 mm long vertical *Beams*](https://www.makerbeam.com/makerbeam-100mm-16p-black-makerbeam.html) are used and they are joined to the [horizontal *Beams*](https://www.makerbeam.com/makerbeam/makerbeam-10x10mm-profile-lengths-anodised-in-blac/) with [*MakerBeam Corner Cube*](https://www.makerbeam.com/makerbeam-corner-cubes-12p-black-for-makerbeam.html). Several [*T-slot nuts*](https://www.makerbeam.com/makerbeam-t-slot-nuts-for-makerbeam-25p.html are inserted into the horizontal *Beams*, which is where the *Modules* are screwed with M3 bolts. Any other compatible system can be used. For example the following is a *Frame* of 220 mm.
+: This is a structure created with [Makerbeam of 10x10 mm](https://www.makerbeam.com/makerbeam/) and has a height of 120 mm. For this, [100 mm long vertical *Beams*](https://www.makerbeam.com/makerbeam-100mm-16p-black-makerbeam.html) are used and they are joined to the [horizontal *Beams*](https://www.makerbeam.com/makerbeam/makerbeam-10x10mm-profile-lengths-anodised-in-blac/) with [*MakerBeam Corner Cube*](https://www.makerbeam.com/makerbeam-corner-cubes-12p-black-for-makerbeam.html). Several [*T-slot nuts*](https://www.makerbeam.com/makerbeam-t-slot-nuts-for-makerbeam-25p.html) are inserted into the horizontal *Beams*, which is where the *Modules* are screwed with M3 bolts. Any other compatible system can be used. For example the following is a *Frame* of 220 mm.
 
 ![Frame with measurements](images/Makerbeam_Frame220x120mm_Measurements.png)
 
