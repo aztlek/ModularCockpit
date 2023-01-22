@@ -1428,8 +1428,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5730729"
-     inkscape:cx="174.49953"
-     inkscape:cy="227.54894"
+     inkscape:cx="169.83584"
+     inkscape:cy="227.93758"
      inkscape:document-units="mm"
      inkscape:current-layer="layer22"
      showgrid="false"
@@ -2360,56 +2360,51 @@
          id="layer22"
          inkscape:label="Components">
         <g
-           style="display:inline;opacity:1"
-           id="g17559"
-           transform="translate(24.872703,0.52914877)"
-           inkscape:label="Free Lock Key">
-          <g
-             inkscape:label="Capa 1"
-             id="g17498"
-             transform="translate(-34.284061,220.91877)">
-            <rect
-               rx="0.76742584"
-               x="94.886375"
-               y="47.259274"
-               width="16.951048"
-               height="17.055403"
-               ry="0.76742584"
-               style="fill:url(#linearGradient26374);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
-               id="rect17492" />
-            <rect
-               rx="0.49580321"
-               x="94.409393"
-               y="46.834469"
-               width="17.905008"
-               height="17.905008"
-               ry="0.49580321"
-               style="fill:url(#linearGradient26376);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
-               id="rect17494" />
-            <path
-               style="opacity:0.778;fill:url(#linearGradient26378);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px"
-               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               id="path17496"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ssssaasss" />
-          </g>
-          <text
-             id="text17502"
-             y="275.30222"
-             x="69.387894"
-             style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             xml:space="preserve"><tspan
-               id="tspan17538"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-               y="275.30222"
-               x="69.387894"
-               sodipodi:role="line">FREE</tspan><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-               y="281.63409"
-               x="69.387894"
-               sodipodi:role="line"
-               id="tspan19114">LOCK</tspan></text>
+           inkscape:label="Free Lock Key"
+           id="g17498"
+           transform="translate(-9.411358,221.44792)">
+          <rect
+             rx="0.76742584"
+             x="94.886375"
+             y="47.259274"
+             width="16.951048"
+             height="17.055403"
+             ry="0.76742584"
+             style="fill:url(#linearGradient26374);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+             id="rect17492" />
+          <rect
+             rx="0.49580321"
+             x="94.409393"
+             y="46.834469"
+             width="17.905008"
+             height="17.905008"
+             ry="0.49580321"
+             style="fill:url(#linearGradient26376);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+             id="rect17494" />
+          <path
+             style="opacity:0.778;fill:url(#linearGradient26378);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px"
+             d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+             id="path17496"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ssssaasss" />
         </g>
+        <text
+           id="text17502"
+           y="275.83136"
+           x="94.260597"
+           style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           xml:space="preserve"
+           inkscape:label="Free Lock Key Text"><tspan
+             id="tspan17538"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="275.83136"
+             x="94.260597"
+             sodipodi:role="line">FREE</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             y="282.16324"
+             x="94.260597"
+             sodipodi:role="line"
+             id="tspan19114">LOCK</tspan></text>
         <g
            inkscape:label="4 Key"
            id="g13912"
@@ -2780,52 +2775,47 @@
              y="204.00284"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">9</tspan></text>
         <g
-           transform="translate(-15.622121,-20.227826)"
-           id="g15045"
-           inkscape:label="Reset Key"
-           style="display:inline;opacity:1">
-          <g
-             style="display:inline"
-             transform="translate(-50.703669,220.91877)"
-             id="g13970-9"
-             inkscape:label="Capa 1">
-            <rect
-               rx="0.76742584"
-               id="rect13964-5"
-               style="fill:url(#linearGradient26434);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
-               ry="0.76742584"
-               height="17.055403"
-               width="16.951048"
-               y="47.259274"
-               x="94.886375" />
-            <rect
-               rx="0.49580321"
-               id="rect13966-0"
-               style="fill:url(#linearGradient26436);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
-               ry="0.49580321"
-               height="17.905008"
-               width="17.905008"
-               y="46.834469"
-               x="94.409393" />
-            <path
-               sodipodi:nodetypes="ssssaasss"
-               inkscape:connector-curvature="0"
-               id="path13968-4"
-               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               style="opacity:0.778;fill:url(#linearGradient26438);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
-          </g>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="46.135796"
-             y="277.9397"
-             id="text14038-8"><tspan
-               sodipodi:role="line"
-               id="tspan14036-7"
-               x="46.135796"
-               y="277.9397"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">reset</tspan></text>
+           style="display:inline"
+           transform="translate(-66.32579,200.69094)"
+           id="g13970-9"
+           inkscape:label="Reset Key">
+          <rect
+             rx="0.76742584"
+             id="rect13964-5"
+             style="fill:url(#linearGradient26434);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+             ry="0.76742584"
+             height="17.055403"
+             width="16.951048"
+             y="47.259274"
+             x="94.886375" />
+          <rect
+             rx="0.49580321"
+             id="rect13966-0"
+             style="fill:url(#linearGradient26436);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+             ry="0.49580321"
+             height="17.905008"
+             width="17.905008"
+             y="46.834469"
+             x="94.409393" />
+          <path
+             sodipodi:nodetypes="ssssaasss"
+             inkscape:connector-curvature="0"
+             id="path13968-4"
+             d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+             style="opacity:0.778;fill:url(#linearGradient26438);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
         </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="30.513674"
+           y="257.71188"
+           id="text14038-8"
+           inkscape:label="Reset Key Text"><tspan
+             sodipodi:role="line"
+             id="tspan14036-7"
+             x="30.513674"
+             y="257.71188"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">reset</tspan></text>
         <g
            style="display:inline;opacity:1"
            transform="matrix(0.26458333,0,0,0.26458333,-106.9882,81.505428)"
@@ -3315,56 +3305,51 @@
           </g>
         </g>
         <g
-           style="display:inline;opacity:1"
-           id="g19082"
-           transform="translate(-11.933385,0.52914877)"
-           inkscape:label="Circle Orbit Key">
-          <g
-             transform="translate(-15.763214,220.91877)"
-             id="g19074"
-             inkscape:label="Capa 1">
-            <rect
-               rx="0.76742584"
-               id="rect19068"
-               style="fill:url(#linearGradient26440);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
-               ry="0.76742584"
-               height="17.055403"
-               width="16.951048"
-               y="47.259274"
-               x="94.886375" />
-            <rect
-               rx="0.49580321"
-               id="rect19070"
-               style="fill:url(#linearGradient26442);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
-               ry="0.49580321"
-               height="17.905008"
-               width="17.905008"
-               y="46.834469"
-               x="94.409393" />
-            <path
-               sodipodi:nodetypes="ssssaasss"
-               inkscape:connector-curvature="0"
-               id="path19072"
-               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               style="opacity:0.778;fill:url(#linearGradient26444);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
-          </g>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="87.908745"
-             y="275.30222"
-             id="text19080"><tspan
-               sodipodi:role="line"
-               id="tspan19076"
-               x="87.908745"
-               y="275.30222"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">CICLE</tspan><tspan
-               sodipodi:role="line"
-               x="87.908745"
-               y="281.63409"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-               id="tspan19078">ORBIT</tspan></text>
+           transform="translate(-27.696599,221.44792)"
+           id="g19074"
+           inkscape:label="Cicle Orbit Key">
+          <rect
+             rx="0.76742584"
+             id="rect19068"
+             style="fill:url(#linearGradient26440);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+             ry="0.76742584"
+             height="17.055403"
+             width="16.951048"
+             y="47.259274"
+             x="94.886375" />
+          <rect
+             rx="0.49580321"
+             id="rect19070"
+             style="fill:url(#linearGradient26442);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+             ry="0.49580321"
+             height="17.905008"
+             width="17.905008"
+             y="46.834469"
+             x="94.409393" />
+          <path
+             sodipodi:nodetypes="ssssaasss"
+             inkscape:connector-curvature="0"
+             id="path19072"
+             d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+             style="opacity:0.778;fill:url(#linearGradient26444);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
         </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="75.975357"
+           y="275.83136"
+           id="text19080"
+           inkscape:label="Cicle Orbit Key Text"><tspan
+             sodipodi:role="line"
+             id="tspan19076"
+             x="75.975357"
+             y="275.83136"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">CICLE</tspan><tspan
+             sodipodi:role="line"
+             x="75.975357"
+             y="282.16324"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             id="tspan19078">ORBIT</tspan></text>
         <g
            style="display:inline;opacity:1"
            id="g14836"
@@ -3454,56 +3439,51 @@
           </g>
         </g>
         <g
-           style="display:inline;opacity:1"
-           transform="translate(6.5874625,-18.028014)"
-           id="g19104"
+           transform="translate(-27.696598,202.89076)"
+           id="g19096"
            inkscape:label="Cicle View Key">
-          <g
-             transform="translate(-34.284061,220.91877)"
-             id="g19096"
-             inkscape:label="Capa 1">
-            <rect
-               rx="0.76742584"
-               id="rect19090"
-               style="fill:url(#linearGradient11592);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
-               ry="0.76742584"
-               height="17.055403"
-               width="16.951048"
-               y="47.259274"
-               x="94.886375" />
-            <rect
-               rx="0.49580321"
-               id="rect19092"
-               style="fill:url(#linearGradient11594);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
-               ry="0.49580321"
-               height="17.905008"
-               width="17.905008"
-               y="46.834469"
-               x="94.409393" />
-            <path
-               sodipodi:nodetypes="ssssaasss"
-               inkscape:connector-curvature="0"
-               id="path19094"
-               d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
-               style="opacity:0.778;fill:url(#linearGradient11596);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
-          </g>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="69.387894"
-             y="275.30222"
-             id="text19102"><tspan
-               sodipodi:role="line"
-               id="tspan19098"
-               x="69.387894"
-               y="275.30222"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">CICLE</tspan><tspan
-               sodipodi:role="line"
-               x="69.387894"
-               y="281.63409"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-               id="tspan19100">VIEW</tspan></text>
+          <rect
+             rx="0.76742584"
+             id="rect19090"
+             style="fill:url(#linearGradient11592);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0902121px"
+             ry="0.76742584"
+             height="17.055403"
+             width="16.951048"
+             y="47.259274"
+             x="94.886375" />
+          <rect
+             rx="0.49580321"
+             id="rect19092"
+             style="fill:url(#linearGradient11594);fill-rule:evenodd;stroke:#8d8d8d;stroke-width:0.0949926px"
+             ry="0.49580321"
+             height="17.905008"
+             width="17.905008"
+             y="46.834469"
+             x="94.409393" />
+          <path
+             sodipodi:nodetypes="ssssaasss"
+             inkscape:connector-curvature="0"
+             id="path19094"
+             d="m 95.992701,47.20951 h 14.738389 c 0.40646,0 0.73369,0.316862 0.73369,0.710451 v 14.368285 c 0,0.39359 -0.41415,0.582287 -0.73369,0.710451 -4.53883,1.820516 -10.19955,1.820513 -14.738389,0 -0.319535,-0.128164 -0.733684,-0.316861 -0.733684,-0.710451 V 47.919961 c 0,-0.393589 0.327223,-0.710451 0.733684,-0.710451 z"
+             style="opacity:0.778;fill:url(#linearGradient11596);fill-rule:evenodd;stroke:#f8f8f8;stroke-width:0.0848692px" />
         </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="75.975357"
+           y="257.2742"
+           id="text19102"
+           inkscape:label="Cicle View Key Text"><tspan
+             sodipodi:role="line"
+             id="tspan19098"
+             x="75.975357"
+             y="257.2742"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">CICLE</tspan><tspan
+             sodipodi:role="line"
+             x="75.975357"
+             y="263.60608"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+             id="tspan19100">VIEW</tspan></text>
       </g>
       <g
          inkscape:groupmode="layer"
