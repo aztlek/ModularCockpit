@@ -2,7 +2,7 @@
 
 ![Power Module](images/PowerModule_125mmWidth.png)
 
-![Real Poser Module](images/RealPowerModule.jpg)
+![Real Power Module](images/RealPowerModule.jpg)
 
 ## Keybindings
 
