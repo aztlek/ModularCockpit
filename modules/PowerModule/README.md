@@ -1,8 +1,9 @@
 # Power Module
 
+![Real Power Module](images/RealPowerModule.jpg)
+
 ![Power Module](images/PowerModule_125mmWidth.png)
 
-![Real Power Module](images/RealPowerModule.jpg)
 
 ## Keybindings
 
