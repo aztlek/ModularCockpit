@@ -2,6 +2,8 @@
 
 ![Power Module](images/PowerModule_125mmWidth.png)
 
+![Real Poser Module](images/RealPowerModule.jpg)
+
 ## Keybindings
 
 ### Vehicles – Power Triangle  Assignement

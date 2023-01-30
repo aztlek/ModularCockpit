@@ -2,6 +2,8 @@
 
 ![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
 
+![Real Power Module](images/RealPowerModule.jpg)
+
 ## Motivation
 
 1. [Star Citizen](https://robertsspaceindustries.com/star-citizen/) is a game with complex and rich functionality and interactivity.
