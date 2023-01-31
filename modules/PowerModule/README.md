@@ -2,8 +2,9 @@
 
 ![Real Power Module](images/RealPowerModule.jpg)
 
-![Power Module](images/PowerModule_125mmWidth.png)
+## Design
 
+![Power Module](images/PowerModule_125mmWidth.png)
 
 ## Keybindings
 
