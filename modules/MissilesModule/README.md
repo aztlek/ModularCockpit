@@ -21,8 +21,10 @@
 
 ### Total devices in keybindings
 
-| Device               |  Count |
-| -------------------- | -----: |
-| Keys                 |      6 |
-| Toggle switchs       |      0 |
-| Encoders             |      3 |
+| Device                            |  Count |
+| --------------------------------- | -----: |
+| Keys                              |      5 |
+| Toggle switchs                    |      0 |
+| Encoders                          |      3 |
+| Momentary Flat Push Button Switch |      1 |
+| Cover momentary push buttom       |      1 |

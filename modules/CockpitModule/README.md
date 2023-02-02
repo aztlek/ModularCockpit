@@ -25,10 +25,13 @@
 
 ### Total devices in keybindings
 
-| Device               |  Count |
-| -------------------- | -----: |
-| Keys                 |      3 |
-| Toggle switchs       |      2 |
-| Encoders             |      1 |
-| Slide                |      0 |
-| Joysticks            |      0 |
+| Device                            |  Count |
+| --------------------------------- | -----: |
+| Keys                              |      1 |
+| Toggle switchs                    |      2 |
+| Encoders                          |      1 |
+| Slide                             |      0 |
+| Joysticks                         |      0 |
+| Keylock switch                    |      1 |
+| Momentary Flat Push Button Switch |      1 |
+| Cover momentary push buttom       |      1 |
