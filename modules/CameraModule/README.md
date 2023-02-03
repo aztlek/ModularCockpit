@@ -1,6 +1,6 @@
 # Camera Module
 
-![Camara Module](images/CameraModule_110mmWidth.png)
+![Camara Module](images/CameraModule_150mmWidth.png)
 
 ## Keybindings
 
