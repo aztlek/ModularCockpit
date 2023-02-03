@@ -1,6 +1,6 @@
 # Emotes Module
 
-![Emotes Module](images/emotesModule.png)
+![Emotes Module](images/emotesModule_125mmWidth.png)
 
 ## Keybindings
 
