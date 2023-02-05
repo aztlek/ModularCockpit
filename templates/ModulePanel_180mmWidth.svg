@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="155mm"
-   height="120mm"
-   viewBox="0 0 155 120.00001"
+   width="180.00024mm"
+   height="120.00083mm"
+   viewBox="0 0 180.00024 120.00084"
    version="1.1"
    id="svg10982"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
@@ -498,8 +498,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.573073"
-     inkscape:cx="336.95119"
-     inkscape:cy="226.77165"
+     inkscape:cx="332.2875"
+     inkscape:cy="227.16029"
      inkscape:document-units="mm"
      inkscape:current-layer="layer14"
      showgrid="false"
@@ -516,7 +516,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"><sodipodi:guide
-       position="179.99963,59.65339"
+       position="179.99989,59.654218"
        orientation="1,0"
        id="guide29204"
        inkscape:locked="false" /></sodipodi:namedview><metadata
@@ -527,7 +527,8 @@
      id="layer5"
      inkscape:label="Makerbeam"
      style="display:inline"
-     sodipodi:insensitive="true"><g
+     sodipodi:insensitive="true"
+     transform="translate(2.5685042e-4)"><g
        id="layer3"
        inkscape:label="Beam"
        transform="matrix(1.4999999,0,0,1,-133.7623,-138.23267)"
@@ -666,7 +667,8 @@
      id="layer20"
      inkscape:label="Microcontroller Layer"
      style="display:inline"
-     sodipodi:insensitive="true"><g
+     sodipodi:insensitive="true"
+     transform="translate(2.5685042e-4)"><g
        inkscape:groupmode="layer"
        id="layer23"
        inkscape:label="Microcontroller Acrylic"><path
@@ -796,7 +798,7 @@
      inkscape:label="Panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1.192125e-7,-177)"
+     transform="translate(2.5696963e-4,-177)"
      style="display:inline;opacity:1"><g
        inkscape:groupmode="layer"
        id="layer6"
