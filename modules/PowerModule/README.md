@@ -45,13 +45,14 @@
 
 ### Total devices in keybindings
 
-| Device               |  Count |
-| -------------------- | -----: |
-| Keys                 |      9 |
-| Toggle switchs       |      4 |
-| Encoders             |      4 |
-| Slide                |      0 |
-| Joystick             |      0 |
+| Device                |  Count |
+| --------------------- | -----: |
+| Keys                  |      9 |
+| Toggle switchs        |      4 |
+| Toggle switchs (hold) |      0 |
+| Encoders              |      4 |
+| Slide Pot             |      2 |
+| Joystick              |      0 |
 
 ### Categorization
 
