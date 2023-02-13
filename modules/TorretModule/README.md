@@ -1,6 +1,6 @@
 # Torret Module
 
-![Torret Module](images/TorretModule_80mmWidth.svg)
+![Torret Module](images/TorretModule_100mmWidth.svg)
 
 
 ## Keybindings
