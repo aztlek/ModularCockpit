@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="80.077316mm"
-   height="120.07591mm"
-   viewBox="0 0 80.077315 120.07591"
+   width="79.999992mm"
+   height="119.99998mm"
+   viewBox="0 0 79.999991 119.99998"
    version="1.1"
    id="svg10982"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
@@ -578,10 +578,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.6111086"
-     inkscape:cx="151.65972"
-     inkscape:cy="227.29809"
+     inkscape:cx="150.89376"
+     inkscape:cy="227.68107"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer12"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -598,7 +598,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
-       position="80.039317,60.109694"
+       position="80.039315,60.033772"
        orientation="1,0"
        id="guide4229"
        inkscape:locked="false" />
@@ -611,7 +611,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -620,8 +619,7 @@
      id="layer5"
      inkscape:label="Makerbeam"
      style="display:none"
-     transform="translate(0.038,0.038)"
-     sodipodi:insensitive="true">
+     transform="translate(0.03799685,0.0379878)">
     <g
        transform="matrix(0.79999997,0,0,1,3.1567832e-5,109.99995)"
        id="g3067"
@@ -878,8 +876,7 @@
      id="layer20"
      inkscape:label="Microcontroller Layer"
      style="display:inline"
-     transform="translate(0.038,0.038)"
-     sodipodi:insensitive="true">
+     transform="translate(0.03799685,0.0379878)">
     <g
        inkscape:groupmode="layer"
        id="layer23"
@@ -889,9 +886,9 @@
          style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.067977;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect11527-5"
          width="80.00132"
-         height="100"
-         x="6.9477146e-10"
-         y="10" />
+         height="97.998665"
+         x="-2.1438758e-08"
+         y="11.000682" />
       <g
          id="g3174"
          transform="translate(31.211393,29.287338)">
@@ -1063,13 +1060,13 @@
      inkscape:label="Panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.03800024,-176.962)"
+     transform="translate(0.03799709,-176.96201)"
      style="display:inline;opacity:1">
     <g
        inkscape:groupmode="layer"
        id="layer6"
        inkscape:label="Back"
-       style="display:inline;opacity:1">
+       style="display:none;opacity:1">
       <g
          inkscape:groupmode="layer"
          id="layer10"
@@ -1081,13 +1078,13 @@
            id="rect11527"
            width="80.00132"
            height="120"
-           x="-2.4121096e-07"
-           y="177" />
+           x="-1.8154437e-07"
+           y="177.00002" />
       </g>
       <g
          id="g12063"
          transform="translate(-14.749816,-0.13500271)"
-         inkscape:label="Screw 4 Back Scrylic">
+         inkscape:label="Back Bolt 4">
         <ellipse
            ry="2.7483592"
            rx="2.77"
@@ -1136,7 +1133,7 @@
       <g
          id="g12057"
          transform="translate(-5.250134,-0.13500273)"
-         inkscape:label="Screw 3 Back Scrulic">
+         inkscape:label="Bacl Bolt 3">
         <ellipse
            style="opacity:1;fill:url(#radialGradient11940);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
            id="ellipse11918"
@@ -1185,7 +1182,7 @@
       <g
          id="g12051"
          transform="translate(-14.749816,0.5871431)"
-         inkscape:label="Screw 2 Back Scrylic">
+         inkscape:label="Bacl Bolt 2">
         <ellipse
            style="opacity:1;fill:url(#radialGradient11900);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
            id="ellipse11890"
@@ -1234,7 +1231,7 @@
       <g
          id="g12045"
          transform="translate(-5.250134,0.58714717)"
-         inkscape:label="Screw 1 Back Scrylkic">
+         inkscape:label="Back Bolt 1">
         <ellipse
            ry="2.7483592"
            rx="2.77"
@@ -1285,7 +1282,7 @@
        inkscape:groupmode="layer"
        id="layer17"
        inkscape:label="Middle"
-       style="display:inline">
+       style="display:none">
       <g
          inkscape:groupmode="layer"
          id="layer18"
@@ -1293,8 +1290,8 @@
          style="display:inline">
         <path
            inkscape:connector-curvature="0"
-           style="display:inline;opacity:0.661177;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0759393;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-           d="m 9.9902189,176.99997 v 4.99705 c -1.655e-4,2.75964 -2.2366605,4.99665 -4.995383,4.99653 H -3.0600101e-5 v 99.93689 H 4.9948359 c 2.7587225,-1.2e-4 4.9952175,2.2369 4.995383,4.99654 v 4.99705 H 69.933777 v -4.99705 c 1.66e-4,-2.75964 2.236661,-4.99666 4.995384,-4.99654 h 4.994869 v -99.93689 h -4.994869 c -2.758723,1.2e-4 -4.995218,-2.23689 -4.995384,-4.99653 v -4.99705 z"
+           style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0759393;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 9.990219,176.99997 v 4.99705 c -1.655e-4,2.75964 -2.2366605,4.99665 -4.995383,4.99653 H -3.054005e-5 v 99.93689 H 4.994836 c 2.7587225,-1.2e-4 4.9952175,2.2369 4.995383,4.99654 v 4.99705 h 59.943558 v -4.99705 c 1.66e-4,-2.75964 2.236661,-4.99666 4.995384,-4.99654 h 4.994869 v -99.93689 h -4.994869 c -2.758723,1.2e-4 -4.995218,-2.23689 -4.995384,-4.99653 v -4.99705 z"
            id="rect3678-3"
            sodipodi:nodetypes="ccccccccccccccccc" />
       </g>
@@ -1311,9 +1308,8 @@
          style="display:inline;opacity:1"
          transform="matrix(0.9990343,0,0,0.99936762,-3.0358309e-5,0.11189944)">
         <path
-           style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.287244;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-           d="M 37.794922,0 V 18.898438 C 37.794285,29.335177 29.333223,37.795364 18.896484,37.794922 H 0 V 415.74805 h 18.896484 c 10.436737,-4.4e-4 18.897798,8.45974 18.898438,18.89648 v 18.89844 H 264.57227 v -18.89844 c 6.4e-4,-10.43674 8.4617,-18.89692 18.89844,-18.89648 h 18.89648 V 37.794922 h -18.89648 c -10.43674,4.43e-4 -18.8978,-8.459744 -18.89844,-18.896484 V 0 Z"
-           transform="matrix(0.26458333,0,0,0.26458333,-2.4121096e-7,177)"
+           style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 9.9999061,177.00002 v 5.00021 c -1.686e-4,2.76139 -2.2388245,4.99981 -5.0002117,4.9997 H -2.5200316e-7 V 287.00002 H 4.9996944 c 2.7613866,-1.1e-4 5.0000423,2.23831 5.0002117,4.9997 v 5.00021 H 70.001412 v -5.00021 c 1.69e-4,-2.76139 2.238825,-4.99981 5.000212,-4.9997 h 4.999694 V 186.99993 h -4.999694 c -2.761387,1.1e-4 -5.000043,-2.23831 -5.000212,-4.9997 v -5.00021 z"
            id="rect3678"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccccccccccccccc" />
