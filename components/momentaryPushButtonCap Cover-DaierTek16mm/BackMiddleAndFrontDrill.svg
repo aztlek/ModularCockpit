@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.59987mm"
+   height="11.7998mm"
+   viewBox="0 0 10.59987 11.7998"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="BackMiddleAndFrontDrill.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="18.503066"
+     inkscape:cx="20.050731"
+     inkscape:cy="22.347648"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.792126,-104.48354)">
+    <path
+       id="path1391"
+       style="fill:#ff0000;stroke-width:0.0539998;stop-color:#000000"
+       d="m 52.792126,107.79394 v 5.17849 a 5.8999996,5.8999996 0 0 0 5.299935,3.31091 5.8999996,5.8999996 0 0 0 5.299935,-3.30987 v -5.18212 a 5.8999996,5.8999996 0 0 0 -5.299935,-3.30781 5.8999996,5.8999996 0 0 0 -5.299935,3.3104 z" />
+  </g>
+</svg>
