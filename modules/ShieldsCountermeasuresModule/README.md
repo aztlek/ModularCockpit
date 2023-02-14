@@ -1,6 +1,6 @@
 # Shields and Countermeasures Module
 
-![Shields and Counter Measures Module](images/ShieldsCountermeasuresModule_85mmWidth.svg)
+![Shields and Counter Measures Module](images/ShieldsCountermeasuresModule_85mmWidth.png)
 
 ## Keybindings
 
