@@ -1,6 +1,6 @@
 # Modular Cockpit for Star Citizen
 
-![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
+![Star Citizen Modular Cockpit](images/ModularCockpit_770x120mm.png)
 
 ![Real Power Module](images/RealPowerModule.jpg)
 
