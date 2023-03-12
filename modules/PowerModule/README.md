@@ -63,7 +63,7 @@ module panel.
 
 | Power         | Shields       | Weapons       |    Engines    | Thrusters     | Throttle      |
 | :------------ | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| toggle_switch | toggle_switch | toggle_switch | toggle_switch | toggle_switch |               |
+| toggle_switch | toggle_switch | toggle_switch |               | toggle_switch |               |
 |               | encoder       | encoder       | encoder       |               | encoder       |
 |               | key (Max)     | key (Max)     | key (Max)     |               | key (Max)     |
 |               | key (Min)     | key (Min)     | key (Min)     |               | key (Min)     |
