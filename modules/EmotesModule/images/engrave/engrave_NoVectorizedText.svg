@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="124.99962mm"
+   height="119.99992mm"
+   viewBox="0 0 124.99962 119.99992"
+   version="1.1"
+   id="svg3297"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="engrave_NoVectorizedText.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3299"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.5730746"
+     inkscape:cx="236.29319"
+     inkscape:cy="226.77151"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3294" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.5256038e-4,-2.5200038e-4)">
+    <path
+       id="rect3678"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.075976;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 10.035046,0.03824 v 4.99659 c -1.7e-4,2.75964 -2.2382001,4.99672 -4.9986609,4.9966 H 0.03824056 v 99.93705 H 5.0363851 c 2.7604608,-1.2e-4 4.9984909,2.23696 4.9986609,4.9966 v 4.99711 H 114.96508 v -4.99711 c 1.7e-4,-2.75964 2.23811,-4.99672 4.99866,-4.9966 h 4.99814 V 10.03143 h -4.99814 c -2.76055,1.2e-4 -4.99849,-2.23696 -4.99866,-4.9966 V 0.03824 Z m 4.984192,12.46177 c 31.666627,0 63.333255,0 94.999882,0 0,31.6668 0,63.33361 0,95.00041 -31.666627,0 -63.333255,0 -94.999882,0 0,-31.6668 0,-63.33361 0,-95.00041 z M 4.7702514,13.06277 c 0.8837815,5e-5 1.6001344,0.71664 1.5999024,1.60042 -5.52e-5,0.88358 -0.716324,1.59985 -1.5999024,1.5999 -0.8837802,2.3e-4 -1.6003639,-0.71612 -1.6004191,-1.5999 -2.321e-4,-0.88398 0.7164358,-1.60065 1.6004191,-1.60042 z m 115.4177586,0 c 0.88378,6e-5 1.60013,0.71664 1.5999,1.60042 -6e-5,0.88358 -0.71632,1.59984 -1.5999,1.5999 -0.88358,-6e-5 -1.59984,-0.71632 -1.5999,-1.5999 -2.3e-4,-0.88378 0.71612,-1.60036 1.5999,-1.60042 z M 4.7702514,103.73682 c 0.8837815,5e-5 1.6001344,0.71664 1.5999024,1.60042 -5.52e-5,0.88358 -0.716324,1.59985 -1.5999024,1.5999 -0.8837802,2.3e-4 -1.6003639,-0.71612 -1.6004191,-1.5999 -2.321e-4,-0.88398 0.7164358,-1.60065 1.6004191,-1.60042 z m 115.4177586,0 c 0.88378,6e-5 1.60013,0.71664 1.5999,1.60042 -6e-5,0.88358 -0.71632,1.59984 -1.5999,1.5999 -0.88358,-6e-5 -1.59984,-0.71632 -1.5999,-1.5999 -2.3e-4,-0.88378 0.71612,-1.60036 1.5999,-1.60042 z"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="50.894009"
+       y="7.4663391"
+       id="text12344-7"
+       inkscape:label="Emotes Text"><tspan
+         sodipodi:role="line"
+         id="tspan12342-5"
+         x="50.894009"
+         y="7.4663391"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">EMOTES </tspan></text>
+  </g>
+</svg>
