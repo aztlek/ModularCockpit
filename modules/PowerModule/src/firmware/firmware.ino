@@ -40,48 +40,64 @@ const byte NUMCOLS = 5;
 const byte MAXKEYS = NUMROWS * NUMCOLS;
 
 char keys[NUMROWS][NUMCOLS] = {
-  { 0,  1,  2,  3,  4},
-  { 5,  6,  7,  8,  9},
-  { 10, 11, 12, 13, 14},
-  { 15, 16, 17, 18, 19}
+  {  1,  2,  3,  4,  5},
+  {  6,  7,  8,  9, 10},
+  { 11, 12, 13, 14, 15},
+  { 16, 17, 18, 19, 20}
 };
-byte rowPins[NUMROWS] = { 2, 3,  4,  5};
-byte colPins[NUMCOLS] = { 8, 9, 10, 11, 12};
+byte rowPins[NUMROWS] = {  2,  3,  4,  5};
+byte colPins[NUMCOLS] = { 19, 20, 21, 22, 23};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 String msg;
 
+extern "C" uint32_t set_arm_clock(uint32_t frequency);
+
 void setup() {
+  set_arm_clock(24000000);
+#ifdef SERIAL
   Serial.begin(9600);
+#endif
 }
 
 
 void loop() {
+
     // Fills kpd.key[ ] array with up-to 10 active keys.
     // Returns true if there are ANY active keys.
     if (kpd.getKeys())
     {
-        for (int i=0; i<LIST_MAX; i++)   // Scan the whole key list.
+        for (int i=0; i < LIST_MAX; i++)   // Scan the whole key list.
         {
             if ( kpd.key[i].stateChanged )   // Only find keys that have changed state.
             {
+                byte code = (byte)kpd.key[i].kchar;
                 switch (kpd.key[i].kstate) {  // Report active key state : IDLE, PRESSED, HOLD, or RELEASED
                     case PRESSED:
                     msg = " PRESSED.";
+                    Joystick.button(code, 1);
                 break;
                     case HOLD:
-                    msg = " HOLD.";
+                    // msg = " HOLD.";
                 break;
                     case RELEASED:
                     msg = " RELEASED.";
+                    Joystick.button(code, 0);
                 break;
                     case IDLE:
-                    msg = " IDLE.";
+                    // msg = " IDLE.";
+                break;
                 }
+#ifdef SERIAL                              
+                Serial.print("[");
+                Serial.print(i);
+                Serial.print("] ");
                 Serial.print("Key ");
-                Serial.print((byte)kpd.key[i].kchar);
+                Serial.print(code - 1);
                 Serial.println(msg);
+#endif                
             }
         }
     }
 }  // End loop
+
