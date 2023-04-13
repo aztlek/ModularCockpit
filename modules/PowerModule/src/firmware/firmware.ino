@@ -40,13 +40,29 @@ const byte NUMCOLS = 5;
 const byte MAXKEYS = NUMROWS * NUMCOLS;
 
 char keys[NUMROWS][NUMCOLS] = {
+  // Toggle switchs
+  // For the on position of the switches
   {  1,  2,  3,  4,  5},
-  {  6,  7,  8,  9, 10},
+  // For the off position of the switches
+  // {  6,  7,  8,  9, 10},
+
+  // Encoders
   { 11, 12, 13, 14, 15},
-  { 16, 17, 18, 19, 20}
+
+  // Key switchs
+  { 16, 17, 18, 19, 20},  
+  { 21, 22, 23, 24, 25}
 };
+
+typedef enum{ OFF, ON} T_ToggleSwitchState;
+T_ToggleSwitchState toggleSwitchStates[NUMCOLS] = {OFF, OFF, OFF, OFF, OFF};
+#define delayToggleSwitch 150
+#define toggleSwitchState(code) (toggleSwitchStates[(code) - 1])
+#define isToggleSwitch(code) ((code) >= 1 && (code) <= 5)
+#define offCodeToggleSwitch(code) ((code) + 5)
+
 byte rowPins[NUMROWS] = {  2,  3,  4,  5};
-byte colPins[NUMCOLS] = { 19, 20, 21, 22, 23};
+byte colPins[NUMCOLS] = {  6,  7,  8,  9, 10};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 String msg;
@@ -69,32 +85,60 @@ void loop() {
     {
         for (int i=0; i < LIST_MAX; i++)   // Scan the whole key list.
         {
+            Serial.print(i);
+            Serial.print(": ");
+            Serial.print((byte)kpd.key[i].kchar);
+            Serial.print(": ");            
+            Serial.println(kpd.key[i].kstate);
             if ( kpd.key[i].stateChanged )   // Only find keys that have changed state.
             {
-                byte code = (byte)kpd.key[i].kchar;
-                switch (kpd.key[i].kstate) {  // Report active key state : IDLE, PRESSED, HOLD, or RELEASED
-                    case PRESSED:
-                    msg = " PRESSED.";
+              byte code = (byte)kpd.key[i].kchar;
+              KeyState keyState = kpd.key[i].kstate;
+              if( isToggleSwitch(code) )
+              {
+                  if(keyState == PRESSED  && toggleSwitchState(code) != ON )
+                  {
+                    msg = " ON.";
+                    Serial.print("ON: ");
+                    Serial.println(code);
                     Joystick.button(code, 1);
-                break;
-                    case HOLD:
-                    // msg = " HOLD.";
-                break;
+                    delay(delayToggleSwitch);
+                    Joystick.button(code, 0);                           
+                    toggleSwitchState(code) = ON;
+                  }
+                  else if(keyState == RELEASED && toggleSwitchState(code) != OFF ) 
+                  {
+                    msg = " OFF.";
+                    Serial.print("OFF: ");
+                    Serial.println(code);
+                    Joystick.button(offCodeToggleSwitch(code), 1);
+                    delay(delayToggleSwitch);
+                    Joystick.button(offCodeToggleSwitch(code), 0);      
+                    toggleSwitchState(code) = OFF;                      
+                  } 
+              }
+              else // Normal key
+              {
+                switch (keyState) {  // Report active key state : IDLE, PRESSED, HOLD, or RELEASED
+                    case PRESSED:
+                      msg = " PRESSED.";
+                      Joystick.button(code, 1);
+                    break;
                     case RELEASED:
-                    msg = " RELEASED.";
-                    Joystick.button(code, 0);
-                break;
-                    case IDLE:
-                    // msg = " IDLE.";
-                break;
-                }
+                      msg = " RELEASED.";
+                      Joystick.button(code, 0);
+                    break;
+                    default:
+                    break;
+                }                
+              }
 #ifdef SERIAL                              
-                Serial.print("[");
-                Serial.print(i);
-                Serial.print("] ");
-                Serial.print("Key ");
-                Serial.print(code - 1);
-                Serial.println(msg);
+              Serial.print("[");
+              Serial.print(i);
+              Serial.print("] ");
+              Serial.print("Key ");
+              Serial.print(code - 1);
+              Serial.println(msg);
 #endif                
             }
         }
