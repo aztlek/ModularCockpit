@@ -34,38 +34,64 @@
   */
  
 #include <Keypad.h>
+#include <Encoder.h>
 
 const byte NUMROWS = 4;
 const byte NUMCOLS = 5;
 const byte MAXKEYS = NUMROWS * NUMCOLS;
 
+
+// Kaypad
 char keys[NUMROWS][NUMCOLS] = {
   // Toggle switchs
   // For the on position of the switches
-  {  1,  2,  3,  4,  5},
+  {     1,  2,  3,  4,  5},
   // For the off position of the switches
   // {  6,  7,  8,  9, 10},
 
   // Encoders
-  { 11, 12, 13, 14, 15},
+  //  for the increment
+  {   11, 12, 13, 14, 15},
+  // for the decrement
+  //{ 16, 17, 18, 19, 20}, 
 
   // Key switchs
-  { 16, 17, 18, 19, 20},  
-  { 21, 22, 23, 24, 25}
+  { 21, 22, 23, 24, 25},
+  { 26, 27, 28, 29, 30}
 };
-
-typedef enum{ OFF, ON} T_ToggleSwitchState;
-T_ToggleSwitchState toggleSwitchStates[NUMCOLS] = {OFF, OFF, OFF, OFF, OFF};
-#define delayToggleSwitch 150
-#define toggleSwitchState(code) (toggleSwitchStates[(code) - 1])
-#define isToggleSwitch(code) ((code) >= 1 && (code) <= 5)
-#define offCodeToggleSwitch(code) ((code) + 5)
 
 byte rowPins[NUMROWS] = {  2,  3,  4,  5};
 byte colPins[NUMCOLS] = {  6,  7,  8,  9, 10};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 String msg;
+
+// Keys
+
+#define MAX_THROTTLE_KEY 25
+
+// Toggle switchs
+typedef enum{ OFF, ON} T_ToggleSwitchState;
+T_ToggleSwitchState toggleSwitchStates[NUMCOLS] = {OFF, OFF, OFF, OFF, OFF};
+#define delayToggleSwitch 150
+#define toggleSwitchState(code) (toggleSwitchStates[(code) - 1])
+#define isToggleSwitch(code) ((code) >= 1 && (code) <= 5)
+#define offCodeToggleSwitch(code) ((code) + NUMCOLS)
+
+// Encoders
+byte encodersPinsA[NUMCOLS] = { 23, 21, 19, 17, 15};
+byte encodersPinsB[NUMCOLS] = { 22, 20, 18, 16, 14};
+Encoder encoders[NUMCOLS] = {
+  Encoder(encodersPinsA[0], encodersPinsB[0]),
+  Encoder(encodersPinsA[1], encodersPinsB[1]),
+  Encoder(encodersPinsA[2], encodersPinsB[2]),
+  Encoder(encodersPinsA[3], encodersPinsB[3]),
+  Encoder(encodersPinsA[4], encodersPinsB[4]),
+};
+long oldPositionEncoders[NUMCOLS];
+long newPositionEncoders[NUMCOLS];
+#define ENCODER_INCREMENT_KEYS 1
+#define ENCODER_INCREMENT_KEY(i) (keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS)
 
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
@@ -74,6 +100,11 @@ void setup() {
 #ifdef SERIAL
   Serial.begin(9600);
 #endif
+
+  // Encoders
+  for(int i = 0; i < NUMCOLS; i++) {
+    oldPositionEncoders[i] = 0;
+  }
 }
 
 
@@ -85,11 +116,6 @@ void loop() {
     {
         for (int i=0; i < LIST_MAX; i++)   // Scan the whole key list.
         {
-            Serial.print(i);
-            Serial.print(": ");
-            Serial.print((byte)kpd.key[i].kchar);
-            Serial.print(": ");            
-            Serial.println(kpd.key[i].kstate);
             if ( kpd.key[i].stateChanged )   // Only find keys that have changed state.
             {
               byte code = (byte)kpd.key[i].kchar;
@@ -99,8 +125,6 @@ void loop() {
                   if(keyState == PRESSED  && toggleSwitchState(code) != ON )
                   {
                     msg = " ON.";
-                    Serial.print("ON: ");
-                    Serial.println(code);
                     Joystick.button(code, 1);
                     delay(delayToggleSwitch);
                     Joystick.button(code, 0);                           
@@ -109,8 +133,6 @@ void loop() {
                   else if(keyState == RELEASED && toggleSwitchState(code) != OFF ) 
                   {
                     msg = " OFF.";
-                    Serial.print("OFF: ");
-                    Serial.println(code);
                     Joystick.button(offCodeToggleSwitch(code), 1);
                     delay(delayToggleSwitch);
                     Joystick.button(offCodeToggleSwitch(code), 0);      
@@ -133,7 +155,7 @@ void loop() {
                 }                
               }
 #ifdef SERIAL                              
-              Serial.print("[");
+              Serial.print("kpd.key[");
               Serial.print(i);
               Serial.print("] ");
               Serial.print("Key ");
@@ -142,6 +164,37 @@ void loop() {
 #endif                
             }
         }
+    }
+
+    // Encoders
+    for(int i = 0; i < NUMCOLS; i++) {
+      byte key;
+      newPositionEncoders[i] = encoders[i].read();
+      long difEncoder = newPositionEncoders[i] - oldPositionEncoders[i];
+      if(difEncoder != 0) {
+        if(difEncoder > 0) {
+          key = keys[ENCODER_INCREMENT_KEYS][i];
+          Joystick.button(key, 1);
+          delay(delayToggleSwitch);
+          Joystick.button(key, 0);
+        }
+        else if(difEncoder < 0) {
+          key = ENCODER_INCREMENT_KEY(i);
+          Joystick.button(key, 1);
+          delay(delayToggleSwitch);
+          Joystick.button(key, 0);
+        }
+        oldPositionEncoders[i] = newPositionEncoders[i]; 
+#ifdef SERIAL  
+        Serial.print("encoder[");
+        Serial.print(i);
+        Serial.print("]: ");
+        Serial.print(difEncoder);
+        Serial.print(": key = ");
+        Serial.print(key - 1);
+        Serial.println();
+#endif
+      }
     }
 }  // End loop
 
