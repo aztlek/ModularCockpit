@@ -1,11 +1,12 @@
 /*
 ||
-|| @file Keypad.cppfirmware.ino
+|| @file firmware.ino
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
 || | This firmware is for the "Power Module" of the "Modular Cockpit".
 || | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/PowerModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
+|| #
 || 
 || @license
 || | Copyright (C) 2020 Luis Alejandro Bernal Romero (Aztlek)
@@ -36,13 +37,13 @@ const byte NUMCOLS = 5;
 const byte MAXKEYS = NUMROWS * NUMCOLS;
 char keys[NUMROWS][NUMCOLS] = {
   // Toggle switchs
-  // For the on position of the switches
+  // for the on position of the switches
   {     1,  2,  3,  4,  5},
-  // For the off position of the switches
+  // for the off position of the switches
   // {  6,  7,  8,  9, 10},
 
   // Encoders
-  //  for the increment
+  // for the increment
   {   11, 12, 13, 14, 15},
   // for the decrement
   //{ 16, 17, 18, 19, 20}, 
@@ -58,7 +59,6 @@ byte colPins[NUMCOLS] = {  6,  7,  8,  9, 10};
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 
 // Keys
-#define MAX_THROTTLE_KEY 25
 #define KEY_PRESS_TIME 150
 
 // Toggle switchs
@@ -76,24 +76,18 @@ Encoder encoders[NUMCOLS] = {
   Encoder(17, 16),
   Encoder(15, 14),
 };
-long oldPositionEncoders[NUMCOLS];
+long oldPositionEncoders[NUMCOLS] = { 0, 0, 0, 0, 0};
 long newPositionEncoders[NUMCOLS];
 #define ENCODER_INCREMENT_KEYS 1
 
 
-// Print information through the serial port
 String msg;
 
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
-  Serial.begin(9600);\
-
-  // Encoders
-  for(int i = 0; i < NUMCOLS; i++) {
-    oldPositionEncoders[i] = 0;
-  }
+  Serial.begin(9600);
 }
 
 
@@ -160,13 +154,13 @@ void loop() {
       long difEncoder = newPositionEncoders[i] - oldPositionEncoders[i];
       if(difEncoder != 0) {
         if(difEncoder > 0) {
-          key = keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS;
+          key = keys[ENCODER_INCREMENT_KEYS][i];
           Joystick.button(key, 1);
           delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
         }
         else if(difEncoder < 0) {
-          key = keys[ENCODER_INCREMENT_KEYS][i];
+          key = keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS;
           Joystick.button(key, 1);
           delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
