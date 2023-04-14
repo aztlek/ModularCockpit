@@ -1,47 +1,39 @@
 /*
- * firmware.ino
- * 
- * @author Luis Alejandro Bernal Romero (Aztlek)
- * 
- */
- 
-/* 
- * 
- * Copyright (C) 2020 Luis Alejandro Bernal Romero (Aztlek)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- */
-
- /*
-  * The Button Box is made up of a series of switches, which can be 
-  * used to make certain controls of the ship "more physical", thus 
-  * facilitating the piloting of the ship in Star Citizen. For 
-  * example, it can be used to raise and lower the landing gear, to 
-  * turn the ship on and off, to lower and raise the shields and 
-  * everything else you want.
-  */
+||
+|| @file Keypad.cppfirmware.ino
+|| @author Luis Alejandro Bernal Romero (Aztlek)
+|| @description
+|| | This firmware is for the "Power Module" of the "Modular Cockpit".
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/PowerModule
+|| | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
+|| 
+|| @license
+|| | Copyright (C) 2020 Luis Alejandro Bernal Romero (Aztlek)
+|| | 
+|| | This program is free software: you can redistribute it and/or modify
+|| | it under the terms of the GNU General Public License as published by
+|| | the Free Software Foundation, either version 3 of the License, or
+|| | (at your option) any later version.
+|| | 
+|| | This program is distributed in the hope that it will be useful,
+|| | but WITHOUT ANY WARRANTY; without even the implied warranty of
+|| | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+|| | GNU General Public License for more details.
+|| | 
+|| | You should have received a copy of the GNU General Public License
+|| | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+|| #
+||
+*/
  
 #include <Keypad.h>
 #include <Encoder.h>
 
+
+// Keypad
 const byte NUMROWS = 4;
 const byte NUMCOLS = 5;
 const byte MAXKEYS = NUMROWS * NUMCOLS;
-
-
-// Kaypad
 char keys[NUMROWS][NUMCOLS] = {
   // Toggle switchs
   // For the on position of the switches
@@ -64,42 +56,39 @@ byte rowPins[NUMROWS] = {  2,  3,  4,  5};
 byte colPins[NUMCOLS] = {  6,  7,  8,  9, 10};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
-String msg;
 
 // Keys
-
 #define MAX_THROTTLE_KEY 25
+#define KEY_PRESS_TIME 150
 
 // Toggle switchs
 typedef enum{ OFF, ON} T_ToggleSwitchState;
 T_ToggleSwitchState toggleSwitchStates[NUMCOLS] = {OFF, OFF, OFF, OFF, OFF};
-#define delayToggleSwitch 150
 #define toggleSwitchState(code) (toggleSwitchStates[(code) - 1])
 #define isToggleSwitch(code) ((code) >= 1 && (code) <= 5)
 #define offCodeToggleSwitch(code) ((code) + NUMCOLS)
 
 // Encoders
-byte encodersPinsA[NUMCOLS] = { 23, 21, 19, 17, 15};
-byte encodersPinsB[NUMCOLS] = { 22, 20, 18, 16, 14};
 Encoder encoders[NUMCOLS] = {
-  Encoder(encodersPinsA[0], encodersPinsB[0]),
-  Encoder(encodersPinsA[1], encodersPinsB[1]),
-  Encoder(encodersPinsA[2], encodersPinsB[2]),
-  Encoder(encodersPinsA[3], encodersPinsB[3]),
-  Encoder(encodersPinsA[4], encodersPinsB[4]),
+  Encoder(23, 22),
+  Encoder(21, 20),
+  Encoder(19, 18),
+  Encoder(17, 16),
+  Encoder(15, 14),
 };
 long oldPositionEncoders[NUMCOLS];
 long newPositionEncoders[NUMCOLS];
 #define ENCODER_INCREMENT_KEYS 1
-#define ENCODER_INCREMENT_KEY(i) (keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS)
+
+
+// Print information through the serial port
+String msg;
 
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
-#ifdef SERIAL
-  Serial.begin(9600);
-#endif
+  Serial.begin(9600);\
 
   // Encoders
   for(int i = 0; i < NUMCOLS; i++) {
@@ -126,15 +115,15 @@ void loop() {
                   {
                     msg = " ON.";
                     Joystick.button(code, 1);
-                    delay(delayToggleSwitch);
+                    delay(KEY_PRESS_TIME);
                     Joystick.button(code, 0);                           
                     toggleSwitchState(code) = ON;
                   }
                   else if(keyState == RELEASED && toggleSwitchState(code) != OFF ) 
-                  {
+                  {  
                     msg = " OFF.";
                     Joystick.button(offCodeToggleSwitch(code), 1);
-                    delay(delayToggleSwitch);
+                    delay(KEY_PRESS_TIME);
                     Joystick.button(offCodeToggleSwitch(code), 0);      
                     toggleSwitchState(code) = OFF;                      
                   } 
@@ -153,15 +142,13 @@ void loop() {
                     default:
                     break;
                 }                
-              }
-#ifdef SERIAL                              
+              }                            
               Serial.print("kpd.key[");
               Serial.print(i);
-              Serial.print("] ");
+              Serial.print("]: ");
               Serial.print("Key ");
               Serial.print(code - 1);
               Serial.println(msg);
-#endif                
             }
         }
     }
@@ -173,19 +160,18 @@ void loop() {
       long difEncoder = newPositionEncoders[i] - oldPositionEncoders[i];
       if(difEncoder != 0) {
         if(difEncoder > 0) {
-          key = keys[ENCODER_INCREMENT_KEYS][i];
+          key = keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS;
           Joystick.button(key, 1);
-          delay(delayToggleSwitch);
+          delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
         }
         else if(difEncoder < 0) {
-          key = ENCODER_INCREMENT_KEY(i);
+          key = keys[ENCODER_INCREMENT_KEYS][i];
           Joystick.button(key, 1);
-          delay(delayToggleSwitch);
+          delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
         }
         oldPositionEncoders[i] = newPositionEncoders[i]; 
-#ifdef SERIAL  
         Serial.print("encoder[");
         Serial.print(i);
         Serial.print("]: ");
@@ -193,7 +179,6 @@ void loop() {
         Serial.print(": key = ");
         Serial.print(key - 1);
         Serial.println();
-#endif
       }
     }
 }  // End loop
