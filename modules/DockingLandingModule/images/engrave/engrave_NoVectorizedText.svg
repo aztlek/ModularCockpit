@@ -6,7 +6,7 @@
    height="119.99995mm"
    viewBox="0 0 49.999569 119.99995"
    version="1.1"
-   id="svg4571"
+   id="svg20017"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
    sodipodi:docname="engrave_NoVectorizedText.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -14,7 +14,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview4573"
+     id="namedview20019"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -27,9 +27,9 @@
      inkscape:zoom="2.5730741"
      inkscape:cx="94.439567"
      inkscape:cy="226.77155"
-     inkscape:current-layer="layer14" />
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs4568" />
+     id="defs20014" />
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
@@ -44,7 +44,7 @@
        id="layer14"
        inkscape:label="Front Text"
        style="display:inline;fill:#000000"
-       transform="translate(0.0379866,-176.96201)">
+       transform="translate(0.03798648,-176.96201)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -78,14 +78,14 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="13.360466"
-         y="209.7321"
+         y="210.26126"
          id="text23464"
          inkscape:label="Down  LandingText"><tspan
            sodipodi:role="line"
            x="13.360466"
-           y="209.7321"
+           y="210.26126"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-           id="tspan23462">UP</tspan></text>
+           id="tspan23462">Retract</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -97,21 +97,21 @@
            x="13.360466"
            y="235.81317"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-           id="tspan17585">DOWN</tspan></text>
+           id="tspan17585">Deploy</tspan></text>
       <text
          id="text16855"
-         y="200.89459"
+         y="201.95291"
          x="6.2356424"
          style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"
          inkscape:label="Landing Sytem Text"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-           y="200.89459"
+           y="201.95291"
            x="6.2356424"
            id="tspan16853"
            sodipodi:role="line">Landing</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-           y="204.79112"
+           y="205.84944"
            x="6.2356424"
            sodipodi:role="line"
            id="tspan17583">System</tspan></text>
