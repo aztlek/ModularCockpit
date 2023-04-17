@@ -142,6 +142,49 @@ El usar el uno o el otro depende de:
 1. Facilidad de programación.
 1. Que se pueda usar joystick y keyboard al mismo tiempo. Esto para sobrepasar la limitación de las 32 teclas del joystick tanto en Arduino como en QMK.
 
+## Joystick
+
+### Extreme Joystick
+
+Si se pone la siguiente línea en un programa con joystick antes de los `#include`
+
+```C++
+ #define JOYSTICK_SIZE         64	//  12 = normal, 64 = extreme joystick
+```
+
+Entonces el saca un error como el siguiente:
+
+```
+/home/aztlek/Documentos/ModularCockpit/modules/PowerModule/src/firmware/firmware.ino:30: warning: "JOYSTICK_SIZE" redefined
+   30 | #define JOYSTICK_SIZE         64        //  12 = normal, 64 = extreme joystick
+      |
+In file included from /home/aztlek/.arduino15/packages/teensy/hardware/avr/1.58.0/cores/teensy4/usb_serial.h:33,
+                 from /home/aztlek/.arduino15/packages/teensy/hardware/avr/1.58.0/cores/teensy4/WProgram.h:52,
+                 from /tmp/arduino/sketches/B19FFDD5866611D7F05A07723232A08F/pch/Arduino.h:6:
+/home/aztlek/.arduino15/packages/teensy/hardware/avr/1.58.0/cores/teensy4/usb_desc.h:318: note: this is the location of the previous definition
+  318 |   #define JOYSTICK_SIZE         12      //  12 = normal, 64 = extreme joystick
+      |
+Opening Teensy Loader...
+Memory Usage on Teensy 4.0:
+  FLASH: code:23976, data:6284, headers:8648   free for files:1992708
+   RAM1: variables:8544, code:22248, padding:10520   free for local variables:482976
+   RAM2: variables:12608  free for malloc/new:511680
+```
+
+Por lo que se puede inferir de donde toma el `Arduino Ide` las librerías de
+Teensy. En este caso:
+
+```
+.arduino15/packages/teensy/hardware/avr/1.58.0/cores/teensy4/
+```
+
+Para el `Teensy 4`. Por lo que un comando bash para averiguar donde modificar
+sería:
+
+ ```bash
+cd .arduino15/packages/teensy/hardware/avr/1.58.0/cores/teensy4/
+egrep -Rn '#define[ ]+JOYSTICK_SIZE' *
+ ```
 
 ## Componentes
 
