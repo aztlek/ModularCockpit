@@ -12,12 +12,12 @@
 
 ### Flight – Movement
 
-| Keybinding            |   Input Device Type   |
-| ----------------------| --------------------- |
-| Landing System On     | toggle_switch[2]: on  |
-| Landing System Off    | toggle_switch[2]: off |
-| Request Landing       | key[3]                |
-| Autoland              | key[4]                |
+| Keybinding             |   Input Device Type   |
+| -----------------------| --------------------- |
+| Landing System Retract | toggle_switch[2]: on  |
+| Landing System Deploy  | toggle_switch[2]: off |
+| Request Landing        | key[3]                |
+| Autoland               | key[4]                |
 
 
 ### Total devices in keybindings
