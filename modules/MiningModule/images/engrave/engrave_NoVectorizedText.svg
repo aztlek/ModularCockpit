@@ -6,15 +6,15 @@
    height="120.07591mm"
    viewBox="0 0 60.03978 120.07591"
    version="1.1"
-   id="svg1924"
+   id="svg1857"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
-   sodipodi:docname="engrave_NoVectorizedText.svg.svg"
+   sodipodi:docname="engrave_NoVectorizedText.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview1926"
+     id="namedview1859"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -29,7 +29,7 @@
      inkscape:cy="226.91511"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1921" />
+     id="defs1854" />
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
@@ -38,58 +38,65 @@
     <path
        id="rect3678"
        style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 10.017993,0 V 4.997047 C 10.017827,7.7566902 7.7791167,9.9937142 5.0177815,9.9935843 H 0.01808675 V 109.93042 H 5.0177815 c 2.7613352,-1.1e-4 5.0000455,2.23689 5.0002115,4.99653 v 4.99705 h 39.963969 v -4.99705 c 1.66e-4,-2.75964 2.238882,-4.99664 5.000211,-4.99653 h 4.999695 V 9.9935843 H 54.982173 C 52.220844,9.9937142 49.982128,7.7566802 49.981962,4.997047 V 0 Z M 20.557918,10.815754 H 39.557792 V 29.803605 H 20.557918 Z M 4.0638346,12.462671 c 0.8837806,5e-5 1.6001343,0.716187 1.5999023,1.599408 -5.52e-5,0.883011 -0.7163248,1.598838 -1.5999023,1.598888 -0.8835775,-5e-5 -1.5998471,-0.715877 -1.5999023,-1.598888 -2.32e-4,-0.883221 0.7161217,-1.599358 1.5999023,-1.599408 z m 51.9875244,0 c 0.883982,-2.29e-4 1.600651,0.715987 1.600419,1.599408 -5.5e-5,0.883211 -0.71664,1.599118 -1.600419,1.598888 -0.883578,-5e-5 -1.599848,-0.715877 -1.599903,-1.598888 -2.32e-4,-0.883221 0.716122,-1.599358 1.599903,-1.599408 z m -7.479647,25.034814 a 7.5500002,7.5452242 0 0 1 7.549927,7.545674 7.5500002,7.5452242 0 0 1 -7.549927,7.545144 7.5500002,7.5452242 0 0 1 -7.550444,-7.545144 7.5500002,7.5452242 0 0 1 7.550444,-7.545674 z M 2.0438029,37.592525 H 39.557792 V 56.580376 H 2.0438029 Z m 0,27.70893 H 58.071391 V 84.289317 H 2.0438029 Z M 20.557918,87.962212 H 39.557792 V 106.95007 H 20.557918 Z M 4.0638346,104.57032 c 0.8835775,5e-5 1.5998471,0.71587 1.5999023,1.59889 -5.52e-5,0.88302 -0.7163248,1.59883 -1.5999023,1.59888 -0.8835775,-5e-5 -1.5998471,-0.71586 -1.5999023,-1.59888 5.52e-5,-0.88302 0.7163248,-1.59884 1.5999023,-1.59889 z m 51.9875244,0 c 0.883779,-2.3e-4 1.600364,0.71567 1.600419,1.59889 -5.5e-5,0.88322 -0.71664,1.59911 -1.600419,1.59888 -0.883578,-5e-5 -1.599848,-0.71586 -1.599903,-1.59888 5.5e-5,-0.88302 0.716325,-1.59884 1.599903,-1.59889 z" />
-    <text
-       id="text14794"
-       y="56.596436"
-       x="48.755772"
-       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Power Text"><tspan
-         id="tspan1586"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         y="56.596436"
-         x="48.755772"
-         sodipodi:role="line">POWER</tspan></text>
-    <text
-       id="text2078"
-       y="36.578171"
-       x="30.242004"
-       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Laser Text"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         y="36.578171"
-         x="30.242004"
-         id="tspan2074"
-         sodipodi:role="line">LASER</tspan><tspan
-         id="tspan2076"
-         y="40.105946"
-         x="30.242004"
-         sodipodi:role="line" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="21.126514"
-       y="7.5802321"
-       id="text12344"
-       inkscape:label="Title"><tspan
-         sodipodi:role="line"
-         id="tspan12342"
-         x="21.126514"
-         y="7.5802321"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">MINING</tspan></text>
-    <text
-       id="text14353"
-       y="61.669159"
-       x="18.630445"
-       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Slots Text"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-         y="61.669159"
-         x="18.630445"
-         id="tspan14351"
-         sodipodi:role="line">SLOTS</tspan></text>
+       d="M 10.017993,0 V 5.00021 C 10.017827,7.7616 7.779114,10.00004 5.0177815,9.99991 H 0.01808675 V 110 H 5.0177815 c 2.7613325,-1.1e-4 5.0000455,2.23831 5.0002115,4.9997 v 5.00021 h 39.963969 v -5.00021 c 1.66e-4,-2.76139 2.238885,-4.99981 5.000211,-4.9997 h 4.999695 V 9.99991 h -4.999695 c -2.761326,1.3e-4 -5.000045,-2.23832 -5.000211,-4.9997 V 0 Z M 20.557918,10.8226 H 39.557792 V 29.82247 H 20.557918 Z M 4.0638346,12.47056 c 0.8837797,5e-5 1.6001343,0.71664 1.5999023,1.60042 -5.52e-5,0.88356 -0.7163257,1.59985 -1.5999023,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71634 -1.5999023,-1.5999 -2.32e-4,-0.88378 0.7161226,-1.60037 1.5999023,-1.60042 z m 51.9875244,0 c 0.883981,-2.3e-4 1.600651,0.71644 1.600419,1.60042 -5.5e-5,0.88376 -0.716641,1.60013 -1.600419,1.5999 -0.883577,-5e-5 -1.599848,-0.71634 -1.599903,-1.5999 -2.32e-4,-0.88378 0.716123,-1.60037 1.599903,-1.60042 z m -7.479647,24.85068 a 7.7499995,7.7499995 0 0 1 7.749915,7.75043 7.7499995,7.7499995 0 0 1 -7.749915,7.74991 7.7499995,7.7499995 0 0 1 -7.750431,-7.74991 7.7499995,7.7499995 0 0 1 7.750431,-7.75043 z M 2.0438029,37.61631 H 39.557792 V 56.61618 H 2.0438029 Z m 0,27.72647 H 58.071391 V 84.34266 H 2.0438029 Z m 18.5141151,22.6751 h 18.999874 v 18.99988 H 20.557918 Z M 4.0638346,104.63651 c 0.8835766,5e-5 1.5998471,0.71632 1.5999023,1.5999 -5.52e-5,0.88358 -0.7163257,1.59985 -1.5999023,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71632 -1.5999023,-1.5999 5.52e-5,-0.88358 0.7163257,-1.59985 1.5999023,-1.5999 z m 51.9875244,0 c 0.883778,-2.3e-4 1.600364,0.71612 1.600419,1.5999 -5.5e-5,0.88378 -0.716641,1.60013 -1.600419,1.5999 -0.883577,-5e-5 -1.599848,-0.71632 -1.599903,-1.5999 5.5e-5,-0.88358 0.716326,-1.59985 1.599903,-1.5999 z" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer14"
+       inkscape:label="Front Text"
+       style="display:inline;fill:#000000"
+       transform="translate(0.0380003,-176.92401)">
+      <text
+         id="text14794"
+         y="233.52045"
+         x="48.71777"
+         style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Power Text"><tspan
+           id="tspan1586"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+           y="233.52045"
+           x="48.71777"
+           sodipodi:role="line">POWER</tspan></text>
+      <text
+         id="text2078"
+         y="213.50218"
+         x="30.204004"
+         style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Laser Text"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+           y="213.50218"
+           x="30.204004"
+           id="tspan2074"
+           sodipodi:role="line">LASER</tspan><tspan
+           id="tspan2076"
+           y="217.02995"
+           x="30.204004"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="21.088514"
+         y="184.50424"
+         id="text12344"
+         inkscape:label="Title"><tspan
+           sodipodi:role="line"
+           id="tspan12342"
+           x="21.088514"
+           y="184.50424"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">MINING</tspan></text>
+      <text
+         id="text14353"
+         y="238.59317"
+         x="18.592445"
+         style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Slots Text"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
+           y="238.59317"
+           x="18.592445"
+           id="tspan14351"
+           sodipodi:role="line">SLOTS</tspan></text>
+    </g>
   </g>
 </svg>
