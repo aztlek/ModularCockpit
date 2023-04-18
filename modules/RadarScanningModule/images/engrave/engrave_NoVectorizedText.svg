@@ -6,7 +6,7 @@
    height="119.99995mm"
    viewBox="0 0 49.999569 119.99995"
    version="1.1"
-   id="svg1430"
+   id="svg2497"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
    sodipodi:docname="engrave_NoVectorizedText.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -14,7 +14,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview1432"
+     id="namedview2499"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -29,7 +29,7 @@
      inkscape:cy="226.77155"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1427" />
+     id="defs2494" />
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
@@ -38,54 +38,61 @@
     <path
        id="rect3678"
        style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 10.047965,0.03824 v 4.99659 c -1.69e-4,2.75962 -2.24124,4.99672 -5.0053788,4.9966 H 0.03824056 v 99.93705 H 5.0425862 c 2.7641382,-1.2e-4 5.0052088,2.23698 5.0053788,4.9966 v 4.99711 h 29.904118 v -4.99711 c 1.69e-4,-2.75962 2.241241,-4.99672 5.005379,-4.9966 h 5.004346 V 10.03143 h -5.004346 c -2.764138,1.2e-4 -5.00521,-2.23698 -5.005379,-4.9966 V 0.03824 Z m 5.451864,10.08621 h 19.00039 v 18.99987 h -19.00039 z m -9.7658121,2.52077 c 0.8837814,-2.3e-4 1.6003694,0.71613 1.6004191,1.59991 -5.52e-5,0.88375 -0.7166416,1.60013 -1.6004191,1.5999 -0.8835757,-5e-5 -1.5998472,-0.71635 -1.5999024,-1.5999 4.97e-5,-0.88358 0.7163228,-1.59986 1.5999024,-1.59991 z m 38.4813721,0 c 0.883579,5e-5 1.599852,0.71633 1.599902,1.59991 -5.5e-5,0.88355 -0.716327,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599848,-0.71635 -1.599903,-1.5999 5e-5,-0.88358 0.716323,-1.59986 1.599903,-1.59991 z M 25.000024,33.37057 a 7.5500002,7.5500002 0 0 1 7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,-7.54993 7.5500002,7.5500002 0 0 1 7.549927,-7.54993 z M 6.0022176,66.27244 H 43.997831 V 85.27231 H 6.0022176 Z M 25.000024,89.54079 a 7.5500002,7.5500002 0 0 1 7.549927,7.55044 7.5500002,7.5500002 0 0 1 -7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,-7.54993 7.5500002,7.5500002 0 0 1 7.549927,-7.55044 z M 5.7340169,103.72442 c 0.8837775,-2.3e-4 1.6003639,0.71612 1.6004191,1.5999 -5.52e-5,0.88378 -0.7166416,1.60013 -1.6004191,1.5999 -0.8835757,-5e-5 -1.5998472,-0.71632 -1.5999024,-1.5999 5.52e-5,-0.88358 0.7163267,-1.59985 1.5999024,-1.5999 z m 38.4813721,0 c 0.883575,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88358 -0.716327,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599848,-0.71632 -1.599903,-1.5999 5.5e-5,-0.88358 0.716327,-1.59985 1.599903,-1.5999 z" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="15.271056"
-       y="7.5043392"
-       id="text12344"
-       inkscape:label="Radar Title"><tspan
-         sodipodi:role="line"
-         id="tspan12342"
-         x="15.271056"
-         y="7.5043392"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">rADAR</tspan></text>
-    <text
-       id="text1296"
-       y="64.089912"
-       x="10.912204"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Scanning Title"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-         y="64.089912"
-         x="10.912204"
-         id="tspan1294"
-         sodipodi:role="line">SCANNING</tspan></text>
-    <text
-       id="text6190"
-       y="53.31052"
-       x="15.522566"
-       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Ping Angle Text"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-         y="53.31052"
-         x="15.522566"
-         id="tspan6188"
-         sodipodi:role="line">Pin Angle</tspan></text>
-    <text
-       id="text6194"
-       y="109.47575"
-       x="9.9204817"
-       style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:label="Scanning Angle Text"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-         y="109.47575"
-         x="9.9204817"
-         id="tspan6192"
-         sodipodi:role="line">Scanning Angle</tspan></text>
+       d="m 10.047965,0.03824 v 4.99659 c -1.69e-4,2.75962 -2.2412697,4.99672 -5.0053788,4.9966 H 0.03824056 v 99.93705 H 5.0425862 c 2.7641085,-1.2e-4 5.0052088,2.23698 5.0053788,4.9966 v 4.99711 h 29.904118 v -4.99711 c 1.69e-4,-2.75962 2.241274,-4.99672 5.005379,-4.9966 h 5.004346 V 10.03143 h -5.004346 c -2.764105,1.2e-4 -5.00521,-2.23698 -5.005379,-4.9966 V 0.03824 Z M 5.7340169,12.35842 a 1.6,1.6 0 0 1 1.6004191,1.5999 1.6,1.6 0 0 1 -1.6004191,1.5999 1.6,1.6 0 0 1 -1.5999024,-1.5999 1.6,1.6 0 0 1 1.5999024,-1.5999 z m 38.4813721,0 a 1.6,1.6 0 0 1 1.599902,1.5999 1.6,1.6 0 0 1 -1.599902,1.5999 1.6,1.6 0 0 1 -1.599903,-1.5999 1.6,1.6 0 0 1 1.599903,-1.5999 z M 3.0220377,17.55087 H 22.022428 V 36.55126 H 3.0220377 Z m 25.1509193,0 H 47.172831 V 36.55126 H 28.172957 Z m 9.499679,23.91172 a 7.7499995,7.7499995 0 0 1 7.750431,7.74991 7.7499995,7.7499995 0 0 1 -7.750431,7.74991 7.7499995,7.7499995 0 0 1 -7.749915,-7.74991 7.7499995,7.7499995 0 0 1 7.749915,-7.74991 z M 6.0022176,66.27244 H 43.997831 V 85.27231 H 6.0022176 Z M 25.000024,94.16945 c 4.280119,5e-5 7.749866,3.46977 7.749915,7.74991 -4.9e-5,4.28014 -3.469796,7.74986 -7.749915,7.74991 -4.280118,-5e-5 -7.749865,-3.46977 -7.749914,-7.74991 4.9e-5,-4.28014 3.469796,-7.74986 7.749914,-7.74991 z m -19.2660071,9.55497 c 0.8837676,-2.3e-4 1.6003639,0.71612 1.6004191,1.5999 -5.52e-5,0.88378 -0.7166515,1.60013 -1.6004191,1.5999 -0.8835658,-5e-5 -1.5998472,-0.71632 -1.5999024,-1.5999 5.52e-5,-0.88358 0.7163366,-1.59985 1.5999024,-1.5999 z m 38.4813721,0 c 0.883564,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88358 -0.716338,1.59985 -1.599902,1.5999 -0.883565,-5e-5 -1.599848,-0.71632 -1.599903,-1.5999 5.5e-5,-0.88358 0.716338,-1.59985 1.599903,-1.5999 z" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer14"
+       inkscape:label="Front Text"
+       style="display:inline;fill:#000000"
+       transform="translate(0.03800017,-176.962)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="15.233056"
+         y="184.46634"
+         id="text12344"
+         inkscape:label="Radar Title"><tspan
+           sodipodi:role="line"
+           id="tspan12342"
+           x="15.233056"
+           y="184.46634"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">rADAR</tspan></text>
+      <text
+         id="text1296"
+         y="241.05191"
+         x="10.874204"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Scanning Title"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
+           y="241.05191"
+           x="10.874204"
+           id="tspan1294"
+           sodipodi:role="line">SCANNING</tspan></text>
+      <text
+         id="text6190"
+         y="227.58638"
+         x="6.402142"
+         style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Ping Angle Text"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
+           y="227.58638"
+           x="6.402142"
+           id="tspan6188"
+           sodipodi:role="line">Pin Angle</tspan></text>
+      <text
+         id="text6194"
+         y="268.24969"
+         x="9.8824816"
+         style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"
+         inkscape:label="Scanning Angle Text"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
+           y="268.24969"
+           x="9.8824816"
+           id="tspan6192"
+           sodipodi:role="line">Scanning Angle</tspan></text>
+    </g>
   </g>
 </svg>
