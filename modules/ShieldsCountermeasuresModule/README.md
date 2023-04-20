@@ -1,6 +1,6 @@
 # Shields and Countermeasures Module
 
-![Shields and Counter Measures Module](images/ShieldsCountermeasuresModule_85mmWidth.png)
+![Shields and Counter Measures Module](images/ShieldsCountermeasuresModule_110mmWidth.png)
 
 ## Keybindings
 
@@ -18,13 +18,14 @@
 | Decoy – Lauch Burst (tab), Set and Launch Burst (hold) | key[7]               |
 | Decoy – Increase Burst Size (tab)                      | encoder[0]: increase |
 | Decoy – Increase Burst Size (tab)                      | encoder[0]: decrease |
-| Noise – Deploy (tab)                                   | key[8]               |
+| Decoy – Panic Launch (tab)                             | key[8]               |
+| Noise – Deploy (tab)                                   | key[9]               |
 
 ### Total devices in keybindings
 
 | Device               | Count  |
 | -------------------- | -----: |
-| Keys                 |      9 |
+| Keys                 |     10 |
 | Toggle switchs       |      0 |
 | Encoders             |      1 |
 | Slide                |      0 |

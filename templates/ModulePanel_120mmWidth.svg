@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="120.00001mm"
-   height="120mm"
-   viewBox="0 0 120.00001 120"
+   width="120.00019mm"
+   height="119.99999mm"
+   viewBox="0 0 120.00019 120"
    version="1.1"
    id="svg10982"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
@@ -498,10 +498,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5730729"
-     inkscape:cx="226.96597"
-     inkscape:cy="226.77165"
+     inkscape:cx="215.6954"
+     inkscape:cy="227.54894"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer22"
+     inkscape:current-layer="layer12"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -516,7 +516,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"><sodipodi:guide
-       position="120.00055,59.925443"
+       position="120.00056,59.925433"
        orientation="1,0"
        id="guide9977"
        inkscape:locked="false" /></sodipodi:namedview><metadata
@@ -726,13 +726,10 @@
      style="display:inline"><g
        inkscape:groupmode="layer"
        id="layer23"
-       inkscape:label="Microcontroller Acrylic"><rect
-         style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0831903;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:label="Microcontroller Acrylic"><path
          id="rect11527-5"
-         width="119.91681"
-         height="99.916809"
-         x="0.041595172"
-         y="10.041595" /></g><g
+         style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0831903;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 0.00334154,11.003706 V 108.92021 H 119.92057 V 11.003706 Z M 90.500143,82.115128 h 17.999937 v 9.999906 H 90.500143 Z" /></g><g
        inkscape:groupmode="layer"
        id="layer24"
        inkscape:label="Microcontroller Teensy 4.0"><g
@@ -855,7 +852,7 @@
      inkscape:label="Panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(4.3421879e-7,-177)"
+     transform="translate(4.5961805e-7,-177)"
      style="display:inline;opacity:1"><g
        inkscape:groupmode="layer"
        id="layer6"
@@ -869,8 +866,8 @@
            id="rect11527"
            width="119.91681"
            height="119.9168"
-           x="0.04159762"
-           y="177.04161" /></g><g
+           x="0.0035977596"
+           y="177.0036" /></g><g
          inkscape:groupmode="layer"
          id="layer11"
          inkscape:label="Back  Screws"><g
@@ -1051,7 +1048,7 @@
          inkscape:label="Middle Acrylic"><path
            inkscape:connector-curvature="0"
            style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-           d="m 9.9999062,177 v 5.00021 c -1.657e-4,2.76139 -2.2388225,4.99982 -5.0002117,4.9997 H -2.4121096e-7 V 287 H 4.9996945 c 2.7613892,-1.2e-4 5.000046,2.23831 5.0002117,4.9997 v 5.00021 H 109.96285 v -5.00021 c 1.6e-4,-2.76139 2.23882,-4.99982 5.00021,-4.9997 h 4.9997 V 186.99991 h -4.9997 c -2.76139,1.2e-4 -5.00005,-2.23831 -5.00021,-4.9997 V 177 Z"
+           d="m 9.9966752,177 v 4.99705 c -1.656e-4,2.75964 -2.2380991,4.99665 -4.9985961,4.99653 H -2.4113302e-7 v 99.93684 H 4.9980791 c 2.760497,-1.2e-4 4.9984305,2.23689 4.9985961,4.99653 V 296.924 H 109.92732 v -4.99705 c 1.6e-4,-2.75964 2.2381,-4.99665 4.9986,-4.99653 h 4.99808 v -99.93684 h -4.99808 c -2.7605,1.2e-4 -4.99844,-2.23689 -4.9986,-4.99653 V 177 Z"
            id="rect3678-3"
            sodipodi:nodetypes="ccccccccccccccccc" /></g></g><g
        inkscape:groupmode="layer"
@@ -1066,12 +1063,7 @@
            d="m 10.037896,177.03799 v 4.99705 c -1.7e-4,2.75964 -2.238826,4.99665 -5.0002126,4.99653 H 0.03798754 v 99.93686 H 5.0376834 c 2.7613866,-1.2e-4 5.0000426,2.23689 5.0002126,4.99653 v 4.99705 h 99.924394 v -4.99705 c 1.7e-4,-2.75964 2.23883,-4.99665 5.00022,-4.99653 h 4.99969 v -99.93686 h -4.99969 c -2.76139,1.2e-4 -5.00005,-2.23689 -5.00022,-4.99653 v -4.99705 z"
            id="rect3678"
            inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccccccccccccccc" /><circle
-           r="0"
-           cy="182.00005"
-           cx="5.7498398"
-           id="ellipse3686"
-           style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" /></g><g
+           sodipodi:nodetypes="ccccccccccccccccc" /></g><g
          inkscape:groupmode="layer"
          id="layer13"
          inkscape:label="Front Screws"
