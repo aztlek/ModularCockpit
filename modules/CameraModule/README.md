@@ -23,7 +23,7 @@
 ### Camera – Advanced Camera Controls
 
 | Keybinding                                                 | Joy | Key / Mouse | Input Device Type      |
-| ---------------------------------------------------------- | --- |----------- | ---------------------- |
+| ---------------------------------------------------------- | --- |------------ | ---------------------- |
 | Advanced Camera Controls Modifier 1 (Hold)                 |     | F4          | toggle_switch(hold)[1] |
 | Advanced Camera Controls Modifier 2 (Hold)                 |     | Z           | toggle_switch(hold)[2] |
 | Save View 1                                                |     | Numpad 1    | key[3]                 |
