@@ -62,7 +62,6 @@ void loop() {
   for(unsigned i = 0; i < sizeof(buttons) / sizeof(Bounce); i++) {
     if (buttons[i].fallingEdge()) {
       Joystick.button(i + 1, 1);
-      
       temporarily_increase_led_brightness(20);
     }
   }
@@ -70,7 +69,6 @@ void loop() {
   for(unsigned i = 0; i < sizeof(buttons) / sizeof(Bounce); i++) {
     if (buttons[i].risingEdge()) {
       Joystick.button(i + 1, 0);
-      
       temporarily_increase_led_brightness(20);
     }
   }
