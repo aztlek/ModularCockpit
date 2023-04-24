@@ -4,7 +4,7 @@
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
 || | This firmware is for the "Camera Module" of the "Modular Cockpit".
-|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/PowerModule
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/CameraModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
@@ -30,6 +30,7 @@
 #include <Keypad.h>
 #include <Encoder.h>
 
+// #define DEBUG
 
 // Keypad
 const byte NUMROWS = 4;
@@ -80,15 +81,27 @@ long newPositionEncoders[NUM_ENCODERS];
 
 // Potentiometer
 #define potentiometerPin 23
+const int potentiometerDelta = 10;
 int potentiometerOldValue = 0;
-
+int potentiometerValue = 0;
 
 String msg;
+
+const int ledPin = 13;
+
 
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
+  pinMode(ledPin, OUTPUT);
+
+  // Led as power indicator
+  analogWrite(ledPin, 100); 
+  delay(1000);
+  analogWrite(ledPin,   5);
+  
+  // Encoders
   pinMode(11, INPUT_PULLUP);
   pinMode(12, INPUT_PULLUP);
   pinMode(22, INPUT_PULLUP);
@@ -101,7 +114,15 @@ void setup() {
   pinMode(15, INPUT_PULLUP);
   pinMode(14, INPUT_PULLUP);
   pinMode(29, INPUT_PULLUP);
+
+
+  // Potentiometer
+  potentiometerValue = analogRead(potentiometerPin);  
+  potentiometerOldValue = potentiometerValue;
+    
+#ifdef DEBUG
   Serial.begin(9600);
+#endif
 }
 
 
@@ -139,7 +160,8 @@ void loop() {
                 break;
                 default:
                 break;
-              }
+              }    
+#ifdef DEBUG
               Serial.print("kpd.key[");
               Serial.print(i);
               Serial.print("]: ");
@@ -192,6 +214,7 @@ void loop() {
               Serial.print(", ");
               Serial.print(msg);
               Serial.println();
+#endif
             }
         }
     }
@@ -211,7 +234,8 @@ void loop() {
           Keyboard.release(key);
         }        
         oldPositionEncoders[i] = newPositionEncoders[i]; 
-        
+            
+#ifdef DEBUG
         Serial.print("encoder[");
         Serial.print(i);
         Serial.print("]: difEncoder=");
@@ -247,16 +271,19 @@ void loop() {
             break;
         }
         Serial.println();
+#endif
       }      
     }
 
     // Potentiometer
-    int potentiometerValue = analogRead(potentiometerPin);
-    if(abs(potentiometerValue - potentiometerOldValue) > 2) {
+    potentiometerValue = analogRead(potentiometerPin);
+    if(abs(potentiometerValue - potentiometerOldValue) > potentiometerDelta) {    
+#ifdef DEBUG
       Serial.print("potentiometer");
       Serial.print(": ");
       Serial.print(potentiometerValue);
       Serial.println();
+#endif
       Joystick.X(potentiometerValue);
       potentiometerOldValue = potentiometerValue;
     }
