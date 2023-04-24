@@ -61,13 +61,6 @@ Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 // Keys
 #define KEY_PRESS_TIME 150
 
-// // Toggle switchs
-// typedef enum{ OFF, ON} T_ToggleSwitchState;
-// T_ToggleSwitchState toggleSwitchStates[NUMCOLS] = {OFF, OFF, OFF, OFF, OFF};
-// #define toggleSwitchState(code) (toggleSwitchStates[(code) - 1])
-// #define isToggleSwitch(code) ((code) >= 1 && (code) <= 5)
-// #define offCodeToggleSwitch(code) ((code) + NUMCOLS)
-
 // Encoders
 #define NUM_ENCODERS 6
 Encoder encoders[NUM_ENCODERS] = {
@@ -79,8 +72,8 @@ Encoder encoders[NUM_ENCODERS] = {
   Encoder(14, 29)  // 5 X_OFFSET
 };
 //                               ZOOM_3RD_PERSON, FOV         , Y_OFFSET, Z_OFFSET     , DOF     , X_OFFSET
-int inc_encoder[NUM_ENCODERS] = {  3            , KEYPAD_PLUS , KEY_UP  , KEY_PAGE_UP  , KEY_HOME, KEY_RIGHT};
-int dec_encoder[NUM_ENCODERS] = { -3            , KEYPAD_MINUS, KEY_DOWN, KEY_PAGE_DOWN, KEY_END , KEY_LEFT} ;
+int inc_encoder[NUM_ENCODERS] = {  1            , KEYPAD_PLUS , KEY_UP  , KEY_PAGE_UP  , KEY_HOME, KEY_RIGHT};
+int dec_encoder[NUM_ENCODERS] = { -1            , KEYPAD_MINUS, KEY_DOWN, KEY_PAGE_DOWN, KEY_END , KEY_LEFT} ;
 long oldPositionEncoders[NUM_ENCODERS] = { 0, 0, 0, 0, 0, 0};
 long newPositionEncoders[NUM_ENCODERS];
 #define ENCODER_INCREMENT_KEYS 1
@@ -156,41 +149,42 @@ void loop() {
               switch(ch) {
                 case KEYPAD_7:
                   Serial.print("KEYPAD_7");
-                  break;
+                break;
                 case KEYPAD_8:
                   Serial.print("KEYPAD_8");
-                  break;
+                break;
                 case KEYPAD_9:
                   Serial.print("KEYPAD_9");
-                  break;
+                break;
                 case KEYPAD_4:
                   Serial.print("KEYPAD_4");
-                  break;
+                break;
                 case KEYPAD_5:
                   Serial.print("KEYPAD_5");
-                  break;
+                break;
                 case KEYPAD_6:
                   Serial.print("KEYPAD_6");
-                  break;
+                break;
                 case KEYPAD_1:
                   Serial.print("KEYPAD_1");
-                  break;
+                break;
                 case KEYPAD_2:
                   Serial.print("KEYPAD_2");
-                  break;
+                break;
                 case KEYPAD_3:
                   Serial.print("KEYPAD_3");
-                  break;
+                break;
                 case KEYPAD_ASTERIX:
                   Serial.print("KEYPAD_ASTERIX");
-                  break;
+                break;
                 case KEY_F4:
                   Serial.print("KEY_F4");
-                  break;
+                break;
                 default:
                   if(isPrintable(ch)) {
                     Serial.print((char)ch);
                   }
+                break;
               }
               Serial.print("(");
               Serial.print(ch);
@@ -256,7 +250,7 @@ void loop() {
       }      
     }
 
-    // Potentiometer-
+    // Potentiometer
     int potentiometerValue = analogRead(potentiometerPin);
     if(abs(potentiometerValue - potentiometerOldValue) > 2) {
       Serial.print("potentiometer");

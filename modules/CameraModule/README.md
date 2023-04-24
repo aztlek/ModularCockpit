@@ -57,7 +57,7 @@
 | Decrease DoF[^6]                                           | Key | End         | encoder[5]             |
 | Reset Current View                                         | Kay | Numpad *    | key[13]                |
 
-[^4]: Why do they use the same key save and load?
+[^4]: Why do they use the same key save and load?-
 [^5]: FOV (field of view) or field of vision, is related to the focal length.
 [^6]: DOF (depth of field) depth of field.
 [^7]: What is PH?
@@ -72,4 +72,4 @@
 | Slide Pot             |      2 |
 | Encoders              |      6 |
 | Slide Pot             |      2 |
-| Joystick              |      0 |
+| Joystick              |      0 |---
