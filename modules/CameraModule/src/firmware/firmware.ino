@@ -89,7 +89,6 @@ String msg;
 
 const int ledPin = 13;
 
-
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {

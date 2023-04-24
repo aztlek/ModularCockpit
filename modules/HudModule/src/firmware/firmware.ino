@@ -36,10 +36,18 @@ Bounce buttons[] = {
   Bounce(5, 10)
 };
 
+
+const int ledPin = 13;
+
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
+
+  // Led as power indicator
+  temporarily_increase_led_brightness(1000);
+
+  // Buttoms
   pinMode(2, INPUT_PULLUP);
   pinMode(3, INPUT_PULLUP);
   pinMode(4, INPUT_PULLUP);
@@ -54,13 +62,22 @@ void loop() {
   for(unsigned i = 0; i < sizeof(buttons) / sizeof(Bounce); i++) {
     if (buttons[i].fallingEdge()) {
       Joystick.button(i + 1, 1);
+      
+      temporarily_increase_led_brightness(20);
     }
   }
   
   for(unsigned i = 0; i < sizeof(buttons) / sizeof(Bounce); i++) {
     if (buttons[i].risingEdge()) {
       Joystick.button(i + 1, 0);
+      
+      temporarily_increase_led_brightness(20);
     }
   }
 }
 
+void temporarily_increase_led_brightness(uint32_t msec) {
+      analogWrite(ledPin, 100); 
+      delay(msec);
+      analogWrite(ledPin,   5);  
+}
