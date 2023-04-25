@@ -30,6 +30,8 @@
 #include <Keypad.h>
 #include <Encoder.h>
 
+// #define DEBUG
+
 
 // Keypad
 const byte NUMROWS = 4;
@@ -83,11 +85,19 @@ long newPositionEncoders[NUMCOLS];
 
 String msg;
 
+const int ledPin = 13;
+
 extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
+
+  // Led as power indicator
+  temporarily_increase_led_brightness(1000);
+  
+#ifdef DEBUG
   Serial.begin(9600);
+#endif
 }
 
 
@@ -112,6 +122,7 @@ void loop() {
                     delay(KEY_PRESS_TIME);
                     Joystick.button(code, 0);                           
                     toggleSwitchState(code) = ON;
+                    temporarily_increase_led_brightness(20);
                   }
                   else if(keyState == RELEASED && toggleSwitchState(code) != OFF ) 
                   {  
@@ -119,7 +130,8 @@ void loop() {
                     Joystick.button(offCodeToggleSwitch(code), 1);
                     delay(KEY_PRESS_TIME);
                     Joystick.button(offCodeToggleSwitch(code), 0);      
-                    toggleSwitchState(code) = OFF;                      
+                    toggleSwitchState(code) = OFF;
+                    temporarily_increase_led_brightness(20);            
                   } 
               }
               else // Normal key
@@ -128,21 +140,25 @@ void loop() {
                     case PRESSED:
                       msg = " PRESSED.";
                       Joystick.button(code, 1);
+                      temporarily_increase_led_brightness(20);
                     break;
                     case RELEASED:
                       msg = " RELEASED.";
                       Joystick.button(code, 0);
+                      temporarily_increase_led_brightness(20);
                     break;
                     default:
                     break;
                 }                
-              }                            
+              }     
+#ifdef DEBUG                       
               Serial.print("kpd.key[");
               Serial.print(i);
               Serial.print("]: ");
               Serial.print("Key ");
               Serial.print(code - 1);
               Serial.println(msg);
+#endif
             }
         }
     }
@@ -158,14 +174,17 @@ void loop() {
           Joystick.button(key, 1);
           delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
+          temporarily_increase_led_brightness(20);
         }
         else if(difEncoder < 0) {
           key = keys[ENCODER_INCREMENT_KEYS][i] + NUMCOLS;
           Joystick.button(key, 1);
           delay(KEY_PRESS_TIME);
           Joystick.button(key, 0);
+          temporarily_increase_led_brightness(20);
         }
         oldPositionEncoders[i] = newPositionEncoders[i]; 
+#ifdef DEBUG
         Serial.print("encoder[");
         Serial.print(i);
         Serial.print("]: ");
@@ -173,7 +192,15 @@ void loop() {
         Serial.print(": key = ");
         Serial.print(key - 1);
         Serial.println();
+#endif
       }
     }
 }  // End loop
+
+
+void temporarily_increase_led_brightness(uint32_t msec) {
+      analogWrite(ledPin, 100); 
+      delay(msec);
+      analogWrite(ledPin,   5);  
+}
 
