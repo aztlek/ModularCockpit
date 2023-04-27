@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.0002122mm"
+   height="5.0002098mm"
+   viewBox="0 0 5.0002122 5.0002098"
+   version="1.1"
+   id="svg33903"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="microcontrollerLayerDrill.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33905"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="30.875579"
+     inkscape:cx="9.4573124"
+     inkscape:cy="9.5058945"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33900" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(30.028031,-96.12207)">
+    <path
+       id="path33898"
+       style="display:inline;fill:#ff0000;stroke:none;stroke-width:0.796;stroke-dasharray:none;stop-color:#000000"
+       d="m -27.527925,96.12207 a 2.5,2.5 0 0 0 -2.500106,2.500106 v 2.500104 h 5.000212 v -2.500104 a 2.5,2.5 0 0 0 -2.500106,-2.500106 z" />
+  </g>
+</svg>
