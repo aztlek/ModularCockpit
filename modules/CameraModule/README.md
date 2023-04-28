@@ -55,7 +55,7 @@
 | Decrease FoV[^5]                                           | Key | Numpad -    | encoder[4]             |
 | [PH][^7] Increase DoF[^6]                                  | Key | Home        | encoder[5]             |
 | Decrease DoF[^6]                                           | Key | End         | encoder[5]             |
-| Reset Current View                                         | Kay | Numpad *    | key[13]                |
+| Reset Current View                                         | Key | Numpad *    | key[13]                |
 
 [^4]: Why do they use the same key save and load?-
 [^5]: FOV (field of view) or field of vision, is related to the focal length.
@@ -72,4 +72,4 @@
 | Slide Pot             |      2 |
 | Encoders              |      6 |
 | Slide Pot             |      2 |
-| Joystick              |      0 |---
+| Joystick              |      0 |
