@@ -2522,10 +2522,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.1051136"
-     inkscape:cx="397.24423"
-     inkscape:cy="528.9049"
-     inkscape:current-layer="layer3">
+     inkscape:zoom="2.0290273"
+     inkscape:cx="229.17385"
+     inkscape:cy="124.93671"
+     inkscape:current-layer="layer5">
     <inkscape:page
        x="0"
        y="0"
@@ -4269,6 +4269,70 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Labels" />
+     id="layer5"
+     inkscape:label="Labels">
+    <text
+       id="text1515"
+       y="121.82215"
+       x="229.86746"
+       style="font-style:normal;font-weight:normal;font-size:12.955px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:label="Activate Ping Key Text"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.955px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="121.82215"
+         x="229.86746"
+         id="tspan1513"
+         sodipodi:role="line">ACTIVE</tspan><tspan
+         id="tspan1517"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.955px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="139.70863"
+         x="229.86746"
+         sodipodi:role="line">PING</tspan></text>
+    <text
+       id="text1572"
+       y="193.90359"
+       x="229.72629"
+       style="font-style:normal;font-weight:normal;font-size:9.33332px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:label="Activate Scanning Key Text"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="193.90359"
+         x="229.72629"
+         sodipodi:role="line"
+         id="tspan5180">Activate</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="206.78976"
+         x="229.72629"
+         sodipodi:role="line"
+         id="tspan8376">Scanning</tspan></text>
+    <text
+       id="text3622"
+       y="193.91493"
+       x="158.11882"
+       style="font-style:normal;font-weight:normal;font-size:9.33332px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:label="Scanning Mode Ley Text"><tspan
+         id="tspan3620"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="193.91493"
+         x="158.11882"
+         sodipodi:role="line">Scanning</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33332px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="206.8011"
+         x="158.11882"
+         sodipodi:role="line"
+         id="tspan5128">Mode</tspan></text>
+    <text
+       id="text3245"
+       y="129.83551"
+       x="158.25714"
+       style="font-style:normal;font-weight:normal;font-size:11.0845px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+       xml:space="preserve"
+       inkscape:label="Activate Ping Key Text"><tspan
+         id="tspan3243"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0845px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999999"
+         y="129.83551"
+         x="158.25714"
+         sodipodi:role="line">TAGGING</tspan></text>
+  </g>
 </svg>
