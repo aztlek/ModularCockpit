@@ -1,6 +1,6 @@
 # Mining Module
 
-![Mining Module](images/MiningModule-60mmWidth.png)
+![Mining Module](images/MiningModule-70mmWidth.png)
 
 ## Keybindings
 
