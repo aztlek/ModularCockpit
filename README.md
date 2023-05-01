@@ -54,6 +54,7 @@ functionalities.
 1. [HUD Module](modules/HudModule/README.md)
 1. [Weapons Module](modules/WeaponsModule/README.md)
 1. [Social Module](modules/SocialModule/README.md)
+1. [Target Cycling Module](modules/TargetCyclingModule/README.md)
 
 ## General Side View
 
