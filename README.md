@@ -55,6 +55,7 @@ functionalities.
 1. [Weapons Module](modules/WeaponsModule/README.md)
 1. [Social Module](modules/SocialModule/README.md)
 1. [Target Cycling Module](modules/TargetCyclingModule/README.md)
+1. [Targeting Module](modules/TargetingModule/README.md)
 
 ## General Side View
 
