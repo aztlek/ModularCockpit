@@ -36,6 +36,14 @@
 | Dodge right                               | D (Double Tab)     |      |
 | Dodge back                                | S (Double Tab)     |      |
 
+#### Unarmed Combat On Foot
+
+| Keybinding                                |  Key / Mouse       | Joy  | Input Device Type     |
+| ----------------------------------------- | ------------------ | ---- | --------------------- |
+| Unarmed Combat                            | 0                  | Key  |
+| Throw – Overarm & Two Handed              | Button 1 (mouse)   | Key  |
+| Throw – Underarm                          | Button 2 (mouse)   | Key  |
+
 #### Weapons On Foot
 
 | Keybinding                                |  Key / Mouse       | Joy  | Input Device Type     |
@@ -73,13 +81,6 @@
 | Tractor Beam - Increase Distance          | Mouse Wheel Up     | Key  |
 | Tractor Beam – Decrease Distance          | Mouse Wheel Down   | Key  |
 
-#### Unarmed Combat On Foot
-
-| Keybinding                                |  Key / Mouse       | Joy  | Input Device Type     |
-| ----------------------------------------- | ------------------ | ---- | --------------------- |
-| Unarmed Combat                            | 0                  | Key  |
-| Throw – Overarm & Two Handed              | Button 1 (mouse)   | Key  |
-| Throw – Underarm                          | Button 2 (mouse)   | Key  |
 
 #### Helmet
 
