@@ -56,6 +56,7 @@ functionalities.
 1. [Social Module](modules/SocialModule/README.md)
 1. [Target Cycling Module](modules/TargetCyclingModule/README.md)
 1. [Targeting Module](modules/TargetingModule/README.md)
+1. [Salvage Module](modules/SalvageModule/README.md)
 
 ## General Side View
 
