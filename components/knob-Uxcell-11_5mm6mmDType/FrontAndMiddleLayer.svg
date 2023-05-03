@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.499999mm"
+   height="15.499999mm"
+   viewBox="0 0 15.5 15.5"
+   version="1.1"
+   id="svg41973"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="FrontAndMiddleLayer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41975"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="10.224131"
+     inkscape:cx="28.559884"
+     inkscape:cy="28.804404"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs41970" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.6971374,-71.521714)">
+    <circle
+       style="opacity:1;fill:#ff0000;stroke-width:0.02;stroke-linecap:round;stroke-miterlimit:10;stop-color:#000000"
+       id="path42820"
+       cx="12.447137"
+       cy="79.271713"
+       r="7.7499995"
+       inkscape:label="Knob Drill" />
+  </g>
+</svg>
