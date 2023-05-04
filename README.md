@@ -57,6 +57,7 @@ functionalities.
 1. [Target Cycling Module](modules/TargetCyclingModule/README.md)
 1. [Targeting Module](modules/TargetingModule/README.md)
 1. [Salvage Module](modules/SalvageModule/README.md)
+1. [Stopwatch Module](modules/StopwatchModule/README.md)
 
 ## General Side View
 
