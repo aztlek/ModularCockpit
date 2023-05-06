@@ -1,5 +1,9 @@
 # HUD Module
 
+![Real HUD Module](images/RealHudModule.jpg)
+
+## Design
+
 ![HUD Module](images/HudModule_50mmWidth.png)
 
 ## Keybindings

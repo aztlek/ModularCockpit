@@ -44,7 +44,7 @@
 | Throw – Overarm & Two Handed              | Button 1 (mouse)   | Key  |
 | Throw – Underarm                          | Button 2 (mouse)   | Key  |
 
-#### Weapons On Foot
+#### Firearm On Foot
 
 | Keybinding                                |  Key / Mouse       | Joy  | Input Device Type     |
 | ----------------------------------------- | ------------------ | ---- | --------------------- |

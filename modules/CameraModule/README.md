@@ -1,5 +1,9 @@
 # Camera Module
 
+![Real Camera Module](images/RealCameraModule.jpg)
+
+## Design
+
 ![Camara Module](images/CameraModule_180mmWidth.png)
 
 ## Keybindings
