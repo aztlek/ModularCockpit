@@ -4,7 +4,7 @@
 
 ## Keybindings
 
-### Vehicles – Targeting
+### Vehicles – Shields and Countermeasures
 
 | Keybinding                                             | Input Device Type    |
 | ------------------------------------------------------ | -------------------- |
