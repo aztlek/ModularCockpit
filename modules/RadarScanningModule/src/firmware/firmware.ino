@@ -3,8 +3,8 @@
 || @file firmware.ino
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
-|| | This firmware is for the "HUD Module" of the "Modular Cockpit".
-|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/HudModule
+|| | This firmware is for the "Radar and Scanning Module" of the "Modular Cockpit".
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/PowerModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
@@ -28,23 +28,33 @@
 */
 
 #include <Bounce.h>
+#include <Encoder.h>
 
 // #define DEBUG
 
-#define NUM_BUTTOMS 6
+#define NUM_BUTTOMS 4
 
 Bounce buttons[NUM_BUTTOMS] = {
   Bounce(2, 10),
   Bounce(3, 10),
   Bounce(4, 10),
-  Bounce(5, 10),
-  Bounce(6, 10),
-  Bounce(7, 10)
+  Bounce(5, 10)
 };
 
-#define TOGGLE_SWITCH 0
-#define isToggleSwitch(i) ((i) == (TOGGLE_SWITCH))
+// Keys
 #define KEY_PRESS_TIME 150
+
+// Encoders
+#define NUM_ENCODERS 2
+Encoder encoders[NUM_ENCODERS] = {
+  Encoder(21, 20),  // 0 Pin Angle
+  Encoder(23, 22),  // 1 Scanning Angle
+};
+//                               Pin Angle, Scanning Angle
+int inc_encoder[NUM_ENCODERS] = { 5, 7 };
+int dec_encoder[NUM_ENCODERS] = { 6, 8 };
+long oldPositionEncoders[NUM_ENCODERS] = { 0, 0};
+long newPositionEncoders[NUM_ENCODERS];
 
 const int ledPin = 13;
 
@@ -64,31 +74,20 @@ void setup() {
   pinMode(3, INPUT_PULLUP);
   pinMode(4, INPUT_PULLUP);
   pinMode(5, INPUT_PULLUP);
-  pinMode(6, INPUT_PULLUP);
-  pinMode(7, INPUT_PULLUP);
 }
 
 void loop() {
-  for(unsigned i = 0; i < NUM_BUTTOMS; i++) {
+  for (unsigned i = 0; i < NUM_BUTTOMS; i++) {
     buttons[i].update();
   }
 
-  for(unsigned i = 0; i < NUM_BUTTOMS; i++) {
+  for (unsigned i = 0; i < NUM_BUTTOMS; i++) {
     if (buttons[i].fallingEdge()) {
-      if(isToggleSwitch(i)) {
-        msg = "ON delay OFF";
-        code = i + 1;
-        Joystick.button(code, 1);
-        delay(KEY_PRESS_TIME);
-        Joystick.button(code, 0);
-      }
-      else {
-        msg = "ON";
-        code = i + 2;
-        Joystick.button(code , 1);
-      }
+      msg = "ON";
+      code = i + 1;
+      Joystick.button(code, 1);
       temporarily_increase_led_brightness(20);
-#ifdef DEBUG                       
+#ifdef DEBUG
       Serial.print("buttoms[");
       Serial.print(i);
       Serial.print("]: ");
@@ -99,23 +98,14 @@ void loop() {
 #endif
     }
   }
-  
-  for(unsigned i = 0; i < NUM_BUTTOMS; i++) {
+
+  for (unsigned i = 0; i < NUM_BUTTOMS; i++) {
     if (buttons[i].risingEdge()) {
-      if(isToggleSwitch(i)) {
-        msg = "ON delay OFF";
-        code = i + 2;
-        Joystick.button(code, 1);
-        delay(KEY_PRESS_TIME);
-        Joystick.button(code, 0);
-      }
-      else {
-        msg = "OFF";
-        code = i + 2;
-        Joystick.button(code, 0);
-      }
+      msg = "OFF";
+      code = i + 1;
+      Joystick.button(code, 0);
       temporarily_increase_led_brightness(20);
-#ifdef DEBUG                       
+#ifdef DEBUG
       Serial.print("buttoms[");
       Serial.print(i);
       Serial.print("]: ");
@@ -123,13 +113,37 @@ void loop() {
       Serial.print(code);
       Serial.print(", ");
       Serial.println(msg);
+#endif
+    }
+  }
+
+  // Encoders
+  for (int i = 0; i < NUM_ENCODERS; i++) {
+    newPositionEncoders[i] = encoders[i].read();
+    long difEncoder = newPositionEncoders[i] - oldPositionEncoders[i];
+    int key = (difEncoder > 0) ? inc_encoder[i] : dec_encoder[i];
+    if (difEncoder != 0) {
+      Joystick.button(key, 1);
+      delay(KEY_PRESS_TIME);
+      Joystick.button(key, 0);
+      temporarily_increase_led_brightness(20);
+      oldPositionEncoders[i] = newPositionEncoders[i];
+
+#ifdef DEBUG
+      Serial.print("encoder[");
+      Serial.print(i);
+      Serial.print("]: difEncoder=");
+      Serial.print(difEncoder);
+      Serial.print(", key=");
+      Serial.print(key);
+      Serial.println();
 #endif
     }
   }
 }
 
 void temporarily_increase_led_brightness(uint32_t msec) {
-      analogWrite(ledPin, 100); 
-      delay(msec);
-      analogWrite(ledPin,   5);  
+  analogWrite(ledPin, 100);
+  delay(msec);
+  analogWrite(ledPin, 5);
 }

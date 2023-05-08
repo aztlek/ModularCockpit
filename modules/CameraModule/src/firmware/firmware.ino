@@ -271,7 +271,7 @@ void loop() {
         }
         Serial.println();
 #endif
-      }      
+      }
     }
 
     // Potentiometer
