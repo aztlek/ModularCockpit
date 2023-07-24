@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="70.000351mm"
-   height="120.00045mm"
-   viewBox="0 0 70.000349 120.00045"
+   width="70mm"
+   height="120mm"
+   viewBox="0 0 69.999998 120"
    version="1.1"
    id="svg10982"
-   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
    sodipodi:docname="ModulePanel_70mmWidth.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -499,7 +499,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.5730633"
      inkscape:cx="126.30859"
-     inkscape:cy="227.16114"
+     inkscape:cy="226.96682"
      inkscape:document-units="mm"
      inkscape:current-layer="layer23"
      showgrid="false"
@@ -523,7 +523,7 @@
      id="layer5"
      inkscape:label="Makerbeam"
      style="display:none"
-     transform="translate(2.458968e-4,1.3423304e-5)"><g
+     transform="translate(2.4589756e-4,1.5168908e-5)"><g
        transform="matrix(0.69999998,0,0,1,3.1601748e-5,109.99995)"
        id="g3067"
        inkscape:label="Makerbeam Beam 2"><g
@@ -724,13 +724,13 @@
      id="layer20"
      inkscape:label="Microcontroller Layer"
      style="display:inline"
-     transform="translate(2.458968e-4,1.3423304e-5)"><g
+     transform="translate(2.4589756e-4,1.5168908e-5)"><g
        inkscape:groupmode="layer"
        id="layer23"
        inkscape:label="Microcontroller Acrylic"><path
          id="rect11527-5"
-         style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.063537;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 0.0315226,10.031929 V 109.96846 H 46.426624 v -2.46858 a 2.5,2.5 0 0 1 2.500105,-2.5001 2.5,2.5 0 0 1 2.500106,2.5001 v 2.46858 H 69.968339 V 10.031929 Z" /></g><g
+         style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 0.03775422,11.037985 V 108.96199 H 46.424354 v -2.41887 a 2.4995419,2.4496548 0 0 1 2.499646,-2.44975 2.4995419,2.4496548 0 0 1 2.499648,2.44975 v 2.41887 H 69.961754 V 11.037985 Z" /></g><g
        inkscape:groupmode="layer"
        id="layer24"
        inkscape:label="Microcontroller Teensy 4.0"><g
@@ -853,7 +853,7 @@
      inkscape:label="Panel"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(2.4613802e-4,-176.99998)"
+     transform="translate(2.4613878e-4,-176.99998)"
      style="display:inline;opacity:1"><g
        inkscape:groupmode="layer"
        id="layer6"
@@ -863,12 +863,12 @@
          id="layer10"
          inkscape:label="Back Acrylic"
          style="display:inline"><rect
-           style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0635405;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+           style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
            id="rect11527"
-           width="69.936462"
-           height="119.93645"
-           x="0.031769991"
-           y="177.03175" /></g><g
+           width="69.923996"
+           height="119.924"
+           x="0.037753861"
+           y="177.03798" /></g><g
          inkscape:groupmode="layer"
          id="layer11"
          inkscape:label="Back  Bolts"><g
@@ -1052,8 +1052,8 @@
          id="layer18"
          inkscape:label="Middle Acrylic"><path
            id="path10977"
-           style="opacity:0.89887;fill:#ffffff;stroke:#000000;stroke-width:0.099923;stroke-miterlimit:10;stroke-dasharray:none"
-           d="m 10.042829,177.04996 v 4.99551 c 1.16e-4,2.75908 -2.2367324,4.99586 -4.9961751,4.99603 H 0.04996126 v 99.91699 H 5.0466539 c 2.7594427,1.7e-4 4.9962911,2.23695 4.9961751,4.99603 v 4.99552 h 49.91434 v -4.99552 c -1.16e-4,-2.75908 2.236732,-4.99586 4.996176,-4.99603 h 4.996693 V 187.0415 h -4.996693 c -2.759444,-1.7e-4 -4.996292,-2.23695 -4.996176,-4.99603 v -4.99551 z"
+           style="opacity:0.89887;fill:#ffffff;stroke:#000000;stroke-width:0.076;stroke-miterlimit:10;stroke-dasharray:none"
+           d="m 10.034042,177.03798 v 4.99651 c 1.16e-4,2.75963 -2.2374987,4.99685 -4.9978856,4.99702 H 0.03775386 v 99.93693 H 5.0361564 c 2.7603869,1.7e-4 4.9980016,2.23739 4.9978856,4.99702 v 4.99652 h 49.93142 v -4.99652 c -1.16e-4,-2.75963 2.237498,-4.99685 4.997886,-4.99702 h 4.998403 v -99.93693 h -4.998403 c -2.760388,-1.7e-4 -4.998002,-2.23739 -4.997886,-4.99702 v -4.99651 z"
            inkscape:label="Translucent Acrylic"
            sodipodi:nodetypes="ccccccccccccccccc" /></g></g><g
        inkscape:groupmode="layer"
@@ -1065,8 +1065,8 @@
          inkscape:label="Front Acrylic"
          style="display:inline;opacity:1"><path
            id="rect10964"
-           style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.200105;stroke-miterlimit:10"
-           d="m 10.010403,177 v 4.99969 c 1.17e-4,2.76139 -2.2406571,5.00004 -5.0049422,5.00021 H -2.4121096e-7 V 287.00052 H 5.0054608 c 2.7642851,1.7e-4 5.0050592,2.23882 5.0049422,5.00021 v 4.9997 h 49.97919 v -4.9997 c -1.16e-4,-2.76139 2.240659,-5.00004 5.004944,-5.00021 H 70 V 186.9999 h -5.005463 c -2.764285,-1.7e-4 -5.00506,-2.23882 -5.004944,-5.00021 V 177 Z"
+           style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-miterlimit:10;stroke-dasharray:none"
+           d="m 10.037289,177.03798 v 4.99651 c 1.16e-4,2.75963 -2.2382248,4.99685 -4.9995086,4.99702 H 0.03775386 v 99.93693 H 5.0377804 c 2.7612838,1.7e-4 4.9996246,2.23739 4.9995086,4.99703 v 4.99651 h 49.924926 v -4.99651 c -1.16e-4,-2.75964 2.238226,-4.99686 4.99951,-4.99703 h 5.000029 v -99.93693 h -5.000029 c -2.761284,-1.7e-4 -4.999626,-2.23739 -4.99951,-4.99702 v -4.99651 z"
            inkscape:label="White Acrylic"
            sodipodi:nodetypes="ccccccccccccccccc" /></g><g
          inkscape:groupmode="layer"
