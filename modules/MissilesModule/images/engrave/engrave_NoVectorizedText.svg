@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="90.200188mm"
-   height="120.20043mm"
-   viewBox="0 0 90.200188 120.20043"
+   width="89.99971mm"
+   height="119.99995mm"
+   viewBox="0 0 89.99971 119.99995"
    version="1.1"
-   id="svg2320"
-   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
    sodipodi:docname="engrave_NoVectorizedText.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview2322"
+     id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -23,107 +23,101 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="2.5687824"
-     inkscape:cx="170.5088"
-     inkscape:cy="227.15042"
+     inkscape:zoom="2.5796886"
+     inkscape:cx="170.17558"
+     inkscape:cy="226.77155"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2317" />
+     id="defs1" />
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.1,0.1)">
+     transform="translate(-4.8112122e-4,-4.8127122e-4)">
     <path
        id="rect10964"
-       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:10"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-miterlimit:10;stroke-dasharray:none"
        inkscape:label="White Acrylic"
-       d="M 9.9782023,0 V 4.99969 C 9.9783183,7.76108 7.7446539,9.99974 4.9893595,9.99991 H 0 v 100.00061 h 4.9893595 c 2.7552944,1.7e-4 4.9889588,2.23895 4.9888428,5.00021 v 4.9997 H 80.021989 v -4.9997 c -1.16e-4,-2.76126 2.23355,-5.00005 4.988842,-5.00021 h 4.98936 V 9.99991 h -4.98936 C 82.255539,9.99974 80.021873,7.76108 80.021989,4.99969 V 0 Z M 4.970756,13.11341 a 1.6,1.6 0 0 1 1.5999023,1.5999 1.6,1.6 0 0 1 -1.5999023,1.59991 1.6,1.6 0 0 1 -1.5999024,-1.59991 1.6,1.6 0 0 1 1.5999024,-1.5999 z m 80.356335,0 a 1.6,1.6 0 0 1 1.599903,1.5999 1.6,1.6 0 0 1 -1.599903,1.59991 1.6,1.6 0 0 1 -1.600419,-1.59991 1.6,1.6 0 0 1 1.600419,-1.5999 z M 17.58704,19.10633 H 36.586914 V 38.10672 H 17.58704 Z m 40.723612,1.30018 a 8.1999998,8.1999998 0 0 1 8.200017,8.20001 8.1999998,8.1999998 0 0 1 -8.200017,8.20002 8.1999998,8.1999998 0 0 1 -8.200016,-8.20002 8.1999998,8.1999998 0 0 1 8.200016,-8.20001 z M 45.990474,50.61138 H 64.990348 V 69.61125 H 45.990474 Z m 33.723006,1.98954 a 7.5500002,7.5500002 0 0 1 7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,7.55044 7.5500002,7.5500002 0 0 1 -7.549926,-7.55044 7.5500002,7.5500002 0 0 1 7.549926,-7.54993 z m -68.667126,0.0517 a 7.5500002,7.5500002 0 0 1 7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,7.55044 7.5500002,7.5500002 0 0 1 -7.5504434,-7.55044 7.5500002,7.5500002 0 0 1 7.5504434,-7.54993 z m 23.818701,0 a 7.5500002,7.5500002 0 0 1 7.549927,7.54993 7.5500002,7.5500002 0 0 1 -7.549927,7.55044 7.5500002,7.5500002 0 0 1 -7.549927,-7.55044 7.5500002,7.5500002 0 0 1 7.549927,-7.54993 z M 58.29825,70.19884 H 77.298124 V 89.19923 H 58.29825 Z m -45.371907,0.62063 h 19.00039 V 89.81934 H 12.926343 Z M 35.648987,90.91643 H 54.64886 v 18.99988 H 35.648987 Z M 4.970756,103.78746 a 1.6,1.6 0 0 1 1.5999023,1.59991 1.6,1.6 0 0 1 -1.5999023,1.5999 1.6,1.6 0 0 1 -1.5999024,-1.5999 1.6,1.6 0 0 1 1.5999024,-1.59991 z m 80.356335,0 a 1.6,1.6 0 0 1 1.599903,1.59991 1.6,1.6 0 0 1 -1.599903,1.5999 1.6,1.6 0 0 1 -1.600419,-1.5999 1.6,1.6 0 0 1 1.600419,-1.59991 z" />
+       d="m 10.007658,0.03824 v 4.99608 c 1.16e-4,2.75963 -2.2318002,4.99694 -4.9847088,4.99711 H 0.03824056 v 99.93705 H 5.0229492 c 2.7529086,1.7e-4 4.9848248,2.23779 4.9847088,4.99711 v 4.9966 h 69.984358 v -4.9966 c -1.16e-4,-2.75932 2.231807,-4.99695 4.984709,-4.99711 H 89.96195 V 10.03143 H 84.976725 C 82.223823,10.03126 79.9919,7.79395 79.992016,5.03432 V 0.03824 Z M 45.908825,10.38386 H 70.788961 V 49.5639 h -5.760372 v 1.08572 2.68821 13.85187 2.4598 0.58756 H 77.336365 V 89.23693 H 58.336491 V 72.41729 70.23706 69.6495 H 46.028198 V 53.33783 l -0.06718,-3.77393 h -0.05219 V 46.61576 Z M 5.0089965,13.15114 c 0.8835768,5e-5 1.5998472,0.71632 1.5999024,1.5999 -5.52e-5,0.88358 -0.7163256,1.59985 -1.5999024,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71632 -1.5999023,-1.5999 5.52e-5,-0.88358 0.7163257,-1.59985 1.5999023,-1.5999 z m 80.3558185,0 c 0.883576,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88357 -0.716326,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599847,-0.71633 -1.599902,-1.5999 5.5e-5,-0.88358 0.716326,-1.59985 1.599902,-1.5999 z M 17.625281,19.14457 H 36.625154 V 38.14444 H 17.625281 Z m -6.541203,33.34628 c 4.280133,5e-5 7.74987,3.46978 7.749914,7.74992 -4.9e-5,4.28012 -3.469785,7.74986 -7.749914,7.74991 -4.2801303,-4e-5 -7.7498652,-3.46979 -7.7499146,-7.74991 4.39e-5,-4.28014 3.4697804,-7.74987 7.7499146,-7.74992 z m 23.819218,0 c 4.280132,5e-5 7.74987,3.46978 7.749914,7.74992 -4.9e-5,4.28012 -3.469785,7.74986 -7.749914,7.74991 -4.280131,-4e-5 -7.749865,-3.46979 -7.749915,-7.74991 4.4e-5,-4.28014 3.46978,-7.74987 7.749915,-7.74992 z m 44.847908,1.53583 c 4.28013,4e-5 7.749865,3.46979 7.749915,7.74991 -4.4e-5,4.28014 -3.469781,7.74987 -7.749915,7.74992 -4.280134,-5e-5 -7.74987,-3.46978 -7.749914,-7.74992 4.9e-5,-4.28012 3.469784,-7.74987 7.749914,-7.74991 z M 12.964583,70.85717 H 31.964457 V 89.85756 H 12.964583 Z M 35.68671,90.95465 h 19.000391 v 18.99988 H 35.68671 Z M 5.0089965,103.82519 c 0.8835768,5e-5 1.5998472,0.71632 1.5999024,1.5999 -5.52e-5,0.88358 -0.7163256,1.59985 -1.5999024,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71632 -1.5999023,-1.5999 5.52e-5,-0.88358 0.7163257,-1.59985 1.5999023,-1.5999 z m 80.3558185,0 c 0.883576,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88358 -0.716326,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599847,-0.71632 -1.599902,-1.5999 5.5e-5,-0.88358 0.716326,-1.59985 1.599902,-1.5999 z" />
+    <path
+       id="path1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.076;stroke-miterlimit:10;stroke-dasharray:none"
+       inkscape:label="White Acrylic"
+       d="M 10.007899,0.03848127 V 5.0345613 c 1.16e-4,2.75963 -2.2318006,4.9969397 -4.9847092,4.9971097 H 0.03848112 V 109.96872 H 5.0231898 c 2.7529086,1.7e-4 4.9848252,2.23779 4.9847092,4.99711 v 4.9966 h 69.984358 v -4.9966 c -1.16e-4,-2.75932 2.231807,-4.99695 4.984709,-4.99711 h 4.985225 V 10.031671 H 84.976966 C 82.224064,10.031501 79.992141,7.7941913 79.992257,5.0345613 V 0.03848127 Z M 45.909066,10.384101 h 24.880136 v 39.18004 H 65.02883 v 1.08572 2.68821 13.85187 2.4598 0.58756 h 12.307776 v 18.99987 H 58.336732 v -16.81964 -2.18023 -0.58756 H 46.028439 v -16.31167 l -0.06718,-3.77393 h -0.05219 v -2.94814 z m -40.8998289,2.76728 c 0.8835768,5e-5 1.5998472,0.71632 1.5999024,1.5999 -5.52e-5,0.88358 -0.7163256,1.59985 -1.5999024,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71632 -1.5999023,-1.5999 5.52e-5,-0.88358 0.7163257,-1.59985 1.5999023,-1.5999 z m 80.3558189,0 c 0.883576,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88357 -0.716326,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599847,-0.71633 -1.599902,-1.5999 5.5e-5,-0.88358 0.716326,-1.59985 1.599902,-1.5999 z m -67.739534,5.99343 h 18.999873 v 18.99987 H 17.625522 Z m -6.541203,33.34628 c 4.280133,5e-5 7.74987,3.46978 7.749914,7.74992 -4.9e-5,4.28012 -3.469785,7.74986 -7.749914,7.74991 -4.2801307,-4e-5 -7.7498656,-3.46979 -7.749915,-7.74991 4.39e-5,-4.28014 3.4697804,-7.74987 7.749915,-7.74992 z m 23.819218,0 c 4.280132,5e-5 7.74987,3.46978 7.749914,7.74992 -4.9e-5,4.28012 -3.469785,7.74986 -7.749914,7.74991 -4.280131,-4e-5 -7.749865,-3.46979 -7.749915,-7.74991 4.4e-5,-4.28014 3.46978,-7.74987 7.749915,-7.74992 z m 44.847908,1.53583 c 4.28013,4e-5 7.749865,3.46979 7.749915,7.74991 -4.4e-5,4.28014 -3.469781,7.74987 -7.749915,7.74992 -4.280134,-5e-5 -7.74987,-3.46978 -7.749914,-7.74992 4.9e-5,-4.28012 3.469784,-7.74987 7.749914,-7.74991 z m -66.786621,16.83049 h 18.999874 v 19.00039 H 12.964824 Z m 22.722127,20.09748 H 54.687342 V 109.95477 H 35.686951 Z M 5.0092371,103.82543 c 0.8835768,5e-5 1.5998472,0.71632 1.5999024,1.5999 -5.52e-5,0.88358 -0.7163256,1.59985 -1.5999024,1.5999 -0.8835766,-5e-5 -1.5998471,-0.71632 -1.5999023,-1.5999 5.52e-5,-0.88358 0.7163257,-1.59985 1.5999023,-1.5999 z m 80.3558189,0 c 0.883576,5e-5 1.599847,0.71632 1.599902,1.5999 -5.5e-5,0.88358 -0.716326,1.59985 -1.599902,1.5999 -0.883576,-5e-5 -1.599847,-0.71632 -1.599902,-1.5999 5.5e-5,-0.88358 0.716326,-1.59985 1.599902,-1.5999 z" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="32.422367"
-       y="7.4663515"
+       x="32.46085"
+       y="7.5048313"
        id="text12344"
        inkscape:label="Title Text"><tspan
          sodipodi:role="line"
          id="tspan12342"
-         x="32.422367"
-         y="7.4663515"
+         x="32.46085"
+         y="7.5048313"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">missiles</tspan></text>
     <text
        id="text14353-9"
-       y="45.790417"
-       x="62.368458"
+       y="45.512081"
+       x="71.345818"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:label="Bombs Text"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583"
-         y="45.790417"
-         x="62.368458"
+         y="45.512081"
+         x="71.345818"
          id="tspan14351-1"
          sodipodi:role="line">BOMBS</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="79.880966"
-       y="48.753689"
+       x="79.919441"
+       y="50.37965"
        id="text1999"
        inkscape:label="Hud Range Text"><tspan
          sodipodi:role="line"
          id="tspan1997"
-         x="79.880966"
-         y="48.753689"
+         x="79.919441"
+         y="50.37965"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">HUD</tspan><tspan
          sodipodi:role="line"
-         x="79.880966"
-         y="52.163151"
+         x="79.919441"
+         y="53.78912"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          id="tspan2001">Range</tspan></text>
     <text
        id="text14353"
-       y="48.001522"
-       x="11.237678"
+       y="48.040005"
+       x="11.276158"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:label="Missile Type Text"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         y="48.001522"
-         x="11.237678"
+         y="48.040005"
+         x="11.276158"
          id="tspan14351"
          sodipodi:role="line">Missile</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         y="51.898056"
-         x="11.237678"
+         y="51.936535"
+         x="11.276158"
          sodipodi:role="line"
          id="tspan67041">Type</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="35.035664"
-       y="47.995876"
+       x="35.074146"
+       y="48.034359"
        id="text2045"
        inkscape:label="Armed Missiles Text"><tspan
          sodipodi:role="line"
          id="tspan2043"
-         x="35.035664"
-         y="47.995876"
+         x="35.074146"
+         y="48.034359"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">Armed</tspan><tspan
          sodipodi:role="line"
-         x="35.035664"
-         y="51.89241"
+         x="35.074146"
+         y="51.930889"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          id="tspan65587">Missiles</tspan></text>
-    <rect
-       style="display:inline;opacity:0.976;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.727579;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2047"
-       width="43.673058"
-       height="47.929401"
-       x="45.249599"
-       y="41.834347"
-       rx="1.5889335"
-       ry="1.3963184"
-       inkscape:label="Bombs Rectangle" />
   </g>
 </svg>
