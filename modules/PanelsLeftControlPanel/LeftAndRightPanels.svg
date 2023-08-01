@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.0548785"
-     inkscape:cx="388.34412"
+     inkscape:cx="388.34413"
      inkscape:cy="199.03853"
      inkscape:current-layer="layer4"
      showgrid="false" /><defs
@@ -212,10 +212,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Panel"
-     transform="translate(-7.3000617,-7.3001356)"><rect
-       style="opacity:1;fill:#000000;stroke-width:0.076"
+     transform="translate(-7.3000617,-7.3001356)"><path
        id="rect16"
-       width="205.39999"
-       height="105.39999"
-       x="7.3000617"
-       y="7.3001356" /></g></svg>
+       style="opacity:1;fill:#000000;stroke-width:0.076"
+       d="M 10.000155 7.3001356 L 10.000155 10.000229 L 7.3000617 10.000229 L 7.3000617 110.00033 L 10.000155 110.00033 L 10.000155 112.6999 L 209.99983 112.6999 L 209.99983 110.00033 L 212.69993 110.00033 L 212.69993 10.000229 L 209.99983 10.000229 L 209.99983 7.3001356 L 10.000155 7.3001356 z " /></g></svg>
