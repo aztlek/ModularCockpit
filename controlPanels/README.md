@@ -1,6 +1,6 @@
 # Control Panels
 
-![Control Panels](controlPanels/images/ControlPanels.png)
+![Control Panels](images/ControlPanels.png)
 
 ## Control Panels List
 
