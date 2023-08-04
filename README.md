@@ -1,6 +1,6 @@
 # Modular Cockpit for Star Citizen
 
-![Star Citizen Modular Cockpit](images/ControlPanels.png)
+![Star Citizen Modular Cockpit](controlPanels/images/ControlPanels.png)
 
 ![Real Power Module](images/RealPowerModule.jpg)
 
