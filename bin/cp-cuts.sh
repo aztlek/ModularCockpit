@@ -10,7 +10,7 @@
 #   modify it under the terms of the GNU General Public License
 #   as published by the Free Software Foundation; either version 3
 #   of the License, or (at your option) any later version.
-#   
+#
 #   You should have received a copy of the GNU General Public
 #   License along with this library; see the file COPYING.
 #   If not, write to the Free Software Foundation,
@@ -18,16 +18,16 @@
 
 
 base=$1
-for i in modules/*
+for i in controlPanels/*
 do
    module=$(basename $i)
    pdf=$i/images/cut/PDF
-   if test -a $pdf 
+   if test -a $pdf
    then
-       mkdir -p $base/$module
-       for j in $pdf/* 
+       echo mkdir -p $base/$module
+       for j in $pdf/*
        do
-           cp $j $base/$module
+           echo cp $j $base/$module
        done
    fi
 done

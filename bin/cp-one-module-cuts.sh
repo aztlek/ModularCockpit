@@ -23,9 +23,9 @@ module=$(basename $1)
 pdf=$1/images/cut/PDF
 if test -a $pdf
 then
-   mkdir -p $base/$module
+   mkdir -p $base/cuts/$module
    for j in $pdf/*
    do
-       cp $j $base/$module
+       scp $j $base/cuts/$module
    done
 fi
