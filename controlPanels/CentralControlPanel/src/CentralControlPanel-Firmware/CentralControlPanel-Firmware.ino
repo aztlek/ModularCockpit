@@ -47,6 +47,8 @@ of each module when you press the keys.
 
 You can only put a maximum of 9 modules, due to limitations of the 
 USBHost_t36 library.
+
+This version only works for a total of 32 keys for all joysticks!!!
 */
 
 #define DEBUG
