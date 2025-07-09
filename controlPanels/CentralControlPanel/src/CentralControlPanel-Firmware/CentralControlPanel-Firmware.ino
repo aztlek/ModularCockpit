@@ -42,8 +42,11 @@ Here you should enter the total number of keys for each module. The order
 matters, and it must be the order in which they are connected to the USB hub.
 
 If you have any doubts about the connection order, you can uncomment the
- DEBUG line, and the Arduino IDE serial console will display the number 
- of each module when you press the keys.
+DEBUG line, and the Arduino IDE serial console will display the number 
+of each module when you press the keys.
+
+You can only put a maximum of 9 modules, due to limitations of the 
+USBHost_t36 library.
 */
 
 #define DEBUG
@@ -59,6 +62,8 @@ int buttons_per_joystick[] = {
    8, // Radar Module
   12, // Shields and Counterneasures module
 };
+
+//=============
 
 #define NUM_JOYSTICKS ((sizeof(buttons_per_joystick))/(sizeof(int)))
 
@@ -95,16 +100,23 @@ JoystickController joysticks[] = {
 
 int psAxis[64];
 
+const int ledPin = 13;
+
+uint32_t old_pressed_buttons[NUM_JOYSTICKS];
+
 void setup()
 {
   Serial1.begin(2000000);
   while (!Serial) ;
-
 #ifdef DEBUG
   Serial.println("\n\nUSB Host Joystick Testing");
 #endif  
   myusb.begin();
+    // Led as power indicator
+  temporarily_increase_led_brightness(1000);
 }
+
+const int NUM_BUTTOMS_JOYSTICK = 32;
 
 void loop()
 {
@@ -115,21 +127,21 @@ void loop()
     offset += ((joystick_index == 0)? 0 : buttons_per_joystick[joystick_index - 1]);
     if (joysticks[joystick_index].available()) {
       uint32_t buttons = joysticks[joystick_index].getButtons();
-#ifdef DEBUG      
-      Serial.printf ("Joystick(%2d): ", joystick_index);
-#endif      
-      int num_buttons = 0;
-      int *arr_buttons = getPressedButtons(buttons, num_buttons);
-#ifdef DEBUG      
-      Serial.printf("num_buttons = %d buttons = ", num_buttons);
-#endif      
-      for(int b = 0; b < num_buttons; b++) {
-        int relative_button = arr_buttons[b] + offset;
-#ifdef DEBUG        
-        Serial.printf("%d(%d) ", arr_buttons[b], relative_button);
-#endif        
+
+#ifdef DEBUG
+      Serial.printf ("Joystick(%d): ", joystick_index);
+#endif
+
+      for (int i = 0; i < NUM_BUTTOMS_JOYSTICK; i++) {
+        int value = buttons & (1UL << i);
+        int relative_button = i + offset + 1;
+#ifdef DEBUG
+        Serial.printf("%d(%2d)%s ", i, relative_button, ((value)? "ON ": "OFF"));
+#endif
+        Joystick.button(relative_button, value);
       }
-#ifdef DEBUG      
+
+#ifdef DEBUG
       Serial.println();
 #endif      
       joysticks[joystick_index].joystickDataClear();
@@ -138,15 +150,8 @@ void loop()
 
 }
 
-int* getPressedButtons(uint32_t n, int& count) {
-  static int buttons[32];
-  count = 0;
-  
-  for (int i = 0; i < 32; i++) {
-    if (n & (1UL << i)) {
-      buttons[count++] = i;
-    }
-  }
-
-  return buttons;
+void temporarily_increase_led_brightness(uint32_t msec) {
+      analogWrite(ledPin, 100); 
+      delay(msec);
+      analogWrite(ledPin,   5);  
 }
