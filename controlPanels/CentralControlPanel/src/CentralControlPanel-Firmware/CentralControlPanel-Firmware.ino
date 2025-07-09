@@ -48,7 +48,7 @@ of each module when you press the keys.
 You can only put a maximum of 9 modules, due to limitations of the 
 USBHost_t36 library.
 
-IMPORTANT: This version only works for a total of 32 keys for all joysticks!!!
+This only works for a total of 128 keys for all joysticks.
 */
 
 #define DEBUG
@@ -105,12 +105,8 @@ const int ledPin = 13;
 void setup()
 {
   Serial1.begin(2000000);
-  while (!Serial) ;
-#ifdef DEBUG
-  Serial.println("\n\nUSB Host Joystick Testing");
-#endif  
+  Serial1.begin(9600);
   myusb.begin();
-    // Led as power indicator
   temporarily_increase_led_brightness(1000);
 }
 
@@ -132,17 +128,19 @@ void loop()
       for (int i = 0; i < NUM_BUTTOMS_JOYSTICK; i++) {
         int value = buttons & (1UL << i);
         int relative_button = i + offset + 1;
+
 #ifdef DEBUG
         Serial.printf("%d(%2d)%-3s ", i, relative_button, ((value)? "ON": "OFF"));
 #endif
+
         Joystick.button(relative_button, value);
       }
 
 #ifdef DEBUG
       Serial.println();
 #endif      
-      joysticks[joystick_index].joystickDataClear();
 
+      joysticks[joystick_index].joystickDataClear();
     }
 
     offset += buttons_per_joystick[joystick_index];
