@@ -48,7 +48,7 @@ of each module when you press the keys.
 You can only put a maximum of 9 modules, due to limitations of the 
 USBHost_t36 library.
 
-This version only works for a total of 32 keys for all joysticks!!!
+IMPORTANT: This version only works for a total of 32 keys for all joysticks!!!
 */
 
 #define DEBUG
@@ -100,11 +100,7 @@ JoystickController joysticks[] = {
   JoystickController(myusb), // 9
 };
 
-int psAxis[64];
-
 const int ledPin = 13;
-
-uint32_t old_pressed_buttons[NUM_JOYSTICKS];
 
 void setup()
 {
@@ -126,19 +122,18 @@ void loop()
 
   int offset = 0;
   for (uint8_t joystick_index = 0; joystick_index < NUM_JOYSTICKS; joystick_index++) {
-    offset += ((joystick_index == 0)? 0 : buttons_per_joystick[joystick_index - 1]);
     if (joysticks[joystick_index].available()) {
       uint32_t buttons = joysticks[joystick_index].getButtons();
 
 #ifdef DEBUG
-      Serial.printf ("Joystick(%d): ", joystick_index);
+      Serial.printf("Joystick(%d): ", joystick_index);
 #endif
 
       for (int i = 0; i < NUM_BUTTOMS_JOYSTICK; i++) {
         int value = buttons & (1UL << i);
         int relative_button = i + offset + 1;
 #ifdef DEBUG
-        Serial.printf("%d(%2d)%s ", i, relative_button, ((value)? "ON ": "OFF"));
+        Serial.printf("%d(%2d)%-3s ", i, relative_button, ((value)? "ON": "OFF"));
 #endif
         Joystick.button(relative_button, value);
       }
@@ -147,7 +142,10 @@ void loop()
       Serial.println();
 #endif      
       joysticks[joystick_index].joystickDataClear();
+
     }
+
+    offset += buttons_per_joystick[joystick_index];
   }
 
 }
