@@ -37,9 +37,9 @@ const byte NUMROWS = 4;
 const byte NUMCOLS = 6;
 char keys[NUMROWS][NUMCOLS] = {
   {  1,  2,  3,  4,  5,  6},
-  {  7,  8,  9, 10, 11, 12},
-  { 13, 14, 15, 15, 17, 18},
-  { 19, 20, 21, 22 ,23, 24},
+  {  0,  7,  8,  9, 10,  0},
+  {  0, 11,  0,  0, 12,  0},
+  {  0, 13, 14,  0 ,15,  0},
 };
 
 byte rowPins[NUMROWS] = {   6,  5,  4,  3};
