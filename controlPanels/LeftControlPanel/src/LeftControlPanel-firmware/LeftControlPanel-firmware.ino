@@ -3,12 +3,12 @@
 || @file CentralControlPanel-Firmware
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
-|| | This firmware is for the "Lower Left Control Panel" of the "Modular Cockpit".
+|| | This firmware is for the "Left Control Panel" of the "Modular Cockpit".
 || | Multiple Teensy joysticks can be connected to the pseudohub, and it 
 || | unifies them into a single one so that the operating system only sees 
 || | one joystick. This is done through a USB hub connected to a Teensy 4.1 
 || | via the "USB Host" port.
-|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/controlPanels/LowerLeftControlPanel
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/controlPanels/LeftControlPanel
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
@@ -54,8 +54,10 @@ This only works for a total of 128 keys for all joysticks.
 // #define DEBUG
 
 int buttons_per_joystick[] = {
-   7, // Social module
-  25, // Emotes module
+   9, // Cockpit module
+  30, // Power module
+   7, // Dockin and Landing module
+   4, // HUD module
 };
 
 //=============
