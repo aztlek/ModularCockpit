@@ -51,7 +51,7 @@ USBHost_t36 library.
 This only works for a total of 128 keys for all joysticks.
 */
 
-#define DEBUG
+// #define DEBUG
 
 int buttons_per_joystick[] = {
   12, // Torret module
