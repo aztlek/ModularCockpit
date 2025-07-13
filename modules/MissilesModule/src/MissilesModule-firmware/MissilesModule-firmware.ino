@@ -3,8 +3,8 @@
 || @file firmware.ino
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
-|| | This firmware is for the "Targeting Module" of the "Modular Cockpit".
-|| | @see Mining Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/TargetingModule
+|| | This firmware is for the "Missiles Module" of the "Modular Cockpit".
+|| | @see Mining Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/MissilesModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
@@ -34,19 +34,34 @@
 
 // Keypad
 const byte NUMROWS = 4;
-const byte NUMCOLS = 6;
+const byte NUMCOLS = 4;
 char keys[NUMROWS][NUMCOLS] = {
-  {  1,  2,  3,  4,  5,  6},
-  {  7,  8,  9, 10, 11, 12},
-    { 13, 14, 15, 15, 17, 18},
-  { 19, 20, 21, 22 ,23, 24},
+  {  1,  2,  0,  0},
+  {  3,  4,  5,  6},
+  {  7,  0,  8,  0},
+  {  0,  9,  0,  0}
 };
 
-byte rowPins[NUMROWS] = {   6,  5,  4,  3};
-byte colPins[NUMCOLS] = {  12, 11, 10,  9,  8,  7};
+byte rowPins[NUMROWS] = { 2, 3, 4, 5};
+byte colPins[NUMCOLS] = { 6, 7, 8, 9};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 
+// Encoders
+const byte NUMENCODERS = 3;
+Encoder encoders[NUMENCODERS] = {
+  Encoder( 15, 16),
+  Encoder( 17, 18),
+  Encoder( 19, 20)
+};
+
+long oldPositionEncoders[NUMENCODERS] = { 0, 0, 0};
+long newPositionEncoders[NUMENCODERS];
+char encodersKeys[NUMENCODERS * 2] = {
+    10, 11,
+    12, 13,
+    14, 15
+};
 
 // Keys
 #define KEY_PRESS_TIME 150
@@ -71,12 +86,17 @@ void setup() {
 
 void loop() {
 
-    if (kpd.getKeys()) {
-        for (int i=0; i < LIST_MAX; i++) {
-            if ( kpd.key[i].stateChanged ) {
+    // Fills kpd.key[ ] array with up-to 10 active keys.
+    // Returns true if there are ANY active keys.
+    if (kpd.getKeys())
+    {
+        for (int i=0; i < LIST_MAX; i++)   // Scan the whole key list.
+        {
+            if ( kpd.key[i].stateChanged )   // Only find keys that have changed state.
+            {
               byte code = (byte)kpd.key[i].kchar;
               KeyState keyState = kpd.key[i].kstate;
-              switch (keyState) {
+              switch (keyState) {  // Report active key state : IDLE, PRESSED, HOLD, or RELEASED
                   case PRESSED:
                     msg = " PRESSED.";
                     Joystick.button(code, 1);
@@ -100,6 +120,39 @@ void loop() {
 #endif
             }
         }
+    }
+
+    // Encoders
+    for(int i = 0; i < NUMENCODERS; i++) {
+      byte key;
+      newPositionEncoders[i] = encoders[i].read();
+      long difEncoder = newPositionEncoders[i] - oldPositionEncoders[i];
+      if(difEncoder != 0) {
+        if(difEncoder > 0) {
+          key = encodersKeys[i * 2] + 1;
+          Joystick.button(key, 1);
+          delay(KEY_PRESS_TIME);
+          Joystick.button(key, 0);
+          temporarily_increase_led_brightness(20);
+        }
+        else if(difEncoder < 0) {
+          key = encodersKeys[i * 2];
+          Joystick.button(key, 1);
+          delay(KEY_PRESS_TIME);
+          Joystick.button(key, 0);
+          temporarily_increase_led_brightness(20);
+        }
+        oldPositionEncoders[i] = newPositionEncoders[i]; 
+#ifdef DEBUG
+        Serial.print("encoder[");
+        Serial.print(i);
+        Serial.print("]: ");
+        Serial.print(difEncoder);
+        Serial.print(": key = ");
+        Serial.print(key);
+        Serial.println();
+#endif
+      }
     }
 }  // End loop
 
