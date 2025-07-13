@@ -3,7 +3,7 @@
 || @file firmware.ino
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
-|| | This firmware is for the "Min ing Module" of the "Modular Cockpit".
+|| | This firmware is for the "Mining Module" of the "Modular Cockpit".
 || | @see Mining Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/MiningModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
