@@ -3,8 +3,8 @@
 || @file firmware.ino
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
-|| | This firmware is for the "HUD Module" of the "Modular Cockpit".
-|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/HudModule
+|| | This firmware is for the "Docking Landing Module" of the "Modular Cockpit"
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/DockingLandingModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
