@@ -4,7 +4,7 @@
 || @author Luis Alejandro Bernal Romero (Aztlek)
 || @description
 || | This firmware is for the "Torret Module" of the "Modular Cockpit".
-|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/PowerModule
+|| | @see Power Module: https://github.com/aztlek/ModularCockpit/tree/main/modules/TorretModule
 || | @see Modular Cockpit: https://github.com/aztlek/ModularCockpit.
 || #
 || 
