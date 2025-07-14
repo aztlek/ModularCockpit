@@ -54,15 +54,14 @@ This only works for a total of 128 keys for all joysticks.
 // #define DEBUG
 
 int buttons_per_joystick[] = {
-  12, // Torret module
-   7, // Social module
-  30, // Power module
-   7, // Dockin and Landing module
-   4, // HUD module
-  24, // Target Cycling module
-   9, // Cockpit module
+   9, // Weapons Module
+  24, // Target Cycling Module
+  15, // Targeting Module
+  12, // Torret Module
    8, // Radar Module
-  12, // Shields and Counterneasures module
+  12, // Movemnet Module
+  12, // Shields and Counterneasures Module
+  15, // Missiles Module
 };
 
 //=============
@@ -130,7 +129,7 @@ void loop()
         int relative_button = i + offset + 1;
 
 #ifdef DEBUG
-        Serial.printf("%d(%2d)%-3s ", i, relative_button, ((value)? "ON": "OFF"));
+        Serial.printf("%2d(%2d)%-3s ", i, relative_button, ((value)? "ON": "off"));
 #endif
 
         Joystick.button(relative_button, value);
