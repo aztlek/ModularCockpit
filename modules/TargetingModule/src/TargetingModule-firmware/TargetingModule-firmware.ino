@@ -37,13 +37,13 @@ const byte NUMROWS = 4;
 const byte NUMCOLS = 6;
 char keys[NUMROWS][NUMCOLS] = {
   {  1,  2,  3,  4,  5,  6},
-  {  7,  8,  9, 10, 11, 12},
-    { 13, 14, 15, 15, 17, 18},
-  { 19, 20, 21, 22 ,23, 24},
+  {  0,  7,  8,  9, 10,  0},
+  {  0, 11,  0,  0, 12,  0},
+  {  0, 13, 14,  0 ,15,  0},
 };
 
-byte rowPins[NUMROWS] = {   6,  5,  4,  3};
-byte colPins[NUMCOLS] = {  12, 11, 10,  9,  8,  7};
+byte rowPins[NUMROWS] = {  6,  5,  4,  3};
+byte colPins[NUMCOLS] = { 12, 11, 10,  9,  8,  7};
 
 Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, NUMROWS, NUMCOLS );
 
@@ -78,26 +78,21 @@ void loop() {
               KeyState keyState = kpd.key[i].kstate;
               switch (keyState) {
                   case PRESSED:
-                    msg = " PRESSED.";
+                    msg = "PRESSED";
                     Joystick.button(code, 1);
-                    temporarily_increase_led_brightness(20);
                   break;
                   case RELEASED:
-                    msg = " RELEASED.";
+                    msg = "RELEASED";
                     Joystick.button(code, 0);
-                    temporarily_increase_led_brightness(20);
                   break;
                   default:
                   break;
               }   
-#ifdef DEBUG                       
-              Serial.print("kpd.key[");
-              Serial.print(i);
-              Serial.print("]: ");
-              Serial.print("Key = ");
-              Serial.print(code);
+#ifdef DEBUG        
+              Serial.printf("kpd.key[%d]: Key = %d ", i, code);
               Serial.println(msg);
 #endif
+              temporarily_increase_led_brightness(20);
             }
         }
     }
