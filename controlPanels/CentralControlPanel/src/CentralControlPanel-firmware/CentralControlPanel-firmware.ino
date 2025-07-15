@@ -31,6 +31,18 @@
 ||
 */
 
+/*
+Configuration for more than 128 buttons (Extreme Joystick)
+
+    1. Exit the Arduino IDE.
+    2. Edit the file arduino15/packages/teensy/hardware/avr/1.59.0/cores/teensy4/usb_desc.h.
+    3. Where it says JOYSTICK_SIZE 12, change it to JOYSTICK_SIZE 64. This is four lines.
+    4. Save
+    5. Launch the Arduino IDE.
+    6. Compile and upload to the Teensy 4.1
+
+*/
+
 
 #include "USBHost_t36.h"
 
@@ -48,25 +60,38 @@ of each module when you press the keys.
 You can only put a maximum of 9 modules, due to limitations of the 
 USBHost_t36 library.
 
-This only works for a total of 128 keys for all joysticks.
+This only works for a total of 128 keys and 7 faxes for all joysticks.
 */
 
 // #define DEBUG
 
+// Maximum total of 128 buttons.
 int buttons_per_joystick[] = {
    9, // Weapons Module
   24, // Target Cycling Module
   15, // Targeting Module
   12, // Torret Module
    8, // Radar Module
-  12, // Movemnet Module
+  12, // Movement Module
   12, // Shields and Counterneasures Module
   15, // Missiles Module
 };
 
-//=============
-
 #define NUM_JOYSTICKS ((sizeof(buttons_per_joystick))/(sizeof(int)))
+
+// Maximum total of 7 axes.
+int axis_per_joystick[NUM_JOYSTICKS] = {
+  0, // Weapons Module
+  0, // Target Cycling Module
+  0, // Targeting Module
+  0, // Torret Module
+  0, // Radarn Module
+  2, // Movemet Module
+  0, // Shields and Counterneasures Module
+  0, // Missiles Module
+};
+
+//=============
 
 USBHost myusb;
 USBHub hubs[] = {
@@ -115,7 +140,8 @@ void loop()
 {
   myusb.Task();
 
-  int offset = 0;
+  unsigned offset = 0;
+  unsigned offset_axis = 0;
   for (uint8_t joystick_index = 0; joystick_index < NUM_JOYSTICKS; joystick_index++) {
     if (joysticks[joystick_index].available()) {
       uint32_t buttons = joysticks[joystick_index].getButtons();
@@ -139,10 +165,32 @@ void loop()
       Serial.println();
 #endif      
 
+      // Axis
+
+      uint64_t axis_changed_mask = joysticks[joystick_index].axisChangedMask();
+      for (uint8_t i = 0; axis_changed_mask != 0; i++, axis_changed_mask >>= 1) {
+        if (axis_changed_mask & 1U) {
+          unsigned axis_value = joysticks[joystick_index].getAxis(i);
+          switch(offset_axis + i) {
+            case 0: Joystick.X(axis_value); break;
+            case 1: Joystick.Y(axis_value); break;
+            case 2: Joystick.Z(axis_value); break;
+            case 3: Joystick.Xrotate(axis_value); break;
+            case 4: Joystick.Yrotate(axis_value); break;
+            case 5: Joystick.Zrotate(axis_value); break;
+            case 6: Joystick.slider(1,axis_value); break;
+          }
+#ifdef DEBUG
+          Serial.printf("Joystick[%d] axis[%d]:%d\n", joystick_index, i, axis_value);
+#endif      
+        }
+      }
+
       joysticks[joystick_index].joystickDataClear();
     }
 
     offset += buttons_per_joystick[joystick_index];
+    offset_axis += axis_per_joystick[joystick_index];
   }
 
 }

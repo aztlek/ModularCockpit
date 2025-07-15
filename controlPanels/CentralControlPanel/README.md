@@ -1,4 +1,4 @@
-# Centras Control Panel
+# Central Control Panel
 
 ## Configuration for more than 128 buttons (Extreme Joystick)
 
