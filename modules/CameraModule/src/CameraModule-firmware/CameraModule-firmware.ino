@@ -79,11 +79,25 @@ long oldPositionEncoders[NUM_ENCODERS] = { 0, 0, 0, 0, 0, 0};
 long newPositionEncoders[NUM_ENCODERS];
 #define ENCODER_INCREMENT_KEYS 1
 
-// Potentiometer
-#define potentiometerPin 23
-const int potentiometerDelta = 10;
-int potentiometerOldValue = 0;
-int potentiometerValue = 0;
+
+// ====== Potentiometers ======
+
+#define NUM_POTENTIOMETERS 1
+byte potentiometersPins[NUM_POTENTIOMETERS] =
+{
+  41
+};
+
+int potentiometersOldValues[NUM_POTENTIOMETERS] = {
+  0
+};
+int potentiometersValues[NUM_POTENTIOMETERS] = {
+  0
+};
+
+const int potentiometerDelta = 8;
+
+// ===========================
 
 String msg;
 
@@ -93,12 +107,13 @@ extern "C" uint32_t set_arm_clock(uint32_t frequency);
 
 void setup() {
   set_arm_clock(24000000);
-  pinMode(ledPin, OUTPUT);
+
+#ifdef DEBUG
+  Serial.begin(9600);
+#endif
 
   // Led as power indicator
-  analogWrite(ledPin, 100); 
-  delay(1000);
-  analogWrite(ledPin,   5);
+  temporarily_increase_led_brightness(1000);
   
   // Encoders
   pinMode(11, INPUT_PULLUP);
@@ -115,10 +130,14 @@ void setup() {
   pinMode(29, INPUT_PULLUP);
 
 
-  // Potentiometer
-  potentiometerValue = analogRead(potentiometerPin);  
-  potentiometerOldValue = potentiometerValue;
-    
+  
+  // ====== Potentiometers ======
+
+  for(unsigned i = 0; i < NUM_POTENTIOMETERS; i++) {
+    potentiometersValues[i] = analogRead(potentiometersPins[i]);
+    potentiometersOldValues[i] = potentiometersValues[i];
+  }
+
 #ifdef DEBUG
   Serial.begin(9600);
 #endif
@@ -161,59 +180,31 @@ void loop() {
                 break;
               }    
 #ifdef DEBUG
-              Serial.print("kpd.key[");
-              Serial.print(i);
-              Serial.print("]: ");
-              Serial.print("Code=");
-              Serial.print(code);
-              Serial.print(" ,Ch=");
+              Serial.printf("kpd.key[%d]: Code=%d ,Ch=", i, code);
               switch(ch) {
-                case KEYPAD_7:
-                  Serial.print("KEYPAD_7");
-                break;
-                case KEYPAD_8:
-                  Serial.print("KEYPAD_8");
-                break;
-                case KEYPAD_9:
-                  Serial.print("KEYPAD_9");
-                break;
-                case KEYPAD_4:
-                  Serial.print("KEYPAD_4");
-                break;
-                case KEYPAD_5:
-                  Serial.print("KEYPAD_5");
-                break;
-                case KEYPAD_6:
-                  Serial.print("KEYPAD_6");
-                break;
-                case KEYPAD_1:
-                  Serial.print("KEYPAD_1");
-                break;
-                case KEYPAD_2:
-                  Serial.print("KEYPAD_2");
-                break;
-                case KEYPAD_3:
-                  Serial.print("KEYPAD_3");
-                break;
-                case KEYPAD_ASTERIX:
-                  Serial.print("KEYPAD_ASTERIX");
-                break;
-                case KEY_F4:
-                  Serial.print("KEY_F4");
-                break;
+                case KEYPAD_7: Serial.print("KEYPAD_7"); break;
+                case KEYPAD_8: Serial.print("KEYPAD_8"); break;
+                case KEYPAD_9: Serial.print("KEYPAD_9"); break;
+                case KEYPAD_4: Serial.print("KEYPAD_4"); break;
+                case KEYPAD_5: Serial.print("KEYPAD_5"); break;
+                case KEYPAD_6: Serial.print("KEYPAD_6"); break;
+                case KEYPAD_1: Serial.print("KEYPAD_1"); break;
+                case KEYPAD_2: Serial.print("KEYPAD_2"); break;
+                case KEYPAD_3: Serial.print("KEYPAD_3"); break;
+                case KEYPAD_ASTERIX: Serial.print("KEYPAD_ASTERIX"); break;
+                case KEY_F4: Serial.print("KEY_F4"); break;
                 default:
                   if(isPrintable(ch)) {
                     Serial.print((char)ch);
                   }
                 break;
               }
-              Serial.print("(");
-              Serial.print(ch);
-              Serial.print(")");
-              Serial.print(", ");
+              Serial.printf("(%d), ", ch);
               Serial.print(msg);
               Serial.println();
 #endif
+
+            temporarily_increase_led_brightness(20);
             }
         }
     }
@@ -231,60 +222,60 @@ void loop() {
           Keyboard.press(key);
           delay(KEY_PRESS_TIME);
           Keyboard.release(key);
-        }        
+        }
+
+        temporarily_increase_led_brightness(20);
         oldPositionEncoders[i] = newPositionEncoders[i]; 
             
 #ifdef DEBUG
-        Serial.print("encoder[");
-        Serial.print(i);
-        Serial.print("]: difEncoder=");
-        Serial.print(difEncoder);
-        Serial.print(", key=");
+        Serial.printf("encoder[%d]: key=", i);
         switch(key) {
-          case KEY_HOME:
-            Serial.print("KEY_HOME");
-            break;
-          case KEY_END:
-            Serial.print("KEY_END");
-            break;
-          case KEY_PAGE_UP:
-            Serial.print("KEY_PAGE_UP");
-            break;
-          case KEY_PAGE_DOWN:
-            Serial.print("KEY_PAGE_DOWN");
-            break;
-          case KEY_RIGHT:
-            Serial.print("KEY_RIGHT");
-            break;
-          case KEY_LEFT:
-            Serial.print("KEY_LEFT");
-            break;
-          case KEY_UP:
-            Serial.print("KEY_UP");
-            break;
-          case KEYPAD_PLUS:
-            Serial.print("KEYPAD_PLUS");
-            break;
-          case KEYPAD_MINUS:
-            Serial.print("KEYPAD_MINUS");
-            break;
+          case KEY_HOME: Serial.print("KEY_HOME"); break;
+          case KEY_END: Serial.print("KEY_END"); break;
+          case KEY_PAGE_UP: Serial.print("KEY_PAGE_UP"); break;
+          case KEY_PAGE_DOWN: Serial.print("KEY_PAGE_DOWN"); break;
+          case KEY_RIGHT: Serial.print("KEY_RIGHT"); break;
+          case KEY_LEFT: Serial.print("KEY_LEFT"); break;
+          case KEY_UP: Serial.print("KEY_UP"); break;
+          case KEYPAD_PLUS: Serial.print("KEYPAD_PLUS"); break;
+          case KEYPAD_MINUS: Serial.print("KEYPAD_MINUS"); break;
+          case -1: Serial.print("MOUSE UP"); break;
+          case 1: Serial.print("MOUSE DOWN"); break;
+          default: Serial.print(key); break;
         }
         Serial.println();
 #endif
       }
     }
 
-    // Potentiometer
-    potentiometerValue = analogRead(potentiometerPin);
-    if(abs(potentiometerValue - potentiometerOldValue) > potentiometerDelta) {    
+
+  // ====== Potentiometers ======
+
+  for(unsigned i = 0; i < NUM_POTENTIOMETERS; i++) {
+    potentiometersValues[i] = analogRead(potentiometersPins[i]);
+    if(abs(potentiometersValues[i] - potentiometersOldValues[i]) > potentiometerDelta) {    
 #ifdef DEBUG
-      Serial.print("potentiometer");
-      Serial.print(": ");
-      Serial.print(potentiometerValue);
-      Serial.println();
+      Serial.printf("potentiometersValues[%d]: %d\n", i, potentiometersValues[i]);
 #endif
-      Joystick.X(potentiometerValue);
-      potentiometerOldValue = potentiometerValue;
+
+      switch(i) {
+        case 0: Joystick.X(potentiometersValues[i] * 64); break;
+        case 1: Joystick.Y(potentiometersValues[i] * 64); break;
+        case 2: Joystick.Z(potentiometersValues[i] * 64); break;
+        case 3: Joystick.Xrotate(potentiometersValues[i] * 64); break;
+        case 4: Joystick.Yrotate(potentiometersValues[i] * 64); break;
+        case 5: Joystick.Zrotate(potentiometersValues[i] * 64); break;
+        case 6: Joystick.slider(1, potentiometersValues[i] * 64); break;
+      }
+
+      potentiometersOldValues[i] = potentiometersValues[i];
+      temporarily_increase_led_brightness(20);
     }
-   
+  }   
 }  // End loop
+
+void temporarily_increase_led_brightness(uint32_t msec) {
+      analogWrite(ledPin, 100); 
+      delay(msec);
+      analogWrite(ledPin,   5);  
+}
