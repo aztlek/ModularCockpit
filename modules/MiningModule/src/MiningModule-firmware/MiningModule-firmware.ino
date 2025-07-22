@@ -56,7 +56,7 @@ Encoder encoders[NUMENCODERS] = {
 long oldPositionEncoders[NUMENCODERS] = { 0};
 long newPositionEncoders[NUMENCODERS];
 char encodersKeys[NUMENCODERS * 2] = {
-    10, 11
+    9, 10
 };
 
 // Keys
