@@ -59,13 +59,15 @@ No se hizo nada por que se usó el de 64, el ```extreme joystick```.
 
 1. Salir del IDE de Arduino.
 1. Borrar el directorio ```arduino-ide``` que está en
-	1. En linux ``` ~/.config/arduino-ide/
+	1. En linux ```~/.config/arduino-ide/```
 	1. En windows ```C:\Users\<user name>\AppData\Roaming\arduino-ide\ ```
 	1. En MacOS ```~/Library/Application Support/arduino-ide/```
+1. Reiniciar el IDE de Arduino.
 
 
-### REferencias de Cómo crear un joystick personalizado
+### Referencias de Cómo crear un joystick personalizado
 
 1. [Create a Custom Joystick With Teensy 4.1](https://www.instructables.com/Create-a-Custom-Joystick-With-the-Teensy-41/)
+1. [Changes to custom board option definitions in boards.txt are not picked up #1030](https://github.com/arduino/arduino-ide/issues/1030#issuecomment-1152005617)
 
 
