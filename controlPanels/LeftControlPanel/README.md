@@ -1,4 +1,4 @@
-# Central Control Panel
+# Left Control Panel
 
 ## Configuration for more than 128 buttons (Extreme Joystick)
 
@@ -18,11 +18,10 @@
 1. Open the ```Serial Monitor``` via ```Tools -> Serial Monitor```.
 1. Now press the buttons on each module.
 1. In the ```Serial Monitor```, you'll see something like ```Joystick(n): ..```, where n is the module's position in the USB Hub. Use that number and the total number of buttons per module.
-1. With that information, fill in the ```buttons_per_joystick[]``` ​​array. You can only add up to 9 modules (limited by the Teensy libraries).
+1. With that information, fill in the ```buttons_per_joystick[]``` array. You can only add up to 9 modules (limited by the Teensy libraries).
 1. Compile/upload and enjoy configuring Star Citizen with your keypads.
 
-
-## How to Create a Custom Joystick Specially for the Central Control
+## How to Create a Custom Joystick Specially for the Left Control Panel
 
 ### Adding a USB Type-C to the Teensy 4.0
 
@@ -30,8 +29,8 @@
 
 1. Insert the following lines after the line ```teensy41.menu.usb.flightsimjoystick.fake_serial=teensy_gateway```: 
 ``` 
-teensy41.menu.usb.customcontroller=Modular Cockpit Central Control Panel Joystick 
-teensy41.menu.usb.customcontroller.build.usbtype=MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK 
+teensy41.menu.usb.customcontroller=Modular Cockpit Left Control Panel Joystick 
+teensy41.menu.usb.customcontroller.build.usbtype=MODULAR_COCKPIT_LEFT_CONTROL_PANEL_JOYSTICK 
 teensy41.menu.usb.customcontroller.upload_port.usbtype=MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK 
 teensy41.menu.usb.customcontroller.fake_serial=teensy_gateway 
 ```
@@ -41,13 +40,13 @@ teensy41.menu.usb.customcontroller.fake_serial=teensy_gateway
 
 1. Edit the file ```usb_desc.h``` located in the path ```~/.arduino15/packages/teensy/hardware/avr/1.59.0/cores/teensy4``` on Linux. 1. Insert the following code before the line ```#elif defined(USB_SERIAL_HID)``` 
 ``` 
-#elif defined(MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK) 
+#elif defined(MODULAR_COCKPIT_LEFT_CONTROL_PANEL_JOYSTICK) 
 #define VENDOR_ID 0x16C0 
 #define PRODUCT_ID 0x0482 
 #define MANUFACTURER_NAME {'A','z','t','l','e','k',' ','G','a','m','e','s'} 
 #define MANUFACTURER_NAME_LEN 12 
-#define PRODUCT_NAME {'M','o','d','u','l','a','r',' ','C','o','c','k','p','i','t',' ','C','e','n','t','r','a','l',' ','C','o','n','t','r','o','l',' ','P','a','n','e','l',' ','J','o','y','s','t','i','c','k'} 
-#define PRODUCT_NAME_LEN 46 
+#define PRODUCT_NAME {'M','o','d','u','l','a','r',' ','C','o','c','k','p','i','t',' ','L','e','f','t',' ','C','o','n','t','r','o','l',' ','P','a','n','e','l',' ','J','o','y','s','t','i','c','k'} 
+#define PRODUCT_NAME_LEN 43 
 #define EP0_SIZE 64 
 #define NUM_ENDPOINTS 3 
 #define NUM_USB_BUFFERS 24 
@@ -64,7 +63,7 @@ teensy41.menu.usb.customcontroller.fake_serial=teensy_gateway
 #define JOYSTICK_SIZE 64 // 12 = normal, 64 = extreme joystick 
 #define JOYSTICK_INTERVAL 1 
 #define ENDPOINT2_CONFIG ENDPOINT_RECEIVE_INTERRUPT + ENDPOINT_TRANSMIT_INTERRUPT 
-#define ENDPOINT3_CONFIG ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
+#define ENDPOINT3_CONFIG ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT 
 
 ```
 1. Save and exit.
@@ -80,12 +79,12 @@ Nothing was done because the 64-bit version, the ```extreme joystick```, was use
 ### Reconfigure and restart the Arduino IDE
 
 1. Exit the Arduino IDE.
-
 1. Delete the ```arduino-ide``` directory located at
-1. On Linux ```~/.config/arduino-ide/```
-1. On Windows ```C:\Users\<user name>\AppData\Roaming\arduino-ide\```
-1. On MacOS ```~/Library/Application Support/arduino-ide/```
+1. On Linux, ```~/.config/arduino-ide/```
+1. On Windows, ```C:\Users\<user name>\AppData\Roaming\arduino-ide\```
+1. On MacOS, ```~/Library/Application Support/arduino-ide/```
 1. Restart the Arduino IDE.
+
 
 ### References for How to Create a Custom Joystick
 
