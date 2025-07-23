@@ -1,4 +1,4 @@
-# Central Control Panel
+# Right Control Panel
 
 ## Configuración para que más de 128 botones (Extreme joystick)
 
@@ -28,10 +28,10 @@
 1. Edite al archivo ```boards.txt```que se encuentra en la ruta ```~/.arduino15/packages/teensy/hardware/avr/1.59.0``` en Linux .
 1. Inserte en después de la linea ```teensy41.menu.usb.flightsimjoystick.fake_serial=teensy_gateway``` las siguientes líneas:
 	```
-	teensy41.menu.usb.customcontroller1=Modular Cockpit Central Control Panel Joystick
-	teensy41.menu.usb.customcontroller1.build.usbtype=MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK
-	teensy41.menu.usb.customcontroller1.upload_port.usbtype=MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK
-	teensy41.menu.usb.customcontroller1.fake_serial=teensy_gateway
+	teensy41.menu.usb.customcontroller2=Modular Cockpit Right Control Panel Joystick
+	teensy41.menu.usb.customcontroller2.build.usbtype=MODULAR_COCKPIT_RIGHT_CONTROL_PANEL_JOYSTICK
+	teensy41.menu.usb.customcontroller2.upload_port.usbtype=MODULAR_COCKPIT_RIGHT_CONTROL_PANEL_JOYSTICK
+	teensy41.menu.usb.customcontroller2.fake_serial=teensy_gateway
 	```	
 1. Guardar y salir
 
@@ -39,32 +39,46 @@
 
 1. Edite el archivo ```usb_desc.h``` que se encuentra en la ruta ```~/.arduino15/packages/teensy/hardware/avr/1.59.0/cores/teensy4```en Linux.
 1. Inserte el siguiente código antes de la línea ```#elif defined(USB_SERIAL_HID)```
-	```
-	#elif defined(MODULAR_COCKPIT_CENTRAL_CONTROL_PANEL_JOYSTICK)
+	```	
+	#elif defined(MODULAR_COCKPIT_RIGHT_CONTROL_PANEL_JOYSTICK)
 	  #define VENDOR_ID		0x16C0
 	  #define PRODUCT_ID		0x0482
-	  #define MANUFACTURER_NAME	{'A','z','t','l','e','k',' ','G','a','m','e','s'}
-	  #define MANUFACTURER_NAME_LEN	12
-	  #define PRODUCT_NAME		{'M','o','d','u','l','a','r',' ','C','o','c','k','p','i','t',' ','C','e','n','t','r','a','l',' ','C','o','n','t','r','o','l',' ','P','a','n','e','l',' ','J','o','y','s','t','i','c','k'}
-	  #define PRODUCT_NAME_LEN	46
+	  #define MANUFACTURER_NAME	{'T','e','e','n','s','y','d','u','i','n','o'}
+	  #define MANUFACTURER_NAME_LEN	11
+	  #define PRODUCT_NAME		{'M','o','d','u','l','a','r',' ','C','o','c','k','p','i','t',' ','R','i','g','h','t',' ','C','o','n','t','r','o','l',' ','P','a','n','e','l',' ','J','o','y','s','t','i','c','k'}
+	  #define PRODUCT_NAME_LEN	44
 	  #define EP0_SIZE		64
-	  #define NUM_ENDPOINTS         3
+	  #define NUM_ENDPOINTS         6
 	  #define NUM_USB_BUFFERS	24
-	  #define NUM_INTERFACE		2
-	  #define SEREMU_INTERFACE      1	// Serial emulation
+	  #define NUM_INTERFACE		5
+	  #define SEREMU_INTERFACE      2	// Serial emulation
 	  #define SEREMU_TX_ENDPOINT    2
 	  #define SEREMU_TX_SIZE        64
 	  #define SEREMU_TX_INTERVAL    1
 	  #define SEREMU_RX_ENDPOINT    2
 	  #define SEREMU_RX_SIZE        32
 	  #define SEREMU_RX_INTERVAL    2
-	  #define JOYSTICK_INTERFACE    2	// Joystick
-	  #define JOYSTICK_ENDPOINT     3
+	  #define KEYBOARD_INTERFACE    0	// Keyboard
+	  #define KEYBOARD_ENDPOINT     3
+	  #define KEYBOARD_SIZE         8
+	  #define KEYBOARD_INTERVAL     1
+	  #define KEYMEDIA_INTERFACE    4	// Keyboard Media Keys
+	  #define KEYMEDIA_ENDPOINT     4
+	  #define KEYMEDIA_SIZE         8
+	  #define KEYMEDIA_INTERVAL     4
+	  #define MOUSE_INTERFACE       1	// Mouse
+	  #define MOUSE_ENDPOINT        5
+	  #define MOUSE_SIZE            8
+	  #define MOUSE_INTERVAL        1
+	  #define JOYSTICK_INTERFACE    3	// Joystick
+	  #define JOYSTICK_ENDPOINT     6
 	  #define JOYSTICK_SIZE         64	//  12 = normal, 64 = extreme joystick
-	  #define JOYSTICK_INTERVAL     1
-	  #define ENDPOINT2_CONFIG ENDPOINT_RECEIVE_INTERRUPT + ENDPOINT_TRANSMIT_INTERRUPT
-	  #define ENDPOINT3_CONFIG ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
-
+	  #define JOYSTICK_INTERVAL     2
+	  #define ENDPOINT2_CONFIG	ENDPOINT_RECEIVE_INTERRUPT + ENDPOINT_TRANSMIT_INTERRUPT
+	  #define ENDPOINT3_CONFIG	ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
+	  #define ENDPOINT4_CONFIG	ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
+	  #define ENDPOINT5_CONFIG	ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
+	  #define ENDPOINT6_CONFIG	ENDPOINT_RECEIVE_UNUSED + ENDPOINT_TRANSMIT_INTERRUPT
 	```
 1. 	Guardar y salir.
 
