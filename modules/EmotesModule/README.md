@@ -58,6 +58,13 @@ There are 40 Emote keybindings.
 
 With a space of 10x10 cm you can only have 25 keys, but you can have layers, a maximum of two layers would be necessary. These layers can be activated for example with the two corner keys at the bottom. (With that you would have about 23 * 3 = 69 emotes). The problem here is remembering where each emote is. It would be necessary to design a key labels that facilitate this.
 
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| Jade Kailh Box Key Switches                                                                                                               |   25 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |3-com-Inc-Slide-Potentiometer-Knob/dp/B01K2BZLA0)   |
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
