@@ -27,6 +27,13 @@
 | Slide                |      0 |
 | Joystick             |      0 |
 
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| Jade Kailh Box Key Switches                                                                                                               |    4 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |3-com-Inc-Slide-Potentiometer-Knob/dp/B01K2BZLA0)   |
+
 ## Key Labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
