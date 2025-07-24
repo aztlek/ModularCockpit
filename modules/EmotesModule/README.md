@@ -2,6 +2,10 @@
 
 ![Emotes Module](images/emotesModule_125mmWidth.png)
 
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)
+
 ## Keybindings
 
  Star Citizen Version 4.2.1
