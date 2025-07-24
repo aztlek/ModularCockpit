@@ -76,6 +76,15 @@ module panel.
 1. The `reset` key is integrated into the main key matrix below
     of the `toggle_switch` of the power.
 
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| Twidec/Heavy Duty Rocker Toggle Switch 16A 250V SPST 2 Position 2 Pin ON/Off Switch with Black PC Wear-Resistant Handle TEN-A-2210BK-A101 |    5 | [Amz](https://www.amazon.com/dp/B07VJ4GQPW)                                     |
+| (7 Pin 20MM)10 PCS 360 Degree EC11 Rotary Encoder Code Switch Digital Potentiometer with Caps                                             |    5 | [Amz](https://www.amazon.com/dp/B08BFJ4F5C)                                     |
+| Jade Kailh Box Key Switches                                                                                                               |    9 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
