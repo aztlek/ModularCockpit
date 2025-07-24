@@ -78,6 +78,18 @@
 | Slide Pot             |      2 |
 | Joystick              |      0 |
 
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| Twidec/Heavy Duty Rocker Toggle Switch 16A 250V SPST 2 Position 2 Pin ON/Off Switch with Black PC Wear-Resistant Handle TEN-A-2210BK-A101 |    3 | [Amz](https://www.amazon.com/dp/B07VJ4GQPW)                                     |
+| (7 Pin 20MM)10 PCS 360 Degree EC11 Rotary Encoder Code Switch Digital Potentiometer with Caps                                             |    6 | [Amz](https://www.amazon.com/dp/B08BFJ4F5C)                                     |
+| Jade Kailh Box Key Switches                                                                                                               |   13 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |
+| Slide Pot - X-Large (10k Linear Taper)                                                                                                    |    1 | [Sparkfun](https://www.sparkfun.com/slide-pot-x-large-10k-linear-taper.html)     |
+| Slide Potentiometer Knob - X-Large                                                                                                        |    1 | [Sparkfun](https://www.sparkfun.com/slide-potentiometer-knob-x-large.html), [Amz](https://www.amazon.com/Electronics123-com-Inc-Slide-Potentiometer-Knob/dp/B01K2BZLA0)   |
+
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
