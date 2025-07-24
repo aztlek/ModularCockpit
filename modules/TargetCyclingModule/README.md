@@ -46,3 +46,12 @@
 | Encoders              |      8 |
 | Slide Pot             |      0 |
 | Joystick              |      0 |
+
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| (7 Pin 20MM)10 PCS 360 Degree EC11 Rotary Encoder Code Switch Digital Potentiometer with Caps                                             |    8 | [Amz](https://www.amazon.com/dp/B08BFJ4F5C)                                     |
+
+
