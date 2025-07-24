@@ -2,6 +2,10 @@
 
 ![Stopwatch Module](images/StopwatchModule_50mmWidth.png)
 
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)
+
 ## Keybindings
 
 ### Stop Watch
