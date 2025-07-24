@@ -66,8 +66,6 @@
 [^6]: DOF (depth of field) depth of field.
 [^7]: What is PH?
 
-## Bill of materials
-
 ### Total devices in keybindings
 
 | Device                |  Count |
