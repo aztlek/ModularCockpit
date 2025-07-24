@@ -37,6 +37,14 @@
 | Slide                |      0 |
 | Joysticks            |      0 |
 
+
+## Bill of materials
+
+| Material                                                                                                                                  | Qty. | Links                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---: | ------------------------------------------------------------------------------- |
+| (7 Pin 20MM)10 PCS 360 Degree EC11 Rotary Encoder Code Switch Digital Potentiometer with Caps                                             |    1 | [Amz](https://www.amazon.com/dp/B08BFJ4F5C)                                     |
+| Jade Kailh Box Key Switches                                                                                                               |   10 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |3-com-Inc-Slide-Potentiometer-Knob/dp/B01K2BZLA0)   |
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
