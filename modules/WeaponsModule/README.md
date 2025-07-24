@@ -2,6 +2,10 @@
 
 ![Weapons Module](images/WeaponsModule_70mmWidth.png)
 
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)
+
 ## Keybindings
 
 ### Vehicles - Weapons
