@@ -2,10 +2,6 @@
 
 ![Weapons Module](images/WeaponsModule_70mmWidth.png)
 
-## Key labels
-
-[Key Labels](images/ModuleKeyLabels.pdf)
-
 ## Keybindings
 
 ### Vehicles - Weapons
@@ -22,8 +18,6 @@
 | Set Lags PIPs                                                  |               | Key  | toggle_switch[0]: On  |
 | Set Lead PIPs                                                  |               | Key  | toggle_switch[0]: Off |
 
-
-
 ### Total devices in keybindings
 
 | Device               | Count  |
@@ -34,3 +28,7 @@
 | Encoders             |      0 |
 | Slide                |      0 |
 | Joystick             |      0 |
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)

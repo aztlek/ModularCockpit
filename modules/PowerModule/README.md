@@ -75,3 +75,7 @@ module panel.
     marking the difference between one group and another.
 1. The `reset` key is integrated into the main key matrix below
     of the `toggle_switch` of the power.
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)

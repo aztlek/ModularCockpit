@@ -28,3 +28,7 @@
 | Encoders                          |      3 |
 | Momentary Flat Push Button Switch |      1 |
 | Cover momentary push buttom       |      1 |
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)

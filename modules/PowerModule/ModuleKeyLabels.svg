@@ -3086,10 +3086,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.1051136"
-     inkscape:cx="408.55528"
+     inkscape:cx="408.10284"
      inkscape:cy="527.54758"
      inkscape:current-layer="layer4"
-     inkscape:window-width="1128"
+     inkscape:window-width="1887"
      inkscape:window-height="1269"
      inkscape:window-x="26"
      inkscape:window-y="23"
@@ -4064,75 +4064,136 @@
        id="path7370"
        clip-path="url(#clipPath11570)"
        transform="translate(0,-53.5459)" />
+    <path
+       d="m 245.8184,682.0562 c 0,0 -6.067,-3.964 -20.376,-3.964 -14.31,0 -20.377,3.964 -20.377,3.964 v 37.416 h 40.753 z"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path3"
+       clip-path="url(#clipPath11930)"
+       transform="translate(53.7055)" />
+    <path
+       d="m 299.5239,682.0562 c 0,0 -6.068,-3.964 -20.376,-3.964 -14.31,0 -20.377,3.964 -20.377,3.964 v 37.416 h 40.753 z"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path5"
+       clip-path="url(#clipPath9534)"
+       transform="translate(53.7056)" />
+    <path
+       d="m 245.8184,682.0562 c 0,0 -6.067,-3.964 -20.376,-3.964 -14.31,0 -20.377,3.964 -20.377,3.964 v 37.416 h 40.753 z"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path6"
+       clip-path="url(#clipPath11930)"
+       transform="translate(107.4111)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Labels">
     <text
-       id="text8049"
-       y="272.40393"
-       x="203.54939"
-       style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
-       xml:space="preserve"
-       inkscape:label="Camera Text Key"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.999999"
-         y="272.40393"
-         x="203.54939"
-         id="tspan8047"
-         sodipodi:role="line">CAMERA</tspan></text>
-    <text
-       id="text6593"
-       y="200.43813"
-       x="202.82085"
-       style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
-       xml:space="preserve"
-       inkscape:label="Invoque Docking Toggle Text Key"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.999999"
-         y="200.43813"
-         x="202.82085"
-         id="tspan6591"
-         sodipodi:role="line">INVOQUE</tspan></text>
-    <text
        id="text14353"
-       y="130.0041"
-       x="203.35344"
+       y="129.93219"
+       x="136.27332"
        style="font-style:normal;font-weight:normal;font-size:11.4117px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
        xml:space="preserve"
        inkscape:label="Toggle Text Key"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4117px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.999999"
-         y="130.0041"
-         x="203.35344"
+         y="129.93219"
+         x="136.27332"
          id="tspan14351"
-         sodipodi:role="line">TOGGLE</tspan></text>
+         sodipodi:role="line">RESET</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:9.96543px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
-       x="158.10237"
-       y="265.17776"
-       id="text20256"
-       inkscape:label="Request Landing Key Text"><tspan
-         id="tspan20254"
-         sodipodi:role="line"
-         x="158.10237"
-         y="265.17776"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.96543px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:1">Request</tspan><tspan
-         sodipodi:role="line"
-         x="158.10237"
-         y="278.93668"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.96543px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:1"
-         id="tspan20989">Landing</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.44937px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999998"
-       x="157.90472"
-       y="199.90422"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="229.79443"
+       y="133.37817"
        id="text23492"
        inkscape:label="Autoland Key Text"><tspan
          sodipodi:role="line"
-         x="157.90472"
-         y="199.90422"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.44937px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.999998"
-         id="tspan23490">Autoland</tspan></text>
+         x="229.79443"
+         y="133.37817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan23490">MAX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="230.25592"
+       y="204.78159"
+       id="text1"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="230.25592"
+         y="204.78159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan1">MIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="301.40125"
+       y="133.37817"
+       id="text2"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="301.40125"
+         y="133.37817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan2">MAX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="301.86273"
+       y="204.78159"
+       id="text3"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="301.86273"
+         y="204.78159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan3">MIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="373.00858"
+       y="133.37817"
+       id="text4"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="373.00858"
+         y="133.37817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan4">MAX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="373.47006"
+       y="204.78159"
+       id="text5"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="373.47006"
+         y="204.78159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan5">MIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="444.61603"
+       y="133.37817"
+       id="text6"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="444.61603"
+         y="133.37817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan6">MAX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1755px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.1511"
+       x="445.07751"
+       y="204.78159"
+       id="text7"
+       inkscape:label="Autoland Key Text"><tspan
+         sodipodi:role="line"
+         x="445.07751"
+         y="204.78159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1755px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.1511"
+         id="tspan7">MIN</tspan></text>
   </g>
 </svg>

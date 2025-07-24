@@ -28,3 +28,7 @@
 | Keys                 |      3 |
 | Toggle switchs       |      0 |
 | Encoders             |      2 |
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)

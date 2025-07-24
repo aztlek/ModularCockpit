@@ -77,3 +77,7 @@
 | Encoders              |      6 |
 | Slide Pot             |      2 |
 | Joystick              |      0 |
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)

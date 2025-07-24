@@ -5,7 +5,7 @@
 
 ## Keybindings
 
-### Turret Movement
+### Torret Movement
 
 | Keybinding                                     | Input Device Type |
 | ---------------------------------------------- | ----------------- |
@@ -36,3 +36,8 @@
 | Encoders             |      1 |
 | Slide                |      0 |
 | Joysticks            |      0 |
+
+## Key labels
+
+[Key Labels](images/ModuleKeyLabels.pdf)
+
