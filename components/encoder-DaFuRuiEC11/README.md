@@ -2,4 +2,4 @@
 
 ![Side View](SideView.svg)
 
-![Bottom View](BottomView.svg)
+![Botton View](BottonView.svg)
