@@ -3,7 +3,7 @@
 
 ## Views
 
-![Side View](SideView.svg)
+![Side View](SideView-off.svg)
 
 ![Botton View](BottonView.svg)
 
