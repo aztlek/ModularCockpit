@@ -3,6 +3,6 @@
 
 ## Views
 
-![Front View](FrontView.png)
+![Front View](FrontView.svg)
 
-![Front View, 45 degrees](FrontView45Degrees.png)
+![Front View, 45 degrees](FrontView45Degrees.svg)
