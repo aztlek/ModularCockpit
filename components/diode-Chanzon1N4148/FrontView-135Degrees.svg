@@ -4,10 +4,10 @@
 <svg
    version="1.1"
    id="svg1"
-   width="38.116276"
-   height="6.8031497"
-   viewBox="0 0 38.116275 6.8031497"
-   sodipodi:docname="FrontView.svg"
+   width="31.762831"
+   height="31.762831"
+   viewBox="0 0 31.76283 31.762831"
+   sodipodi:docname="FrontView-135Degrees.svg"
    inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,11 +25,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="50.477125"
-     inkscape:cx="19.058138"
-     inkscape:cy="3.3975786"
-     inkscape:window-width="1929"
-     inkscape:window-height="1190"
+     inkscape:zoom="34.568708"
+     inkscape:cx="15.866951"
+     inkscape:cy="15.881415"
+     inkscape:window-width="2656"
+     inkscape:window-height="1309"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -37,7 +37,8 @@
   <g
      inkscape:groupmode="layer"
      inkscape:label="Diode Chanzon 1N4148"
-     id="g1">
+     id="g1"
+     transform="rotate(-135,20.054436,10.299416)">
     <image
        width="38.116276"
        height="6.8031497"
