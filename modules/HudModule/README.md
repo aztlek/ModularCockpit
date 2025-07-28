@@ -49,7 +49,7 @@
 
 ## Connections
 
-![Drawing Connections](HudModule-drawingConnectios.svg)
+![Drawing Connections](HudModule-drawingConnections.svg)
 
 ## Key Labels
 
