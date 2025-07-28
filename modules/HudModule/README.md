@@ -47,6 +47,10 @@
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 
+## Connections
+
+![Drawing Connections](HudModule-drawingConnectios.svg)
+
 ## Key Labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
