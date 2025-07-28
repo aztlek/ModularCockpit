@@ -55,6 +55,10 @@
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 
+## Connections
+
+![Drawing Connections](SalvageModule-drawingConnections.svg)
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
