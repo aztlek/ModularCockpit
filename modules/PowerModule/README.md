@@ -100,7 +100,7 @@ module panel.
 
 ## Connections
 
-![Drawing Connections](PowerModule-drawingConnections.svg)-drawingConnections.svg)
+![Drawing Connections](PowerModule-drawingConnections.svg)
 
 ## Key labels
 
