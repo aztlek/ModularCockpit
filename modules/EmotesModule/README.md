@@ -78,6 +78,10 @@ With a space of 10x10 cm you can only have 25 keys, but you can have layers, a m
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 
+## Connections
+
+![Drawing Connections](EmotesModule-drawingConnections.svg)
+
 ## Key labels
 
 [Key Labels](images/ModuleKeyLabels.pdf)
