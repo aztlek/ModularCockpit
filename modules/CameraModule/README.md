@@ -88,8 +88,8 @@
 | Jade Kailh Box Key Switches                                                                                                               |   13 | [Amz (One Package)](https://www.amazon.com/dp/B09WYV6MTJ), [Amz (One Package)](https://www.amazon.com/dp/B0B9BDM57S) |
 | Slide Pot - X-Large (10k Linear Taper)                                                                                                    |    1 | [Sparkfun](https://www.sparkfun.com/slide-pot-x-large-10k-linear-taper.html)     |
 | Slide Potentiometer Knob - X-Large                                                                                                        |    1 | [Sparkfun](https://www.sparkfun.com/slide-potentiometer-knob-x-large.html), [Amz](https://www.amazon.com/Electronics123-com-Inc-Slide-Potentiometer-Knob/dp/B01K2BZLA0)   |
-| Teensy 4.0                                                                                                                                |    1 | [Amz](https://www.amazon.com/dp/B07W5J3WNH)                                     |
-| Terminal Block Breakout Board Module for Teensy 4.0, Screw Mount Version                                                                  |    1 | [Amz](https://www.amazon.com/dp/B08R7PVCFN)                                     |
+| Teensy 4.1                                                                                                                                |    1 | [Amz](https://www.amazon.com/dp/B08CTM3279), [Amz:](https://www.amazon.com/dp/B088JY7P2H) |
+| Terminal Block Breakout Board Module for Teensy 4.1, Screw Mount Version                                                                  |    1 | [Amz](https://www.amazon.com/dp/B08R7P8G9X).                                              |
 | Female to Female Thread Spacer Screws Brass Hex Standoff M3 x 60mm                                                                        |    4 | [Amz](https://www.amazon.com/dp/B09V272N1N)                                     |
 | 3Mx6 Socket Head Cap Bolts                                                                                                                |    4 | 1 package[Amz](https://www.amazon.com/dp/B00W8YSCIS)                            |
 | 3M Flat Washers                                                                                                                           |    8 | In one package [Amz](https://www.amazon.com/dp/B08CHHLQQS)                      |
@@ -101,6 +101,10 @@
 | 3mm translucent acrylic                                                                                                                   |    1 |                                                                                 |
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
 | 3mm black acrylic                                                                                                                         |    1 |                                                                                 |
+
+## Connections
+
+![Drawing Connections](CameraModule-drawingConnections.svg)
 
 
 ## Key labels
