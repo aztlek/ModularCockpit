@@ -6,12 +6,12 @@
 
 ## Views
 
-* Bottom View [Bottom View](BottomView.svg)
-* Front View [Front View](FrontView.svg)
+* Bottom View ![Bottom View](BottomView.svg)
+* Front View ![Front View](FrontView.svg)
 
 ## Drills
 
-* Back Layer [Back Layer](BackLayer.svg)
-* Front Layer [Front Layer](FrontLayer.svg)
-* Middle Front Layer [Middle Front Layer](MiddleFrontLayer.svg)
+* Back Layer ![Back Layer](BackLayer.svg)
+* Front Layer ![Front Layer](FrontLayer.svg)
+* Middle Front Layer ![Middle Front Layer](MiddleFrontLayer.svg)
 
