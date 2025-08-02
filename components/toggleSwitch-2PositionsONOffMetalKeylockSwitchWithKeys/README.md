@@ -13,7 +13,7 @@
 
 ## Drills
  
-* Back Layer Drill Layer](BackDrill.svg)
+* Back Layer Drill Layer ![Back Layer Drill Layer](BackDrill.svg)
 * Middle and Front Layers Drill ![Middle and Front Drill](MiddleAndFrontDrill.svg)
 
 
