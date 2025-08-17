@@ -32,6 +32,9 @@
 
 // #define DEBUG
 
+
+#define MODULE_NAME "Emotes Module"
+
 const int BACKLIGHT_LEDS_PIN = 14;
 
 // Keypad
@@ -112,7 +115,7 @@ void loop() {
   // Backlight led
   if (Serial.available()) {
     int val = Serial.read();
-    Serial.printf("1: val = %d\n", val);
+    Serial.printf("%s: val = %d\n", MODULE_NAME, val);
     if (val >= 0 && val <= 255) {
       analogWrite(BACKLIGHT_LEDS_PIN, val);
     }
