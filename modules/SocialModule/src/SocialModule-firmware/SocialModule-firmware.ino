@@ -43,6 +43,8 @@ Bounce buttons[NUM_BUTTOMS] = {
   Bounce(8, 10)
 };
 
+const int BACKLIGHT_LEDS_PIN = 12;
+
 const int ledPin = 13;
 
 String msg;
@@ -64,6 +66,9 @@ void setup() {
   pinMode(6, INPUT_PULLUP);
   pinMode(7, INPUT_PULLUP);
   pinMode(8, INPUT_PULLUP);
+
+  // Backlight leds
+  pinMode(BACKLIGHT_LEDS_PIN, OUTPUT);
 }
 
 void loop() {
@@ -104,6 +109,15 @@ void loop() {
       Serial.print(", ");
       Serial.println(msg);
 #endif
+    }
+  }
+
+  // Backlight leds
+  if (Serial.available()) {
+    int val = Serial.read();  
+    Serial.printf("SocialModule: val = %d\n", val);
+    if (val >= 0 && val <= 255) {
+      analogWrite(BACKLIGHT_LEDS_PIN, val);
     }
   }
 }

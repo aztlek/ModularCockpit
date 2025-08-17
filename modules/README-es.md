@@ -10,7 +10,6 @@
 	teensy40.menu.usb.customcontroller=Modular Cockpit Joystick
 	teensy40.menu.usb.customcontroller.build.usbtype=MODULAR_COCKPIT_JOYSTICK
 	teensy40.menu.usb.customcontroller.upload_port.usbtype=MODULAR_COCKPIT_JOYSTICK
-	teensy40.menu.usb.customcontroller.fake_serial=teensy_gateway
 	```	
 1. Guardar y salir
 
