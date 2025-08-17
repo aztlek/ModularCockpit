@@ -32,6 +32,8 @@
 
 // #define DEBUG
 
+const int BACKLIGHT_LEDS_PIN = 14;
+
 // Keypad
 const byte NUMROWS = 5;
 const byte NUMCOLS = 5;
@@ -63,6 +65,10 @@ void setup() {
 
   // Led as power indicator
   temporarily_increase_led_brightness(1000);
+
+
+  // Backlight led
+  pinMode(BACKLIGHT_LEDS_PIN, OUTPUT);
   
 #ifdef DEBUG
   Serial.begin(9600);
@@ -102,6 +108,15 @@ void loop() {
             }
         }
     }
+
+  // Backlight led
+  if (Serial.available()) {
+    int val = Serial.read();
+    Serial.printf("1: val = %d\n", val);
+    if (val >= 0 && val <= 255) {
+      analogWrite(BACKLIGHT_LEDS_PIN, val);
+    }
+  }
 }  // End loop
 
 
