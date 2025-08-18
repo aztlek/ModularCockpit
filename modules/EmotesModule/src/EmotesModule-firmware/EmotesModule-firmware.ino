@@ -35,7 +35,16 @@
 
 #define MODULE_NAME "Emotes Module"
 
-const int BACKLIGHT_LEDS_PIN = 14;
+unsigned backligth_leds_pins[] = {
+  14,
+  15,
+  18,
+  19,
+  22,
+};
+
+#define NUM_BACKLIGHT_LEDS_PINS (sizeof(backligth_leds_pins) / sizeof(unsigned))
+
 
 // Keypad
 const byte NUMROWS = 5;
@@ -70,8 +79,10 @@ void setup() {
   temporarily_increase_led_brightness(1000);
 
 
-  // Backlight led
-  pinMode(BACKLIGHT_LEDS_PIN, OUTPUT);
+  // Backlight leds
+  for(unsigned backlight_leds_index = 0; backlight_leds_index < NUM_BACKLIGHT_LEDS_PINS; backlight_leds_index++) {
+    pinMode(backligth_leds_pins[backlight_leds_index], OUTPUT);
+  }
   
 #ifdef DEBUG
   Serial.begin(9600);
@@ -112,12 +123,14 @@ void loop() {
         }
     }
 
-  // Backlight led
+  // Backlight leds
   if (Serial.available()) {
     int val = Serial.read();
     Serial.printf("%s: val = %d\n", MODULE_NAME, val);
     if (val >= 0 && val <= 255) {
-      analogWrite(BACKLIGHT_LEDS_PIN, val);
+      for(unsigned backlight_leds_index = 0; backlight_leds_index < NUM_BACKLIGHT_LEDS_PINS; backlight_leds_index++) {
+        analogWrite(backligth_leds_pins[backlight_leds_index], val);
+      }
     }
   }
 }  // End loop
