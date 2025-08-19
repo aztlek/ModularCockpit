@@ -86,6 +86,7 @@ Si el debug está a 1, se imprimen los mensajes de debug en el serial del módul
 
 ### Ask_names
 
+Se preguntan los nombres de los módulos y control panels con el fin de ser mostrados en la Interfa Gráfica.
 
 ![Ask_names](images/Protocol-Ask_names.png)
 
