@@ -39,25 +39,25 @@ Este protocolo se implementa sobre el serial de los módulos y de los paneles de
 
 ### Change_debug_mode
 
-#### Change_debug_mode from Module without Control panel
+#### Change_debug_mode from Module without Control panels
 
 
-![Change_debug_mode from Module without Control panel](images/Protocol-ChangingDebugStateFromModuleWithoutControlPanel.svg)
+![Change_debug_mode from Module without Control panel](images/Protocol-ChangingDebugStateFromModuleWithoutControlPanel.png)
 
-#### Change_debug_mode from Graphic Interface without Control panel
+#### Change_debug_mode from Graphic Interface without Control panels
 
-![Change_debug_mode from Graphic Interface without Control panel](images/Protocol-ChangingDebugStateFromGraphicInterfaceWithoutControlPanel.svg)
+![Change_debug_mode from Graphic Interface without Control panel](images/Protocol-ChangingDebugStateFromGraphicInterfaceWithoutControlPanel.png)
 
 
 #### Change_debug_mode from Module
 
-![Change_debug_mode from Module](images/Protocol-ChangingDebugStateFromModule.svg)
+![Change_debug_mode from Module](images/Protocol-ChangingDebugStateFromModule.png)
 
 #### Change_debug_mode from Graphic Interface
 
-![Change_debug_mode from Graphic Interface](images/Protocol-ChangingDebugStateFromGraphicInterface.svg)
+![Change_debug_mode from Graphic Interface](images/Protocol-ChangingDebugStateFromGraphicInterface.png)
 
 #### Change_debug_mode from ControlPanel
 
-![Change_debug_mode from ControlPanel](images/Protocol-ChangingDebugStateFromControlPanel.svg)
+![Change_debug_mode from ControlPanel](images/Protocol-ChangingDebugStateFromControlPanel.png)
 
