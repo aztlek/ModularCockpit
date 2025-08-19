@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="39cm" height="16cm" viewBox="128 87 777 314" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Fondo"/>
+  <g id="Fondo">
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="154.2" cy="106.7" rx="6" ry="6"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="130.2" y1="118.7" x2="178.2" y2="118.7"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="154.2" y1="112.7" x2="154.2" y2="142.7"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="154.2" y1="142.7" x2="130.2" y2="168.7"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="154.2" y1="142.7" x2="178.2" y2="168.7"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="154.2" y="194.4">
+        <tspan x="154.2" y="194.4">Pilot</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="154.2" y1="196.7" x2="154.2" y2="241.7"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="154.2" y1="321.7" x2="154.2" y2="399"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="147.2" y="241.7" width="14" height="80"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="327.4" y1="242.426" x2="161.2" y2="241.7"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="327.378,247.426 343.4,242.496 327.422,237.426 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="252.8" y="252.1">Change Toggle Buttom</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="289.2" y="161.2" width="124.4" height="36"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="351.4" y="184.9">
+        <tspan x="351.4" y="184.9">Graphic Interface</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="299.2" y1="188.7" x2="403.6" y2="188.7"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="351.4" y1="197.2" x2="351.4" y2="242.5"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="351.4" y1="322.5" x2="351.4" y2="400"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="344.4" y="242.5" width="14" height="80"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="582.2" y="153.2" width="115.3" height="36"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="574.2" y="161.2" width="115.3" height="36"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="631.85" y="184.9">
+        <tspan x="631.85" y="184.9">Control_panel[i]</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="588.2" y1="188.7" x2="683.5" y2="188.7"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="635.85" y1="197.2" x2="635.85" y2="253"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="635.85" y1="323" x2="635.85" y2="396"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="628.85" y="253" width="14" height="70"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="611.85" y1="252.969" x2="358.4" y2="252.5"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="611.841,257.969 627.85,252.998 611.859,247.969 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="493.626" y="262.75">Change_debug_mode(new_state)</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="692.172" y="298.448">
+      <tspan x="692.172" y="298.448">{ k:1..num_modules }</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="826.2" y="150.2" width="77.8" height="36"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="818.2" y="158.2" width="77.8" height="36"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="857.1" y="181.9">
+        <tspan x="857.1" y="181.9">Module[j]</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="832.2" y1="185.7" x2="890" y2="185.7"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="861.1" y1="194.2" x2="861.1" y2="263"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="861.1" y1="323" x2="861.1" y2="401"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="854.1" y="263" width="14" height="60"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="837.1" y1="263" x2="642.85" y2="263"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="837.1,268 853.1,263 837.1,258 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="748.476" y="273">Change_debug_mode(new_state)</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="449" y="278">
+      <tspan x="449" y="278"></tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="410.531" y="285.019">
+      <tspan x="410.531" y="285.019">{ k:1..num_control_panels }</tspan>
+    </text>
+  </g>
+</svg>

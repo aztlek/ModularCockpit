@@ -15,7 +15,7 @@ Este protocolo se implementa sobre el serial de los módulos y de los paneles de
 | Send_module_name            | 11           | string         |       |                          | Ask_name                                            | Envía el nombre del Module                                                                                                                 |
 | Send_number_buttons         | 21           | byte           | 0-128 |                          | Ask_number                                          | Envía el número de botones                                                                                                                 |
 | Send_number_axis            | 23           | byte           | 0-128 |                          | Ask_number                                          | Envía el número de ejes                                                                                                                    |
-| Send_debug_output           | 'D'          | string         |       |                          | Cambio en el estado de debug a 1                    | Envía mensajes de debug si el debug está activo                                                                                             |
+| Send_debug_output           | 'D'          | string         |       |                          | Cambio en el estado de debug a 1                    | Envía mensajes de debug si el debug está activo                                                                                            |
 
 ## Mensajes del ControlPanel
 
@@ -34,3 +34,30 @@ Este protocolo se implementa sobre el serial de los módulos y de los paneles de
 | Ask_number                  | 20           |                |       | setup()                        |                             | Ask_number                            | Pregunta por el numero de componentes desde el ControlPanel, o número de modules desde la Interfáz Gráfica                                 |
 | Send_number_modules         | 12           | byte           | 0-9   |                                |                             | Ask_number                            | Envía el número de modulos coectados a ControlPanel                                                                                        |
 | Send_debug_output           | 'D'          | string         |       | Cambio del estado de debug a 1 |                             |                                       | Envía mensajes de debug si el debug está activo                                                                                            |
+
+## Mensajes
+
+### Change_debug_mode
+
+#### Change_debug_mode from Module without Control panel
+
+
+![Change_debug_mode from Module without Control panel](images/Protocol-ChangingDebugStateFromModuleWithoutControlPanel.svg)
+
+#### Change_debug_mode from Graphic Interface without Control panel
+
+![Change_debug_mode from Graphic Interface without Control panel](images/Protocol-ChangingDebugStateFromGraphicInterfaceWithoutControlPanel.svg)
+
+
+#### Change_debug_mode from Module
+
+![Change_debug_mode from Module](images/Protocol-ChangingDebugStateFromModule.svg)
+
+#### Change_debug_mode from Graphic Interface
+
+![Change_debug_mode from Graphic Interface](images/Protocol-ChangingDebugStateFromGraphicInterface.svg)
+
+#### Change_debug_mode from ControlPanel
+
+![Change_debug_mode from ControlPanel](images/Protocol-ChangingDebugStateFromControlPanel.svg)
+
