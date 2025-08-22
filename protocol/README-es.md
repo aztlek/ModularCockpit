@@ -12,6 +12,7 @@ Este protocolo se implementa sobre el serial de los módulos y de los paneles de
 | --------------------------- | -----------: | -------------- | ----- | ------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Change_debug_mode           | 1            | byte           | 0,1   | Toggle Buttom            | Change_debug_mode                                   | Cambia el modo de debug 0 no debug, 1 debug                                                                                                |
 | Change_backlight_brightness | 2            | byte           | 0-255 | Potentiometer            | Change_backlight_brightness                         | Cambia el brillo de la retroilumimación                                                                                                    |
+| Change_fan_speed            | 3            | byte           | 0-255 | Potentiometer            |                                                     | Cambia la velocidad del ventilador.                                                                                                        |
 | Send_names                  | 11           | string         |       |                          | Ask_names                                           | Envía el nombre del Module                                                                                                                 |
 | Send_number_buttons         | 21           | byte           | 0-128 |                          | Ask_number                                          | Envía el número de botones                                                                                                                 |
 | Send_number_axis            | 23           | byte           | 0-128 |                          | Ask_number                                          | Envía el número de ejes                                                                                                                    |
@@ -28,6 +29,7 @@ Este protocolo se implementa sobre el serial de los módulos y de los paneles de
 | --------------------------- | -----------: | -------------- | ----- | ------------------------------ | --------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Change_debug_mode           | 1            | byte           | 0,1   | Toggle Buttom                  | Change_debug_mode           | Change_debug_mode                     | Cambia el modo de debug 0 no debug, 1 debug                                                                                                |
 | Change_backlight_brightness | 2            | byte           | 0-255 | Potentiometer                  | Change_backlight_brightness | Change_backlight_brightness           | Cambia el brillo de la retroilumimación de los modules conectados a ControlPanel, o de los controlPanles conectados a la Interfaz Gráfica  |
+| Change_fan_speed            | 3            | byte           | 0-255 | Potentiometer                  | Change_fan_speed            | Change_fan_speed                      | Cambia la velocidad del ventilador.                                                                                                        |
 | Ask_names                   | 10           |                |       | setup()                        |                             | Ask_names                             | Pregunta por el nombre del modulo desde el control panel, o del panel desde la Interfaz Gráfica                                            |
 | Send_names                  | 11           | string         |       |                                |                             | Ask_names                             | Envía el nombre del panel seguida por dos puntos y una lista separada por comas de los nombres de los Modules                                                                           |
 | Ask_numbers                 | 20           |                |       | setup()                        |                             | Ask_number                            | Pregunta por el numero de componentes desde el ControlPanel, o número de modules desde la Interfáz Gráfica                                 |
@@ -78,7 +80,29 @@ El piloto cambia el estado de debug de todos los módulos conectados al ControlP
 
 ### Change_backlight_brightness
 
-Cambia el brillo de la retroiluminación de los módulos. LA forma en como funciona este mensaje es casis igual que la de Change_debug_mode (pero sin el mensaje de Send_debug_output) por lo que no se presentam estos diagramas de interación.
+Cambia el brillo de la retroiluminación de los módulos. La forma en como funciona este mensaje es casi igual que la de Change_debug_mode (pero sin el mensaje de Send_debug_output) por lo que no se presentam estos diagramas de interación.
+
+### Change_fan_speed
+
+Cambia la velocidad del el ventilador o ventiladores de ControlPanel. ESto se puede hacer mediante un potenciometro conectado directamante al ControlPanel, mediante un mensaje Change_fan_speed que llega de un módulo o de la GraphicInterface.
+
+#### Change_fan_speed from ControlPanel
+
+Cambia la velocidad del los ventiladores con un potenciometro conectado al ControlPanel. Sólo cambia la velocidad de sus propios ventiladores, por que los demás ControlPanels tiene diferentes necesidades de ventilación.
+
+![change_fan_speed from ControlPanel](images/Protocol-Change_fan_speed-fromControlPanel.png)
+
+#### Change_fan_speed from GraphicInterface
+
+Cambia la velocidad de los ventiladores de un ControlPanel selecionado en la interfaz desde la GraphicInterface. Sólo cambia la velocidad de los ventiladores de un ControlPanel selecionado, esto porque cada controlPanel tiene diferentes necesidades de ventilación.
+
+![Change_fan_speed from GraphicInterface](images/Protocol-Change_fan_speed-fromGraphicInterface.png)
+
+#### Change_fan_speed from Module
+
+Cambia la velocidad del las ventiladores del ControlPanel al que está conectado el Module. Sólo cambia la velocidad de los ventiladores del ContolPanel al que está conectado el módulo, esto porque cada ControlPanel tiene sus necesidades particulares de ventilación
+
+![Change_fan_speed from Module](images/Protocol-Change_fan_speed-fromModule.png)
 
 ### Send_debug_output
 
