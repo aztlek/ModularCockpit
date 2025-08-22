@@ -89,19 +89,19 @@ Changes the speed of the ControlPanel's fan(s). This can be done using a potenti
 
 Changes the speed of the fans using a potentiometer connected to the ControlPanel. Only changes the speed of its own fans, as other ControlPanels have different ventilation requirements.
 
-![change_fan_speed from ControlPanel](protocol/images/Protocol-Change_fan_speed-fromControlPanel.png)
+![change_fan_speed from ControlPanel](images/Protocol-Change_fan_speed-fromControlPanel.png)
 
 #### Change_fan_speed from GraphicInterface
 
 Changes the speed of the fans of a selected ControlPanel in the interface from the GraphicInterface. Only changes the speed of the fans of a selected ControlPanel, as each ControlPanel has different ventilation requirements.
 
-![Change_fan_speed from GraphicInterface](protocol/images/Protocol-Change_fan_speed-fromGraphicInterface.png)
+![Change_fan_speed from GraphicInterface](images/Protocol-Change_fan_speed-fromGraphicInterface.png)
 
 #### Change_fan_speed from Module
 
 Changes the fan speed of the Control Panel to which the Module is connected. It only changes the fan speed of the Control Panel to which the Module is connected, as each Control Panel has its own specific ventilation needs.
 
-![Change_fan_speed from Module](protocol/images/Protocol-Change_fan_speed-fromModule.png)
+![Change_fan_speed from Module](images/Protocol-Change_fan_speed-fromModule.png)
 
 ### Send_debug_output
 

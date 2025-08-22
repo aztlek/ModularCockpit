@@ -90,19 +90,19 @@ Cambia la velocidad del el ventilador o ventiladores de ControlPanel. ESto se pu
 
 Cambia la velocidad del los ventiladores con un potenciometro conectado al ControlPanel. Sólo cambia la velocidad de sus propios ventiladores, por que los demás ControlPanels tiene diferentes necesidades de ventilación.
 
-![change_fan_speed from ControlPanel](protocol/images/Protocol-Change_fan_speed-fromControlPanel.png)
+![change_fan_speed from ControlPanel](images/Protocol-Change_fan_speed-fromControlPanel.png)
 
 #### Change_fan_speed from GraphicInterface
 
 Cambia la velocidad de los ventiladores de un ControlPanel selecionado en la interfaz desde la GraphicInterface. Sólo cambia la velocidad de los ventiladores de un ControlPanel selecionado, esto porque cada controlPanel tiene diferentes necesidades de ventilación.
 
-![Change_fan_speed from GraphicInterface](protocol/images/Protocol-Change_fan_speed-fromGraphicInterface.png)
+![Change_fan_speed from GraphicInterface](images/Protocol-Change_fan_speed-fromGraphicInterface.png)
 
 #### Change_fan_speed from Module
 
 Cambia la velocidad del las ventiladores del ControlPanel al que está conectado el Module. Sólo cambia la velocidad de los ventiladores del ContolPanel al que está conectado el módulo, esto porque cada ControlPanel tiene sus necesidades particulares de ventilación
 
-![Change_fan_speed from Module](protocol/images/Protocol-Change_fan_speed-fromModule.png)
+![Change_fan_speed from Module](images/Protocol-Change_fan_speed-fromModule.png)
 
 ### Send_debug_output
 
