@@ -81,7 +81,9 @@ The pilot changes the debug state of all modules connected to the Control Panel,
 
 ### Change_backlight_brightness
 
-Changes the backlight brightness of the modules. This message works almost the same as Change_debug_mode (but without the Send_debug_output message), so these interaction diagrams are not presented.### Change_fan_speed
+Changes the backlight brightness of the modules. This message works almost the same as Change_debug_mode (but without the Send_debug_output message), so these interaction diagrams are not presented.
+
+### Change_fan_speed
 
 Changes the speed of the ControlPanel's fan(s). This can be done using a potentiometer connected directly to the ControlPanel, using a Change_fan_speed message from a module, or using the GraphicInterface.
 
