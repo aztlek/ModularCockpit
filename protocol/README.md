@@ -12,6 +12,7 @@ This protocol is implemented over the serial port of modules and control panels.
 | --------------------------- | -----------: | -------------- | ----- | ------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Change_debug_mode | 1 | byte | 0,1 | Toggle Button | Change_debug_mode | Changes the debug mode 0 no debug, 1 debug |
 | Change_backlight_brightness | 2 | byte | 0-255 | Potentiometer | Change_backlight_brightness | Changes the backlight brightness |
+| Change_fan_speed            | 3            | byte           | 0-255 | Potentiometer            |                                                     | Change the fan speed.                                                                                                        |
 | Send_names | 11 | string | | | Ask_names | Sends the name of the Module |
 | Send_number_buttons | 21 | byte | 0-128 | | Ask_number | Sends the number of buttons |
 | Send_number_axis | 23 | byte | 0-128 | | Ask_number | Sends the number of axes |
@@ -28,6 +29,8 @@ This protocol is implemented over the serial port of modules and control panels.
 | --------------------------- | -----------: | -------------- | ----- | ------------------------------ | --------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Change_debug_mode | 1 | byte | 0,1 | Toggle Button | Change_debug_mode | Change_debug_mode | Changes the debug mode 0 no debug, 1 debug |
 | Change_backlight_brightness | 2 | byte | 0-255 | Potentiometer | Change_backlight_brightness | Change_backlight_brightness | Changes the backlight brightness of modules connected to the Control Panel, or control panels connected to the Graphic Interface |
+| Change_fan_speed            | 3            | byte           | 0-255 | Potentiometer                  | Change_fan_speed            | Change_fan_speed                      | 
+| Change_fan_speed            | 3            | byte           | 0-255 | Potentiometer                  | Change_fan_speed            | Change_fan_speed                      | Cambia la velocidad del ventilador.                                                                                                        |                                                                                                        |
 | Ask_names | 10 | | | setup() | | Ask_names | Asks for the module name from the control panel, or the panel from the GUI |
 | Send_names | 11 | string | | | | Ask_names | Sends the panel name followed by a colon and a comma-separated list of module names |
 | Ask_numbers | 20 | | | setup() | | Ask_number | Asks for the number of components from the Control Panel, or the number of modules from the GUI |
@@ -78,7 +81,27 @@ The pilot changes the debug state of all modules connected to the Control Panel,
 
 ### Change_backlight_brightness
 
-Changes the backlight brightness of the modules. This message works almost the same as Change_debug_mode (but without the Send_debug_output message), so these interaction diagrams are not presented.
+Changes the backlight brightness of the modules. This message works almost the same as Change_debug_mode (but without the Send_debug_output message), so these interaction diagrams are not presented.### Change_fan_speed
+
+Changes the speed of the ControlPanel's fan(s). This can be done using a potentiometer connected directly to the ControlPanel, using a Change_fan_speed message from a module, or using the GraphicInterface.
+
+#### Change_fan_speed from ControlPanel
+
+Changes the speed of the fans using a potentiometer connected to the ControlPanel. Only changes the speed of its own fans, as other ControlPanels have different ventilation requirements.
+
+![change_fan_speed from ControlPanel](protocol/images/Protocol-Change_fan_speed-fromControlPanel.png)
+
+#### Change_fan_speed from GraphicInterface
+
+Changes the speed of the fans of a selected ControlPanel in the interface from the GraphicInterface. Only changes the speed of the fans of a selected ControlPanel, as each ControlPanel has different ventilation requirements.
+
+![Change_fan_speed from GraphicInterface](protocol/images/Protocol-Change_fan_speed-fromGraphicInterface.png)
+
+#### Change_fan_speed from Module
+
+Changes the fan speed of the Control Panel to which the Module is connected. It only changes the fan speed of the Control Panel to which the Module is connected, as each Control Panel has its own specific ventilation needs.
+
+![Change_fan_speed from Module](protocol/images/Protocol-Change_fan_speed-fromModule.png)
 
 ### Send_debug_output
 
