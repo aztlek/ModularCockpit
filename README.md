@@ -130,7 +130,7 @@ There are several types of input devices:
 
 ## Microcontroller
 
-* [Teensy®](https://www.pjrc.com/teensy/) is used for the following reasons:
+[Teensy®](https://www.pjrc.com/teensy/) is used for the following reasons:
 
 1. It can function as multiple HID devices simultaneously: it can be a keyboard, joystick, and mouse at the same time, in addition to working with serial. This last feature is necessary to implement a communication protocol with the modules, or in case *Star Citizen* implements something similar to *DCS-BIOS*. Being able to have both keyboard and joystick simultaneously is necessary, for example, for the ```CameraModule```, since *Star Citizen* has no way to map joystick buttons to advanced camera functions and those can only be mapped to keyboard and mouse.
 1. It has many input pins. In the case of the *Teensy 4.0*, there are 40 digital pins and 14 analog ones. In the *Teensy 4.1*, there are 55 digital inputs and 18 analog ones. This is necessary since some modules require many inputs, such as the `TargetCyclingModule` with 24 digital inputs or the `PowerModule` with 30 digital inputs.
@@ -139,96 +139,3 @@ There are several types of input devices:
 1. The *Teensy 4.1* has a *USB Host* port used in `Control Panels` to unify the `Modules` so the operating system sees them as a single joystick.
 1. It has very good speed, making the *Teensy 4.1* preferable for unifying the modules in the `ControlPanel`.
 1. It also has a good amount of memory, which makes this not a concern when coding.
-
-## References
-
-### Components
-
-#### Microcontrollers
-
-##### Teensy
-
-1. [Teensy® 4.1 Development Board](https://www.pjrc.com/store/teensy41.html)
-1. [Teensy® 4.0 Development Board](https://www.pjrc.com/store/teensy40.html)
-
-###### Teensy with Arduino
-
-To work with the Arduino IDE at least three parts are required:
-
-1. [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) Arduino IDE extension for Teensy.
-1. [Using USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html) Library to simulate a keyboard with Teensy.
-   1. [Using USB Joystick](https://www.pjrc.com/teensy/td_joystick.html) Library to simulate a joystick with Teensy.
-   1. [Keypad Library](https://www.pjrc.com/teensy/td_libs_Keypad.html) Library to read a key matrix.
-   1. [Encoder Library](https://www.pjrc.com/teensy/td_libs_Encoder.html) Library to read encoders.
-
-##### Encoders
-
-1. [Rotary Encoder - Illuminated (RGB)](https://www.sparkfun.com/products/15141)  
-   A 24-step RGB encoder from Sparkfun.
-   1. [Clear Plastic Knob](https://www.sparkfun.com/products/10597) Another knob, but transparent. This would be better for the RGB encoder.
-1. [AliExpress: 100 step encoder](https://www.aliexpress.com/w/wholesale-100-step-encoder.html) 100-step encoders on Aliexpress.
-1. [Amazon: 5V 60MM Ultra-Thin Hand Wheel Pulse Encoder](https://www.amazon.com/Terminal-Aviation-Aluminum-Positions-Electronic/dp/B07Q75KT49/ref=sr_1_4?crid=2X4LKS9I1QZKQ)
-1. [Amazon: CNC rotary encoder search](https://www.amazon.com/s?k=cnc+rotary+encoder)  
-   A 100-step encoder like the ones on Aliexpress, but on Amazon.
-   1. [100PPR Hand Wheel Encoder for CNC (Black)](https://www.amazon.com/100PPR-Terminal-Electronic-Manual-Encoder/dp/B07G9FVHM8)
-
-###### Encoders with Arduino
-
-1. [Arduino - Rotary encoder Simple Example KY-040](https://create.arduino.cc/projecthub/vandenbrande/arduino-rotary-encoder-simple-example-ky-040-b78752)
-
-###### Encoders with QMK
-
-1. [Encoders: QMK Documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_encoders.md)
-1. [How can I use a rotary encoder?](https://docs.splitkb.com/hc/en-us/articles/360010513760-How-can-I-use-a-rotary-encoder-)
-1. [QMK Encoder Setup](https://www.youtube.com/watch?v=GLqSPa_Zc2Q)
-1. [Hub16 Encoder Configuration](https://www.youtube.com/watch?v=TTCaQ-STD-E)
-1. [Using multiple encoders in QMK](https://www.youtube.com/watch?v=DyHxccSvsPs)
-
-### Images
-
-* [xkeys: Printable Legend Templates](https://xkeys.com/usbcustomkeyboards/customprintedlegends.html#LegendTemplates)  
-  A template to print xkeys labels.  
-  Local file: [SingleKeyLegendTemplate.pdf](images/xkeys/SingleKeyLegendTemplate.pdf)
-
-### openclipart
-
-* Toggle Switch (On/OFF) Black Plastic
-  * [Switch On](https://www.openclipart.org/detail/180085/switch-on)  
-    On/Off switch in ON position, black plastic.  
-    Local file: [ToggleSwitch_ON-OFF_PlasticoNegro-On.svg](images/openclipart/ToggleSwitch_ON-OFF_PlasticoNegro-On.svg)
-  * [Switch Off](https://www.openclipart.org/detail/62737/switch-onoff)  
-    On/Off switch in OFF position, black plastic.  
-    Local file: [ToggleSwitch_ON-OFF_PlasticoNegro-Off.svg](images/openclipart/ToggleSwitch_ON-OFF_PlasticoNegro-Off.svg)
-* [Faders from mixing board](https://www.openclipart.org/detail/201691/faders-from-mixing-board)  
-  Linear potentiometer.  
-  Local file: [faders.svg](images/openclipart/faders.svg)
-* [metallic shine](https://www.openclipart.org/detail/307289/metallic-shine)  
-  A metallic-looking knob.  
-  Local file: [metallic-shine.svg](images/openclipart/metallic-shine.svg)
-* [Joystick](https://www.openclipart.org/detail/246396/joystick)  
-  A small, schematic joystick.  
-  Local file: [JoyStick.svg](images/openclipart/JoyStick.svg)
-* [DPST micro push button switch](https://www.openclipart.org/detail/299643/dpst-micro-push-button-switch)  
-  A small switch, suitable for protoboards.  
-  Local file: [JoyStick.svg](images/openclipart/JoyStick.svg)
-* [Blank Generic Keyboard](https://www.openclipart.org/detail/177279/blank-generic-keyboard)  
-  Blank keyboard.  
-  Local file: [Blank-Generic-Keyboard-Remix-by-Merlin2525.svg](images/openclipart/Blank-Generic-Keyboard-Remix-by-Merlin2525.svg)
-* [Non-linear video editing system 1](https://www.openclipart.org/detail/284960/nonlinear-video-editing-system-1)  
-  A non-linear video editing console. Knobs and other device icons can be taken from here.  
-  Local file: [Non-linear video editing system 1.svg](images/openclipart/Non-linear video editing system 1.svg)
-* [Industrial Toggle Switch](https://www.openclipart.org/detail/246398/industrial-toggle-switch)  
-  A multi-selector or potentiometer knob.  
-  Local file: [TwoPosToggle.svg](images/openclipart/TwoPosToggle.svg)
-* [Mixer knobs](https://www.openclipart.org/detail/15859/mixer-knobs)  
-  Mixer knobs. Useful for encoder knobs.  
-  Local file: [odaibanet-Mixer-knobs.svg](images/openclipart/odaibanet-Mixer-knobs.svg)
-* [Power Button Icon](https://www.openclipart.org/detail/253614/power-button-icon)  
-  A power key. Useful for constructing xkeys.  
-  Local file: [Power-Button-Icon.svg](images/openclipart/Power-Button-Icon.svg)
-* [qwerty keyboard](https://www.openclipart.org/detail/37291/qwerty-keyboard)  
-  A Mac-style keyboard. Useful for constructing xkeys.  
-  Local file: [qwerty-keyboard.svg](images/openclipart/qwerty-keyboard.svg)
-* [Keyboard Keys](https://www.openclipart.org/detail/27549/keyboard-keys)  
-  Some keyboard keys. Useful for constructing xkeys.  
-  Local file: [Simanek-Keyboard-Keys-2.svg](images/openclipart/Simanek-Keyboard-Keys-2.svg)
