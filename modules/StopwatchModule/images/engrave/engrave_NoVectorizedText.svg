@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   sodipodi:docname="engrave_NoVectorizedText.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.3327437"
+     inkscape:cx="94.309544"
+     inkscape:cy="226.77159"
+     inkscape:window-width="1128"
+     inkscape:window-height="1269"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     id="rect3678"
+     style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0760144;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 10.048201,0.03848 v 4.9966 c -1.68e-4,2.75958 -2.241214,4.9967 -5.0053795,4.99659 H 0.03847586 v 99.93705 H 5.0428215 c 2.7641649,-1.1e-4 5.0052105,2.23695 5.0053795,4.9966 v 4.99711 h 29.904118 v -4.99711 c 1.71e-4,-2.75965 2.241215,-4.99671 5.005379,-4.9966 h 5.004346 V 10.03167 H 44.957698 C 42.193534,10.03178 39.95249,7.79466 39.952319,5.03508 v -4.9966 z m -5.3231895,12.5336 a 1.6,1.6 0 0 1 1.5999023,1.59991 1.6,1.6 0 0 1 -1.5999023,1.5999 1.6,1.6 0 0 1 -1.5999024,-1.5999 1.6,1.6 0 0 1 1.5999024,-1.59991 z m 40.5003705,0 a 1.6,1.6 0 0 1 1.599902,1.59991 1.6,1.6 0 0 1 -1.599902,1.5999 1.6,1.6 0 0 1 -1.600419,-1.5999 1.6,1.6 0 0 1 1.600419,-1.59991 z M 15.500064,29.49301 H 34.500455 V 48.4934 H 15.500064 Z m 0,42.01449 H 34.500455 V 90.50738 H 15.500064 Z M 4.7250115,104.30447 a 1.6,1.6 0 0 1 1.5999023,1.5999 1.6,1.6 0 0 1 -1.5999023,1.5999 1.6,1.6 0 0 1 -1.5999024,-1.5999 1.6,1.6 0 0 1 1.5999024,-1.5999 z m 40.5003705,0 a 1.6,1.6 0 0 1 1.599902,1.5999 1.6,1.6 0 0 1 -1.599902,1.5999 1.6,1.6 0 0 1 -1.600419,-1.5999 1.6,1.6 0 0 1 1.600419,-1.5999 z" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="10.825664"
+     y="7.5045791"
+     id="text12344"
+     inkscape:label="Title Text"><tspan
+       sodipodi:role="line"
+       id="tspan12342"
+       x="10.825664"
+       y="7.5045791"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:'MS 33558';-inkscape-font-specification:'MS 33558, ';fill:#000000;stroke-width:0.264583">stopwatch</tspan></text>
+</svg>
