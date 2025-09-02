@@ -1,19 +1,21 @@
 # Modular Cockpit para Star Citizen
 
+El `Modular Cockpit` es un sistema de controles físicos para *Star Citizen*. 
+
 ![Star Citizen Modular Cockpit](controlPanels/images/ControlPanels.png)
+
+Se compone de `Modules` que agrupan varios controles físicos interrelacionados como *switchs*, *potenciómetros*, *encoders*, etc. Por ejemplo el `Power Module` tiene varios *toggle switch* para activar o desactivar la potencias de las armas, escudos u otros; también tiene *encoders* que sirven aumentar y disminuir la potencia, además de botones para poner rápidamente potencia máxima o mínima.
+
+![Power Module](modules/PowerModule/images/PowerModule_125mmWidth.png)
 
 ![Real Power Module](images/RealPowerModule.jpg)
 
-
-El `Modular Cockpit` es un sistema de controles físicos para *Star Citizen*. Se compone de `Modules` que agrupan varios controles físicos interrelacionados como *switchs*, *potenciómetros*, *encoders*, etc. Por ejemplo el `Power Module` tiene varios *toggle switch* para activar o desactivar la potencias de las armas, escudos u otros; también tiene *encoders* que sirven aumentar y disminuir la potencia, además de botones para poner rápidamente potencia máxima o mínima.
-
-![Power Module](modules/PowerModule/images/PowerModule_125mmWidth.png)
 
 Éstos `Modules` pueden conectarse directamente al puerto USB del computador y el sistema operativo los ve como un joystick, por lo que es fácil hacer el *keybinding* en *Star Citizen* .
 
 También se pueden `acoplar` varios `Modules`  a un `Control Panel` y este a su vez conectarse a un puerto USB del computador. Cuando se acoplan varios `Modules`  a un `Control Panel` todos estos los ve el computador como un sólo joystick. Esto es muy conveniente cuando se tiene una gran cantidad de `Modules` conectados lo que hace que el sistema operativo no tenga fallas en el reconocimiento y operación de estos múltiples joysticks.
 
-Los `Modules` son intercambiables, esto es, de pueden cambiar de `Control Panel`  y funcionar fácilmente. De esta forma el jugador puede configurar fácilmente su cockpit dependiendo de su estilo de juego.
+Los `Modules` son intercambiables, esto es, de pueden cambiar de `Control Panel`  o de posición en él. De esta forma el jugador puede configurar fácilmente su cockpit dependiendo de su estilo de juego.
 
 También, y muy importante, el `Modular Cockpit` es un proyecto de hardware libre y software libre. Esto quiere decir que cualquier persona puede bajar los diseños y firmware, y construir su propio cockpit. Pero también lo puede usar para lo que quiera. Además es libre de estudiar como está hecho el `Modular Cockpit` y si quiere modificarlo a sus necesidades. Y finalmente tiene la libertad de redistribuirlo con o sin estos cambios siempre y cuando diga de donde lo sacó y quienes son sus autores.
 
@@ -32,11 +34,21 @@ Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de juga
 ### Definiciones
 
 <dl>
-<dt>Module:</dt>
-<dd>TODO</dd>
 
-<dt>ControlPanel</dt>
-<dd>TODO</dt>
+<dt> Pilot:</dt>
+<dd>El usuario del <i>Modular Cockpit</i>, la razón de ser de él.</dd>
+
+<dt>Componente:<dt>
+<dd>Son los átomos que componen el <i>Modular Cockpit</i>, pueden ser componente electrónicos, como: switches, potenciómetros, cables, diodos, microcontroladores o mecánicos: como láminas de acrílico, makerbeams, etc.</dd>
+
+<dt>Control físico:<dt>
+<dd>Es un tipo de <i>Componente</i> eléctrónico mediante el cual el <i>Piloto</i> hace una interacción con <i>Star Citizen</i>. Por ejemplo switches, buttoms, encoders, potenciómetros, etc.</dd>
+
+<dt>Module:</dt>
+<dd>Es una agrupación de controles físicos y componentes con funciones relacionadas. </dd>
+
+<dt>Control Panel</dt>
+<dd>Es una estructura hecha con <a href="https://www.makerbeam.com/makerbeam/">Makerbeam de 10x10 mm</a>(Ver <i>Frame</i>) en donde se pueden <i>acoplar</i> uno o varios <i>Modules</i>. </dt>
 
 <dt>Frame:<dt>
 <dd>Este es una estructura creada con <a href="https://www.makerbeam.com/makerbeam/">Makerbeam de 10x10 mm</a>. Tiene una altura de 120 mm y el ancho que se necesario. Para ello se usa <a href="https://www.makerbeam.com/makerbeam-100mm-16p-black-makerbeam.html"><i>Beams</i> verticales de 100 mm</a> de largo y se unen a los <a href="https://www.makerbeam.com/makerbeam/10x10mm-profiles-black/"><i>Beams</i> horizontales</a> con <a href="https://www.makerbeam.com/makerbeam-corner-cubes-12p-black-for-makerbeam.html">MakerBeam Corner Cube</a>. En los <i>Beams</i> horizontales se introducen varios <a href="https://www.makerbeam.com/makerbeam-t-slot-nuts-for-makerbeam-25p.html">T-slot nuts</a>, que es donde se atornillan los <i>Modules</i> con pernos M3. Se puede usar cualquier otro sistema compatible. Por ejemplo la siguiente imagen se muestra un <i>Frame</i> de 220 mm. de ancho con sus distintas partes.</dd>
@@ -121,7 +133,7 @@ Se tienen varios tipos de dispositivos de entrada:
 
 ## Microcontrolador
 
-Se usa * *[Teensy®](https://www.pjrc.com/teensy/)* * por las siguientes razones:
+Se usa *[Teensy®](https://www.pjrc.com/teensy/)* por las siguientes razones:
 
 1. Funciona como varios dispositivos HID a la vez, puede ser teclado, joystick y mouse al mismo tiempo, además de funcionar con serial. Esto último es necesario para implementar un protocolo de comunicaciones con los módulos o en el caso de que * *Star Citizen* * implemente algo parecido al * *DCS-BIOS* *. El poder tener teclado y joystick a la vez es necesario, por ejemplo, para el ```CameraModule```, puesto que * *Star Citizen* * no tiene forma de mapear teclas de joystick para las funciones avanzadas de la cámara y éstas están sólo pueden ser mapeadas en teclado y mouse.
 1. Tiene muchos pines de entrada. En el caso del *Teensy 4.0* se tienen 40 pines 
@@ -147,34 +159,20 @@ hace que la lectura de entradas se haga mucho más rápido. Por ejemplo el `Targ
 
 1. [Teensy® 4.1 Development Board](https://www.pjrc.com/store/teensy41.html)
 1. [Teensy® 4.0 Development Board](https://www.pjrc.com/store/teensy40.html)
-1. [Teensy® 3.6 Development Board](https://www.pjrc.com/store/teensy36.html) No está en stock:
-  1. [Amazon: Teensy 3.5 (Without Pins)](https://www.amazon.com/PJRC-3267-Teensy-3-5/dp/B072JL5C2G)
 
 ###### Teensy con  Arduino
 
 Para trabajar con el IDE de Arduino se necesitan al menos tres partes:
 
-1. [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) La extensión del
-   IDE de Arduino para Teensy.
-1. [Using USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html) Libraría
-   para simular un teclado con Teensy.
+1. [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) La extensión del IDE de Arduino para Teensy.
+1. [Using USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html) Libraría para simular un teclado con Teensy.
    1. [Using USB Joystick](https://www.pjrc.com/teensy/td_joystick.html)
-       Librería para sinular un joystick con Teensy. No sirve parque sólo maneja 32 botones.
+       Librería para sinular un joystick con Teensy.
    1. [Keypad Library](https://www.pjrc.com/teensy/td_libs_Keypad.html) Librería para leer una matriz de teclas.
    1. [Encoder Library](https://www.pjrc.com/teensy/td_libs_Encoder.html) Libreria para leer los encoders.
 
 ##### Encoders
 
-1. [Rotary Encoder](https://www.sparkfun.com/products/9117) En encoder sensillo
-   de 12 pasos de Sparkfun.
-   1. [Rotary Encoder 318-ENC130175F-12PS](https://www.sparkfun.com/datasheets/Components/TW-700198.pdf)
-      El datasheed del encoder.
-   1. [Black Metal Knob - 14x24mm](https://www.sparkfun.com/products/10002)
-      La perilla del (knob) encoder. Negra de metal y para 6mm.
-   1. [Clear Plastic Knob](https://www.sparkfun.com/products/10597) Otra perilla
-      para el encoder, pero transparente. Esta sería mejor para el encoder que tiene RGB.
-   1. [uxcell 5pcs, Potentiometer Control Knobs For Encoder Code Switch Knobs Acrylic Volume Tone Knobs Black D type 6mm](https://www.amazon.com/uxcell-Potentiometer-Control-Encoder-Acrylic/dp/B07T615NSB)
-      Perilla para concoder plana.
 1. [Rotary Encoder - Illuminated (RGB)](https://www.sparkfun.com/products/15141)
    Un encoder 24 pasos y RGB de Sparkfun.
    1. [Clear Plastic Knob](https://www.sparkfun.com/products/10597) Otra perilla
