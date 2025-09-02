@@ -28,8 +28,6 @@ Also, and very importantly, the `Modular Cockpit` is a free hardware and free so
 
 Therefore, each player needs a unique cockpit adapted to their playstyle. A modular, open, and adaptable cockpit is needed for *Star Citizen*.
 
-![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
-
 ### Definitions
 
 <dl>

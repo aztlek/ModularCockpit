@@ -29,8 +29,6 @@ También, y muy importante, el `Modular Cockpit` es un proyecto de hardware libr
 
 Por lo tanto cada jugador necesita un cockpit único adaptado a su forma de jugar. Se necesita un cockpit para *Star Citizen* modular, abierto y adaptable.
 
-![Star Citizen Buttom Box](images/ModularCockpit_620x120mm.png)
-
 ### Definiciones
 
 <dl>
